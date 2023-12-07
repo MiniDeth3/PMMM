@@ -1,0 +1,208 @@
+{
+  "hullName": "Champion MKII",
+  "hullId": "champion2",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/champion/champion2.png",
+  "style": "MIDLINE",
+  "height": 240,
+  "width": 180,
+  "center": [90, 113],
+  "collisionRadius": 170,
+  "shieldCenter": [3, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "compmods","fluxcore","enhanced_explosion","high_maintenance","do_not_back_off",
+  ],
+  "builtInWeapons": {},
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 50,
+      "locations": [95, 48]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -50,
+      "locations": [95, -48]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [10, 55]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [10, -55]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [63, 50]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [63, -50]
+    },
+    {
+      "id": "WS 008",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [53, -0]
+    },
+    {
+      "id": "WS 009",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [105, 0]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 20,
+      "locations": [87, 28]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -20,
+      "locations": [87, -28]
+    },
+  ],
+  "engineSlots": [
+    {
+      "location": [-110, 59],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111, 48],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, 34],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-112, -33],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-111, -47],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-110, -59],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-104, 17],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-104, -16],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    85, 75,
+    109, 25,
+    109, -24,
+    85, -75,
+    46, -71,
+    44, -49,
+    33, -40,
+    15, -66,
+    -1, -67,
+    -10, -46,
+    -25, -42,
+    -51, -68,
+    -93, -81,
+    -110, -32,
+    -101, -26,
+    -101, -10,
+    -80, -6,
+    -80, 7,
+    -102, 11,
+    -102, 25,
+    -110, 33,
+    -94, 82,
+    -51, 69,
+    -26, 43,
+    -11, 46,
+    -1, 67,
+    16, 66,
+    33, 41,
+    43, 48,
+    46, 71
+  ]
+}

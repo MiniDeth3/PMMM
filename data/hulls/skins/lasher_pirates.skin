@@ -1,0 +1,36 @@
+{
+	"baseHullId":"lasher",
+	"skinHullId":"lasher_pirates",
+	"hullName":"Lasher (P)",
+	"descriptionId":"lasher",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"baseValueMult":1.5,
+	"systemId":"highenergyfocus",
+	"spriteName":"graphics/ships/lasher_p.png",
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 007":{
+            "type": "ENERGY"
+        },
+        "WS 002":{
+            "type": "ENERGY"
+        },
+        "WS 003":{
+            "type": "ENERGY"
+        },
+        "WS 005":{
+            "type": "ENERGY"
+        },
+        "WS 006":{
+            "type": "ENERGY"
+        },
+    },
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":["ballistic_rangefinder"], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods","high_scatter_amp",],
+	"builtInWeapons":{
+    },
+}

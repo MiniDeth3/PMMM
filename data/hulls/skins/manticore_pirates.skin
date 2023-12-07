@@ -1,0 +1,30 @@
+{
+	"baseHullId":"manticore",
+	"skinHullId":"manticore_pirates",
+	"hullName":"Manticore (P)",
+	"descriptionId":"manticore",
+	"descriptionPrefix":"A particularly intricate modification, pirates have ripped out this Manticore's rear flak feeds exchanging rear PD coverage for the offensive capabilities of twin Breach SRM autoloaders. The makeshift nature of the autoloaders combined with their larger size results in considerable hull instability.",
+	#"tags":["pirate_bp"],
+	"tags":["rare_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/manticore_pirate.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS 008":{
+            "type": "BUILT_IN",
+			"size": "SMALL",
+		},
+		"WS 009":{
+            "type": "BUILT_IN",
+			"size": "SMALL",
+		},	
+	},
+	"builtInWeapons":{
+	"WS 008": "breachM",
+	"WS 009": "breachM",
+    },   
+	"builtInMods":["compmods",],
+}

@@ -1,0 +1,34 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 13,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "harbinger_pirates",
+    "hullMods": [
+        "eccm",
+        "fluxdistributor",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "harbinger_pirates_Raider",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "miningblaster",
+                "WS 003": "miningblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "cyclone",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

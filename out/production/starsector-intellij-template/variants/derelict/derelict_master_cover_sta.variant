@@ -1,0 +1,21 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "derelict_master_cover",
+    "hullMods": [
+        "blast_doors",
+        "fluxcoil",
+        "fluxdistributor",
+        "hardened_subsystems",
+        "reinforcedhull",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "derelict_master_cover_sta",
+    "weaponGroups": [],
+    "wings": [],
+    "modules": [],
+}

@@ -1,0 +1,29 @@
+{
+	"baseHullId":"gremlin",
+	"skinHullId":"gremlin_d_pirates",
+	"hullName":"Gremlin (P)",
+	"descriptionId":"gremlin",
+	"descriptionPrefix":"These modifications, conceived within the very shipyards of Kanta's Den, boasts an improvised mine strike system, akin to those found on cutting-edge military vessels and her own cherished station minelayer. Audacious moddifications like these to an already limited hull design result in a sizable decrease in operational efficiency",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"ordnancePoints":20,
+	"baseValueMult":1.2,
+	"systemId":"mine_strike_frigate",
+	"spriteName":"graphics/ships/phase/gremlin_p.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+		},
+		"WS 000":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+		},
+	},
+	"builtInMods":["ill_advised","compmods",],
+	"builtInWeapons":{
+	},
+}

@@ -1,0 +1,8 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Improvised Mine Strike,mine_strike_frigate,,,,,,0.1,,3,0.1,.5,,0.25,0,,,,,,,,,,,,,
+Isochronal Temporal Warp,omegawarp,300,,,,,0.25,,3,0.1,.7,2,.25,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Active Cloak,activecloak,300,,,,,,,,,1,,0.5,2,TRUE,TRUE,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Synth Drive,synthdash,,,,,,0.25,,1,.15,.1,1.7,.1,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Rift Emitter,emp_omega,1,,,,,0.2,,,,1,4,1,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Degraded Ammo Feeder,degammofeed,,,,,,,,,,1,4,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+rdtest,rdtest,,,,,,,,2,0.05,,,,3,,,,,,,,,,,,,

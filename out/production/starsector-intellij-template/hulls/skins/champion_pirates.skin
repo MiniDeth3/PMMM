@@ -1,0 +1,40 @@
+{
+	"baseHullId":"champion",
+	"skinHullId":"champion_pirates",
+
+	# Everything below is optional
+	"tags":["pirates","pirate_bp",],
+	"spriteName":"graphics/ships/champion/champion_p.png",
+	"hullName":"Champion (P)",
+	"manufacturer":"Pirate",
+	"fpMod":1, # added to base hull's fleet points
+	"ordnancePoints":155,
+	"restoreToBaseHull":false, # default false
+	"fighterBays":0,
+	"baseValueMult":1.2,
+	"descriptionId":"champion",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"removeWeaponSlots":["WS 005","WS 004"], # ids; breaks variant compatibility with base hull
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":[], # ids; breaks variant compatibility with base hull
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":[],
+	"builtInMods":["compmods"], # ids; breaks variant compatibility with base hull
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 003":{
+            "type": "BALLISTIC"
+        },
+        "WS 002":{
+            "type": "BALLISTIC"
+        },
+        "WS 010":{
+            "type": "MISSILE"
+        },
+        "WS 011":{
+            "type": "MISSILE"
+        },
+    },
+}

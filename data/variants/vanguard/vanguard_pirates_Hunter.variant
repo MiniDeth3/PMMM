@@ -1,0 +1,50 @@
+{
+    "displayName": "Hunter",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+	"goalVariant": true,
+    "hullId": "vanguard_pirates",
+    "hullMods": ["fluxdistributor"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "vanguard_pirates_Hunter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "ionpulser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "swarmer"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 007": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+                "WS 006": "lightmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "vulcan",
+                "WS 004": "vulcan"
+            }
+        }
+    ]
+}

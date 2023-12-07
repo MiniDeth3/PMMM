@@ -1,0 +1,23 @@
+{
+    "displayName": "Pressure",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "mudskipper2",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "mudskipper2_Pressure",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "squall",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

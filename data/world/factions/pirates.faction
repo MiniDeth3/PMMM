@@ -1,0 +1,34 @@
+{
+	"hullFrequency":{
+		"tags":{
+			"pirate_bp":3,
+		},
+		"hulls":{
+			"falcon_p":0.5, # it's pretty good, so make it more rare
+			"eagle_pirates":0.2, # it's pretty good, so make it more rare
+			"champion2":0.2, # Alittledeadly
+			"lumen_pirates":0.08,	#rare due to lore
+			"fulgent_pirates":0.08,	#rare due to lore
+			"champion_pirates":0.2,
+			"wolf_d_pirates":0.8,
+			"mudskipper2":1.3,
+			"colossus3":0,
+			"scarab_pirates":0.1,
+			"sunder_pirates":0.5,
+			"harbinger_pirates":0.3,
+			"venture":0.5, # High DP fleets tend to spam it
+		},
+	},
+	"knownShips":{
+		"hulls":[
+			"eagle_pirates",
+			"champion2",
+			"lumen_pirates",
+			"fulgent_pirates",
+		],
+	},
+	"portraits":{
+		"standard_male":[
+		],
+	},
+}

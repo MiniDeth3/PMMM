@@ -1,0 +1,7 @@
+{
+	"synth_dash":
+	[
+		{"file":"sounds/system/dash_1.ogg","pitch":0.8,"volume":0.6},
+		{"file":"sounds/system/dash_2.ogg","pitch":0.7,"volume":0.6}
+	],
+}

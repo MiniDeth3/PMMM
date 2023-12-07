@@ -1,0 +1,73 @@
+{
+  "hullName": "Defense Module",
+  "hullId": "derelict_master_cover",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/derelict/derelict_guardian_cover.png",
+  "style": "HIGH_TECH",
+  "height": 86,
+  "width": 88,
+  "center": [44, 40],
+  "collisionRadius": 51,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 150,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "advancedshieldemitter",
+    "fluxshunt",
+	"unstableflux",
+	"shield_always_on",
+	"always_detaches",
+	"nodam_explosion",
+	
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 42.5,
+      "locations": [19.5, 32.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -42.5,
+      "locations": [19.5, -32.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 43,
+      "locations": [-24, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -43,
+      "locations": [-24, 19]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -39.5, 26.5,
+    -28.5, 40,
+    16, 43.5,
+    45, 17.5,
+    45, -17.5,
+    14, -42,
+    -28.5, -40,
+    -39.5, -26.5
+  ]
+}

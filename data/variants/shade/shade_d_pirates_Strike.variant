@@ -1,0 +1,30 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 9,
+    "fluxVents": 0,
+	"goalVariant": true,
+    "hullId": "shade_d_pirates",
+    "hullMods": [
+        "missleracks",
+        "fluxcoil"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "shade_d_pirates_Strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "atropos",
+                "WS 002": "atropos"
+            }
+        }
+    ]
+}

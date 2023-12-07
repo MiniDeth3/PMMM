@@ -1,0 +1,112 @@
+{
+	"hullName": "Shard",
+	"hullId": "satus_shard",
+	"hullSize": "FRIGATE",
+	"spriteName": "graphics/ships/omega/satus_shard.png",
+	"style": "OMEGA",
+	"height": 99,
+	"width": 90,
+	"center": [45, 51],
+	"collisionRadius": 85,
+	"shieldCenter": [0, -0],
+	"shieldRadius": 75.5,
+	"viewOffset": 0,
+	"builtInMods": [
+		"automated",
+		"fluxbreakers",
+		"shard_spawner",
+		"do_not_back_off"
+		],
+	"weaponSlots": [
+		{
+		"id": "WS 000",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 210,
+		"angle": 0,
+		"locations": [11.5, 12]
+		},
+		{
+		"id": "WS 001",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [42, 5]
+		},
+		{
+		"id": "WS 002",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 300,
+		"angle": 142,
+		"locations": [-10, 20]
+		},
+		{
+		"id": "WS0001",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [40, -26]
+		}
+	],
+	"engineSlots": [
+		{
+		"location": [-37, 31.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-10, -29],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-41.5, 18.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-33, 9.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [2.5, -39],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		}
+	],
+	"bounds": [
+		46.5, 14.5,
+		-26.5, 45.5,
+		-49, 25.5,
+		-31, 0.5,
+		-44, -24.5,
+		-19, -24,
+		-4, -38.5,
+		26.5, -45,
+		43, -26.5,
+		36, -9
+	]
+}

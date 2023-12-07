@@ -1,0 +1,39 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 16,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "shrike_omega",
+    "hullMods": [
+        "eccm",
+        "fluxdistributor",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "shrike_omega_Missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "resonatormrm",
+                "WS 002": "resonatormrm",
+                "WS 003": "resonatormrm",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "amsrm",
+                "WS 000": "amsrm",
+                "WS 001": "amsrm",
+                "WS0002": "amsrm",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

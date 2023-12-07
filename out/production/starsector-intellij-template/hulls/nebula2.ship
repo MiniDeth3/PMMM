@@ -1,0 +1,136 @@
+{
+  "hullName": "Nebula Mk.II",
+  "hullId": "nebula2",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/nebula_2.png",
+  "style": "MIDLINE",
+  "height": 200,
+  "width": 120,
+  "center": [60, 99],
+  "collisionRadius": 121,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 120,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": 138,
+      "locations": [-31.5, 41.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 7,
+      "angle": -138,
+      "locations": [-31.5, -41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [4, -25.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [4, 25.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": -31.5,
+      "locations": [46, -42.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 134,
+      "angle": 31.5,
+      "locations": [46, 42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 158,
+      "angle": 0,
+      "locations": [35.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-92, 12],
+      "length": 92,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-92, -12],
+      "length": 92,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 92,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-90, 20],
+      "length": 32,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-90, -19],
+      "length": 32,
+      "width": 8,
+      "angle": 190,
+      "contrailSize": 32,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    91, 16,
+    91, -16,
+    72.5, -27.5,
+    48, -58,
+    21.5, -44,
+    2, -38,
+    -8, -28,
+    -33, -61,
+    -49, -41,
+    -88, -19,
+    -88, 19,
+    -52.5, 39,
+    -33.5, 60,
+    -8, 28,
+    2, 39,
+    23, 43,
+    46.5, 56,
+    72.5, 28
+  ]
+}

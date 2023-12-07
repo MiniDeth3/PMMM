@@ -1,0 +1,120 @@
+{
+	"combatSmallForSmallFleet":{
+		"monitor_pirates_Raider":3,
+		"lumen_pirates_Standard":0,
+		"kite_pirates_Raider":10,
+		"kite_pirates_Missile":0,
+		"kite_pirates_Torpedo":0,
+		"kite_pirates_Advanced":0,
+		"mudskipper2_CS":0,
+		"mudskipper2_Close_Support":3,
+		"mudskipper2_Hellbore":3,
+		"mudskipper2_Missile_Support":3,
+		"mudskipper2_Pressure":3,
+		"brawler_pirates_Raider":10,
+
+	
+	},
+	"combatSmall":{
+		"monitor_pirates_Raider":10,
+		"lumen_pirates_Standard":10,
+		"kite_pirates_Raider":10,
+		"kite_pirates_Missile":0,
+		"kite_pirates_Torpedo":0,
+		"kite_pirates_Advanced":0,
+		"scarab_pirates_Raider":10,
+		"wolf_pirates_Attack":10,
+		"mudskipper2_CS":0,
+		"mudskipper2_Close_Support":3,
+		"mudskipper2_Hellbore":3,
+		"mudskipper2_Missile_Support":3,
+		"mudskipper2_Pressure":3,
+		"brawler_pirates_Raider":10,
+		"vanguard_pirates_Strike":10,
+		"vanguard_pirates_Attack":0,
+		"satus_shard_Armorbreaker":2,
+		"satus_shard_Attack":2,
+		"satus_shard_Defense":2,
+		"satus_shard_Missile":2,
+		"satus_shard_Shieldbreaker":2,
+		
+	},
+	"combatMedium":{
+		"nebula2_Fighter_Support":0,
+		"nebula2_Fire_Support":0,
+		"nebula2_Overdriven":4,
+		"nebula2_Raider":4,
+		"mule_d_pirates_Smuggler":0,
+		"mule_d_pirates_Standard":10,
+		"shrike_p_Attack":0,
+		"shrike_pirates_Attack":5,
+		"shrike_pirates_Overdriven":5,
+		"sunder_pirates_Assault":10,
+
+		"derelict_master_sta":3,
+		"derelict_master_Breach_CETA":3,
+		"derelict_master_SG_Rival":3,
+		
+		"shrike_omega_Armorbreaker":2,
+		"shrike_omega_Attack":2,
+		"shrike_omega_Defense":2,
+		"shrike_omega_Missile":2,
+		"shrike_omega_Shieldbreaker":2,
+
+		"fallback":{"combatSmall":1},
+	},
+	"combatLarge": {
+		"falcon_p_Strike":0,
+		"falcon_p_Strikee":10,
+		"eagle_p_strike":10,
+		"champion_pirates_standard":10,
+		"colossus3_Pirate":0,
+		"colossus32_Pirate":10,
+
+		"fallback":{"combatMedium":1},		
+	},
+	"combatCapital":{
+		"champion2_Modified":5,
+		"prometheus3_Pirate":10,
+		"fallback":{"combatLarge":1},
+	},
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"shepherd_pirates_Bomber":10,
+		"cerberus_d_pirates_Shielded":3,
+		"cerberus_d_pirates_Standard":7,
+
+		"hound_d_pirates_Shielded":3,
+		"hound_d_pirates_Standard":4,
+		"hound_d_pirates_Overdriven":3,
+		
+		"kite_pirates_Raider":10,
+		"fallback":{"freighterSmall":1},
+	},
+	"combatFreighterMedium":{
+		"mule_d_pirates_Smuggler":10,
+		"mule_d_pirates_Standard":0,
+		"fallback":{"combatFreighterSmall":1},
+	},
+	# carriers
+	"carrierSmall":{
+		"hound_d_pirates_Shielded":1,
+		"hound_d_pirates_Standard":1,
+		"hound_d_pirates_Overdriven":1,
+		"shepherd_pirates_Bomber":10,
+		"fallback":{"carrierMedium":0.5},
+		"fallback2":{"carrierLarge":0.25},
+	},
+	"carrierLarge":{
+		"colossus3_Pirate":0,
+		"colossus32_Pirate":10,
+		"fallback":{"carrierMedium":1},
+		"fallback2":{"carrierSmall":1},
+	},
+	# phase ships
+	"phaseSmall":{
+		"gremlin_d_pirates_Strike":0,
+		"gremlin_d_pirates_Modified":10,
+	},
+}
+

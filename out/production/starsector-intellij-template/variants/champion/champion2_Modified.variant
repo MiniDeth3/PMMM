@@ -1,0 +1,51 @@
+{
+    "displayName": "Modified",
+    "fluxCapacitors": 15,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "champion2",
+    "hullMods": [
+        "reinforcedhull",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "champion2_Modified",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "autopulse",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "chaingun",
+                "WS 006": "phasebeam",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "breach",
+                "WS 003": "breach",
+                "WS 010": "swarmer",
+                "WS 011": "swarmer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "irpulse",
+                "WS 001": "irpulse",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

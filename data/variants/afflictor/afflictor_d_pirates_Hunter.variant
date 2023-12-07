@@ -1,0 +1,27 @@
+{
+    "displayName": "Hunter",
+    "fluxCapacitors": 8,
+    "fluxVents": 10,
+	"goalVariant": true,
+    "hullId": "afflictor_d_pirates",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "afflictor_d_pirates_Hunter",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "ionpulser",
+                "WS 003": "miningblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "irpulse"}
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+	"baseHullId":"sunder",
+	"skinHullId":"sunder_pirates",
+	"hullName":"Sunder (P)",
+	"descriptionId":"sunder",  # optional
+	"descriptionPrefix":"A modification spec originally created by a notorious Hegemon defect, this ship has been outfitted with a makeshift frontal Lidar Array to boost the Sunder's existing hardpoint loadout, giving it superb strike and fire support capabilities. These modifications come with a cost to subsystem reliability as the array strains even military grade power generators.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"systemId":"lidararray",
+	"baseValueMult":1.5,
+	"ordnancePoints":90,
+	"spriteName":"graphics/ships/sunder_pirates.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS 006":{
+            "type": "DECORATIVE",
+			"arc": 360,
+			"angle": 0,
+		},
+		"WS 007":{
+            "type": "DECORATIVE",
+			"arc": 360,
+			"angle": 0,
+		},
+	},
+	"builtInMods":["compmods",],
+		"builtInWeapons":{
+		"WS 006":"lidardish",
+		"WS 007":"lidardish",
+    },
+}

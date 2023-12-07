@@ -1,0 +1,41 @@
+{
+    "displayName": "Pather",
+    "fluxCapacitors": 12,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "colossus2",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "colossus2_Pather",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "hammerrack",
+                "WS 001": "breachpod",
+                "WS 002": "breachpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "shredder",
+                "WS 014": "shredder",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualmg",
+                "WS 004": "lightdualmg",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

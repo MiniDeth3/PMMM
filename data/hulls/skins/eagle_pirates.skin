@@ -1,0 +1,40 @@
+{
+	"baseHullId":"eagle",
+	"skinHullId":"eagle_pirates",
+	"hullName":"Eagle (P)",
+	"incompatibleWithBaseHull":false,
+	"descriptionId":"eagle",
+	"descriptionPrefix":"This Eagle's propulsion system has been given impractical yet showy 'improvements' by some enthusiastic pirate crew; the patchwork of engine components, somehow persuaded to work toward ungainly common purpose, conform to zero safety standards.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"suppliesToRecover":28,
+	"suppliesPerMonth":28,
+	"fleetPoints":17,
+	"ordnancePoints":150,
+	"baseValueMult":1.50,
+	"spriteName":"graphics/ships/eagle_p.png",
+    "removeWeaponSlots":["WS 003","WS 004"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+    	"WS 005":{
+            "type": "COMPOSITE"
+		},
+		"WS 006":{
+            "type": "COMPOSITE"
+        },
+		"WS 007":{
+            "type": "MISSILE"
+		},
+		"WS 008":{
+            "type": "MISSILE"
+		},
+		"WS 013":{
+            "type": "MISSILE"
+		},
+	},
+	"builtInMods":["augmentedengines","unstable_injector","compmods",],
+	"builtInWeapons":{
+    },
+}

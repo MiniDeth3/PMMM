@@ -1,0 +1,52 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 20,
+    "fluxVents": 16,
+    "goalVariant": true,
+    "hullId": "shrike_omega",
+    "hullMods": [
+        "fluxcoil",
+        "fluxdistributor",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "shrike_omega_Attack",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "cryoblaster",
+                "WS 003": "cryoflux",
+                "WS0001": "minipulser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "resonatormrm",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "amsrm",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "shockrepeater",
+                "WS0002": "shockrepeater",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

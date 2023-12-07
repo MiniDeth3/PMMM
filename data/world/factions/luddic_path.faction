@@ -1,0 +1,16 @@
+{
+	"id":"luddic_path",
+
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"hulls":{
+		"colossus2":2,
+		},
+	},
+},
+
+
+
+
+
+

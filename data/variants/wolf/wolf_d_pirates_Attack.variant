@@ -1,0 +1,39 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+	"goalVariant": true,
+    "hullId": "wolf_d_pirates",
+    "hullMods": ["unstable_injector"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "wolf_d_pirates_Attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "atropos"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "ioncannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightdualmg"}
+        }
+    ]
+}

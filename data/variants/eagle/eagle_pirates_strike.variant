@@ -1,0 +1,69 @@
+{
+  "hullId": "eagle_pirates",
+  "variantId": "eagle_pirates_strike",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 8,
+  "quality": 0.25,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm",
+    "converted_hangar",
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "annihilatorpod",
+        "WS 008": "annihilatorpod",
+        "WS 013": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "swarmer",
+        "WS 002": "swarmer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 005": "typhoon",
+        "WS 006": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "pulselaser",
+        "WS 010": "irpulse",
+        "WS 011": "irpulse",
+        "WS 012": "irpulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": ["pirate_hook_wing"]
+}

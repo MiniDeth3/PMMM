@@ -1,0 +1,43 @@
+{
+    "id":"PirateMiniMegaMod", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+	"name":"PMMM", # Displayed to the player
+	"author":"MiniDeth",
+    "utility":"false",
+	"version":"1.6.0",
+	"description":"A mod meant to add variance and a bit of cursed mechanics to pirates.",
+    "gameVersion": "0.96a-RC10",
+	"replace":[
+		#Ships
+		"data/hulls/skins/wolf_d_pirates.skin", 
+        "data/hulls/colossus2.ship", 
+        "data/hulls/colossus3.ship", 
+
+        #Variants
+        "data/variants/colossus3_Pirate.variant",
+        "data/variants/colossus2_Pather.variant",
+		"data/variants/afflictor_d_pirates_Strike.variant",
+		"data/variants/wolf/wolf_d_pirates_Attack.variant",
+		"data/variants/shade_d_pirates_Assault.variant",
+        "data/variants/falcon/falcon_p_Strike.variant",
+		
+	],
+  	"jars":["jars/PMMM.jar"],
+    "modPlugin":"data.plugins.PMMMmodplugin",
+	  	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            #"version": "2.7b"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib",
+            #"version": "0.34"
+        },
+        {
+            "id": "shaderLib",
+            "name": "GraphicsLib",
+            #"version": "1.5.1"
+        }
+    ],
+}

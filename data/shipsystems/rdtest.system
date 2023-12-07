@@ -1,0 +1,8 @@
+{
+	"id":"rdtest",
+	"type":"WEAPON",
+	"aiType":"CANISTER_FLAK",
+	
+	"weaponDataId":"realitydisruptor",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

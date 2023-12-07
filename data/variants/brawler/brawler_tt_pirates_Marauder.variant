@@ -1,0 +1,34 @@
+{
+    "displayName": "Marauder",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "brawler_tt_pirates",
+    "hullMods": [
+        "eccm",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "brawler_tt_pirates_Marauder",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "typhoon",
+                "WS 001": "typhoon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "swarmer",
+                "WS 004": "swarmer",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

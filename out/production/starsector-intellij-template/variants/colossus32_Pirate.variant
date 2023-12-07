@@ -1,0 +1,44 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "colossus32",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "colossus32_Pirate",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 015": "lightmg",
+                "WS 001": "lightmg",
+                "WS 016": "lightmg",
+                "WS 002": "lightmg",
+                "WS 003": "lightmg",
+                "WS 012": "lightmg",
+                "WS 011": "lightmg",
+                "WS 004": "lightmg",
+                "WS 014": "lightmg",
+                "WS 013": "lightmg",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 009": "pilum",
+                "WS 010": "pilum",
+            }
+        },
+    ],
+    "wings": [
+        "pirate_hook_wing",
+        "pirate_hook_wing",
+        "blaster_drone_wing",
+    ],
+    "modules": [],
+}

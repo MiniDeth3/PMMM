@@ -1,0 +1,47 @@
+{
+    "displayName": "Breach CETA",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "derelict_master",
+    "hullMods": [
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "derelict_master_Breach_CETA",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "hephag",
+                "WS0010": "hephag",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "sabotpod",
+                "WS0004": "sabot",
+                "WS0005": "sabot",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "lightac",
+                "WS0003": "lightac",
+                "WS0006": "ioncannon",
+                "WS0007": "ioncannon",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [
+        {"MASTER_COVER": "derelict_master_cover_sta"},
+    ],
+}

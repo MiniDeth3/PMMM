@@ -1,0 +1,36 @@
+{
+	"baseHullId":"harbinger",
+	"skinHullId":"harbinger_pirates",
+	"hullName":"Herbinger (P)",
+	"descriptionId":"harbinger",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"baseValueMult":1.5,
+	"spriteName":"graphics/ships/phase/harbinger_p.png",
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 001":{
+            "size": "LARGE",
+            "type": "SYNERGY",
+        },
+    #    "WS 002":{
+    #        "type": "ENERGY"
+    #    },
+    #    "WS 003":{
+    #        "type": "ENERGY"
+    #    },
+    #    "WS 005":{
+    #        "type": "ENERGY"
+    #    },
+    #    "WS 006":{
+    #        "type": "ENERGY"
+    #    },
+    },
+	"removeWeaponSlots":["WS 004","WS 005",], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods",],
+	"builtInWeapons":{
+    },
+}

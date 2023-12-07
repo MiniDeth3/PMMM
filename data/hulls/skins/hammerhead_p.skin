@@ -1,0 +1,26 @@
+{
+	"baseHullId":"hammerhead",
+	"skinHullId":"hammerhead_P",
+	"hullName":"Hammerhead (P)",
+	"descriptionPrefix":"This Hammerhead's propulsion system has been given impractical yet showy 'improvements' by some enthusiastic pirate crew; the patchwork of engine components, somehow persuaded to work toward ungainly common purpose, conform to zero safety standards.",
+	"tags":["pirate","rare_bp"],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/hammerhead_pirates.png",
+	"baseValueMult":1.5,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"systemId":"degammofeed",
+	"builtInMods":["compmods","augmentedengines","unstable_injector"],
+	"builtInWeapons":{
+    },
+ 	"weaponSlotChanges":{
+		"WS 001":{
+			"type": "COMPOSITE"
+		},
+		"WS 002":{
+			"type": "COMPOSITE"
+		},
+	},    
+}

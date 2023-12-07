@@ -1,0 +1,34 @@
+{
+	"baseHullId":"vanguard",
+	"skinHullId":"vanguard_pirates",
+	"hullName":"Vanguard (P)",
+	"descriptionId":"vanguard",
+	"descriptionPrefix":"This Vanguard has seen a mass system rework, its robust engine downsized to make room for a makeshift phase skimmer package.",
+	#"tags":["pirate_bp", "special_allows_system_use", "system_allows_special_use"],
+	"tags":["rare_bp", "special_allows_system_use", "system_allows_special_use"],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/vanguard_pirate.png",
+	"systemId":"displacer_degraded",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },    
+	"weaponSlotChanges":{
+		"WS 001":{
+			"size": "MEDIUM",
+            "type": "ENERGY",
+			"mount": "HARDPOINT",
+			"arc": 5,
+			"angle": 0,
+		},
+		"WS 000":{
+            "type": "SYNERGY",
+		},
+		"WS 002":{
+            "type": "SYNERGY",
+		},
+	},
+	"builtInMods":["compmods",],
+}

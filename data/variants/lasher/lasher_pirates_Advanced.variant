@@ -1,0 +1,41 @@
+{
+    "displayName": "Advanced",
+    "fluxCapacitors": 5,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "lasher_pirates",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "lasher_pirates_Advanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "ioncannon",
+                "WS 005": "ioncannon",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "gazer",
+                "WS 001": "gazer",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdburst",
+                "WS 002": "pdburst",
+                "WS 003": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

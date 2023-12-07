@@ -1,0 +1,27 @@
+{
+    "baseHullId": "lumen",
+    "baseValue": 1,
+    "tags":["pirates","no_sell"],
+    "baseValueMult": 1,
+    "descriptionId": "lumen",
+    "descriptionPrefix": "Most drone ships disabled in combat are salvage without the proper skills to restore their AI systems. It takes a wildly ambitious engineer to step up to the challenge and bring these machines back to life.",
+	"fighterBays": 0,
+    "fleetPoints": 8,
+    "fpMod": 0,
+    "hullName": "Lumen (P)",
+    "manufacturer": "Pirate",
+    "ordnancePoints": 35,
+    "restoreToBaseHull": false,
+    "skinHullId": "lumen_pirates",
+    "spriteName": "graphics/ships/Remnants/lumen_p.png",
+    "systemId": "displacer_degraded",
+	"builtInMods":["compmods",], # ids; breaks variant compatibility with base hull
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 006":{
+            "type": "HYBRID"
+        },
+        "WS 007":{
+            "type": "HYBRID"
+        },
+    },
+}

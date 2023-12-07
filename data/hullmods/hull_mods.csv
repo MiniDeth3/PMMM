@@ -1,0 +1,26 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Compromised Shield,noshield,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.noshield,"This ship's shields have been disabled, leaving it vulnerable to all forms of direct attacks. It is typically the result of damage sustained to the shield emitters or modifications to other critical ship systems. Or perhaps both, in this case.",Disables Shields,,graphics/hullmods/noshield.png
+Pirate Modifications,compmods,,,,"no_drop, no_sell",,,,,,0,0,0,0,data.hullmods.compmods,"This hull has undergone significant modifications, it's pirate crew prioritizing showy weapon systems and high-speed engines over frivolous things like ""reliability"", ""Hull Integrity"", and ""Flux Capacity"".
+
+Increased chance of malfunctions. Hull and Armor reduced by %s, Flux Capacity reduced by %s, Flux Dissipation increased by %s.",Lowers Stats,"Leaning further into these eccentric hull changes grants bonuses at the furthered expense of reliability.
+
+Hull and Armor penalty further increased to %s. Flux Capacity penalty further increased to %s, Flux Dissipation bonus further increased to %s. Increases max speed by %s.
+
+%s weapon damage increased by %s.
+
+%s weapon flux generation reduced by %s, and rate of fire increased by %s.",graphics/hullmods/compmod.png
+Weaponized Flux Core,fluxcore,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.fluxcore,"This ships energy grid has been retrofitted for combat-ready flux manipulation.
+
+The ""Fluxcore"", after charging to %s flux, fires continuous energy arcs at nearby ships dealing %s damage %s damage at a rate scaled by current flux level.
+
+Upon reaching %s flux the core will go critical, firing at an increased rate but also striking the home ship with arcs dealing %s damage %s damage.",EMP strikes nearby ships,,graphics/hullmods/fluxcore.png
+Heavy Missile Integration,HMI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.HeavyMissileIntegration,Reduces the ordnance point cost of large missile weapons by %s.,Reduces ordnance point cost of large missile weapons.,,graphics/hullmods/missile_integration.png
+Heavy Universal Integration,HUI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.HeavyUniversalIntegration,Reduces the ordnance point cost of large weapons by %s.,Reduces ordnance point cost of large weapons.,,graphics/hullmods/universal_integration.png
+Duel Flux Grid,unstableflux,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.unstableflux,This ship boasts a confusing duel flux grid allowing independent operation of offensive and defensive systems. The unrefined nature of this flux handling method is prone to backfires and meltdowns.,,,
+,,,,,,,,,,,,,,,,,,,
+Shard Spawner,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShardSpawner,Spawns shard ships when ship is disabled/destroyed.,,,
+,,,,,,,,,,,,,,,,,,,
+No Damage Explosion,nodam_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.nodamExplosion,Negates explosion damage.,,,
+Enhanced Explosion,enhanced_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.EnhancedExplosion,Doubles explosion radius and damage.,,,
+Limited Energy Grid,limitedgrid,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.limitedgrid,Disables ship permanetly if flux cap is reached,,,
+Cargo Convert,masscargoconvert,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.masscargoconvert,Way to reduce cargo on .skin ships,Reduces Cargo,,

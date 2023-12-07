@@ -1,0 +1,37 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+	"goalVariant": true,
+    "hullId": "wolf_d_pirates",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "wolf_d_pirates_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "reaper",
+                "WS 006": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "irpulse"}
+        }
+    ]
+}

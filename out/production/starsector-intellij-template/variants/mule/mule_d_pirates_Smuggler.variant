@@ -1,0 +1,41 @@
+{
+    "displayName": "Smuggler",
+    "fluxCapacitors": 3,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "mule_d_pirates",
+    "hullMods": [
+        "augmentedengines",
+        "frontemitter",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "mule_d_pirates_Smuggler",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "gravitonbeam",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "harpoonpod",
+                "WS 001": "shredder",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

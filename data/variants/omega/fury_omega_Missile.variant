@@ -1,0 +1,45 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 22,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "fury_omega",
+    "hullMods": [
+        "eccm",
+        "missleracks",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "fury_omega_Missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "rifttorpedo",
+                "WS0008": "rifttorpedo",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "resonatormrm",
+                "WS0009": "resonatormrm",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "amsrm",
+                "WS0002": "amsrm",
+                "WS0003": "amsrm",
+                "WS0010": "amsrm",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

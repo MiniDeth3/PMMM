@@ -1,0 +1,8 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_d_pirates",
+	"hullName":"Wolf (P) Depreciated",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"This ship is depreciated. If it spawns naturally please contact MiniDeth3",
+	"tags":[""],
+}

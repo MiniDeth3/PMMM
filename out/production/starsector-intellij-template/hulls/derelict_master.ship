@@ -1,0 +1,157 @@
+{
+	"hullName": "Master",
+	"hullId": "derelict_master",
+	"hullSize": "DESTROYER",
+	"spriteName": "graphics/ships/derelict/derelict_master.png",
+	"style": "LOW_TECH",
+	"height": 167,
+	"width": 178,
+	"center": [89, 86],
+	"collisionRadius": 108.5,
+	"shieldCenter": [0, -0],
+	"shieldRadius": 150,
+	"viewOffset": 0,
+	"builtInMods": [
+		"hbi"
+	],
+	"weaponSlots": [
+		{
+		"id": "WS0001",
+		"size": "MEDIUM",
+		"type": "COMPOSITE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [65, -0]
+		},
+		{
+		"id": "WS0002",
+		"size": "SMALL",
+		"type": "COMPOSITE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [71, -18]
+		},
+		{
+		"id": "WS0003",
+		"size": "SMALL",
+		"type": "COMPOSITE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": -0,
+		"locations": [71, 18]
+		},
+		{
+		"id": "WS0004",
+		"size": "SMALL",
+		"type": "COMPOSITE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [57, -46]
+		},
+		{
+		"id": "WS0005",
+		"size": "SMALL",
+		"type": "COMPOSITE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": -0,
+		"locations": [57, 47]
+		},
+		{
+		"id": "WS0006",
+		"size": "SMALL",
+		"type": "HYBRID",
+		"mount": "TURRET",
+		"arc": 145,
+		"angle": -25,
+		"locations": [33, -51]
+		},
+		{
+		"id": "WS0007",
+		"size": "SMALL",
+		"type": "HYBRID",
+		"mount": "TURRET",
+		"arc": 145,
+		"angle": 25,
+		"locations": [33, 51]
+		},
+		{
+		"id": "WS0010",
+		"size": "LARGE",
+		"type": "HYBRID",
+		"mount": "TURRET",
+		"arc": 145,
+		"angle": -25,
+		"locations": [7, -61]
+		},
+		{
+		"id": "WS0011",
+		"size": "LARGE",
+		"type": "HYBRID",
+		"mount": "TURRET",
+		"arc": 145,
+		"angle": 25,
+		"locations": [7, 61]
+		},
+		{
+		"id": "MASTER_COVER",
+		"size": "LARGE",
+		"type": "STATION_MODULE",
+		"mount": "HARDPOINT",
+		"arc": 0,
+		"angle": 0,
+		"locations": [0, -0]
+		}
+	],
+	"engineSlots": [
+		{
+		"location": [-64, -33.5],
+		"length": 50,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 30,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-64, 33.5],
+		"length": 50,
+		"width": 20,
+		"angle": -180,
+		"contrailSize": 30,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-81, 0.5],
+		"length": 70,
+		"width": 30,
+		"angle": 180,
+		"contrailSize": 30,
+		"style": "LOW_TECH"
+		}
+	],
+	"bounds": [
+		-82, 15.5,
+		-65, 24.5,
+		-65, 45,
+		-52, 48,
+		-64, 62,
+		-64, 72.5,
+		-26.5, 87.5,
+		31, 74,
+		78.5, 25.5,
+		72.5, 9,
+		72.5, -9,
+		78.5, -25.5,
+		31, -74,
+		-26.5, -87.5,
+		-64, -72.5,
+		-64, -62,
+		-52, -48,
+		-65, -45,
+		-65, -24.5,
+		-82, -15.5
+	]
+}

@@ -1,0 +1,212 @@
+{
+	"hullName": "Colossus Mk.II",
+	"hullId": "colossus22",
+	"hullSize": "CRUISER",
+	"spriteName": "graphics/ships/colossus/colossus22_pather.png",
+	"style": "LOW_TECH",
+	"height": 224,
+	"width": 184,
+	"center": [93, 128],
+	"collisionRadius": 180,
+	"shieldCenter": [-6, 1],
+	"shieldRadius": 170,
+	"viewOffset": 0,
+	"builtInMods": [
+		"civgrade",
+		"ill_advised",
+		"missleracks",
+		"safetyoverrides",
+	],
+	"builtInWeapons": {
+		"WS 017": "hammerrack"
+	},
+	"weaponSlots": [
+		{
+		"id": "WS 005",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 20,
+		"angle": 45,
+		"locations": [89, 64]
+		},
+		{
+		"id": "WS 006",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 20,
+		"angle": -45,
+		"locations": [89, -61]
+		},
+		{
+		"id": "WS 007",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 20,
+			"angle": 100,
+		"locations": [-83, 84]
+		},
+		{
+		"id": "WS 008",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 20,
+		"angle": 260,
+		"locations": [-84, -81]
+		},
+		{
+		"id": "WS 013",
+		"size": "MEDIUM",
+		"type": "BALLISTIC",
+		"mount": "TURRET",
+		"arc": 200,
+		"angle": -45,
+		"locations": [77, -53]
+		},
+		{
+		"id": "WS 014",
+		"size": "MEDIUM",
+		"type": "BALLISTIC",
+		"mount": "TURRET",
+		"arc": 200,
+		"angle": 45,
+		"locations": [77, 55]
+		},
+		{
+		"id": "WS 017",
+		"size": "LARGE",
+		"type": "BUILT_IN",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [72, 1]
+		},
+		{
+		"id": "WS0001",
+		"size": "MEDIUM",
+		"type": "MISSILE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [86, -27]
+		},
+		{
+		"id": "WS0002",
+		"size": "MEDIUM",
+		"type": "MISSILE",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": -0,
+		"locations": [86, 29]
+		},
+		{
+		"id": "WS0003",
+		"size": "SMALL",
+		"type": "BALLISTIC",
+		"mount": "TURRET",
+		"arc": 170,
+		"angle": 50,
+		"locations": [59, 32]
+		},
+		{
+		"id": "WS0004",
+		"size": "SMALL",
+		"type": "BALLISTIC",
+		"mount": "TURRET",
+		"arc": 170,
+		"angle": -50,
+		"locations": [59, -30]
+		}
+	],
+	"engineSlots": [
+		{
+		"location": [-124, 64],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-124, 56],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-124, 49],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-124, -61],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-124, -54],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-124, -46],
+		"length": 56,
+		"width": 15,
+		"angle": 180,
+		"contrailSize": 62,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-23, -66],
+		"length": 70,
+		"width": 20,
+		"angle": -150,
+		"contrailSize": 128,
+		"style": "LOW_TECH"
+		},
+		{
+		"location": [-23, 68],
+		"length": 70,
+		"width": 20,
+		"angle": 150,
+		"contrailSize": 128,
+		"style": "LOW_TECH"
+		}
+	],
+	"bounds": [
+		92.5, 66.5,
+		92.5, -66,
+		-8.5, -83.5,
+		-30.5, -47,
+		-31, -63,
+		-60, -79,
+		-108, -81,
+		-123, -67,
+		-123, -39,
+		-69, -41,
+		-85, -26,
+		-85, 29,
+		-66, 45,
+		-122, 45,
+		-122, 70,
+		-110, 83,
+		-63, 82,
+		-31, 65,
+		-30.5, 47,
+		-9, 86
+	]
+}

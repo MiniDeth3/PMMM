@@ -1,0 +1,13 @@
+{
+	"masterVersionFile": "https://drive.google.com/uc?export=download&id=10x8FKGn6NtzeWoxmNQMd-2QjYPPvbpVZ",
+	"modName": "PMMM",
+	"modVersion":
+		{
+		"major": 1,
+		"minor": 6,
+		"patch": 0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
+		},
+	"modThreadId": 27893,
+	"directDownloadURL": "https://drive.google.com/uc?export=download&id=1R5I_kJijUMsJBkFODWmfcNewr6rGjADJ",
+	"changelogURL": "https://fractalsoftworks.com/forum/index.php?topic=27893.0",
+}

@@ -1,0 +1,46 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 23,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "fury_omega",
+    "hullMods": [
+        "fluxdistributor",
+        "targetingunit",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "fury_omega_Attack2",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0011": "resonatormrm",
+                "WS0009": "disintegrator",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "minipulser",
+                "WS0002": "amsrm",
+                "WS0003": "riftlance",
+                "WS0010": "minipulser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "riftcascade",
+                "WS0007": "vpdriver",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

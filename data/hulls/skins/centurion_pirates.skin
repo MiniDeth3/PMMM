@@ -1,0 +1,22 @@
+{
+	"baseHullId":"centurion",
+	"skinHullId":"centurion_pirates",
+	"hullName":"Centurion (P)",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp", "pirates"],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/centurion_pirates.png",
+	"baseValueMult":1.2,
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods",],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+		"WS 003":{
+			"size": "MEDIUM"
+		},
+	},    
+}

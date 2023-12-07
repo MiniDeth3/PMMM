@@ -1,0 +1,35 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 10,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "satus_shard",
+    "hullMods": [
+        "pointdefenseai",
+        "turretgyros",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "satus_shard_Defense",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "riftbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "shockrepeater",
+                "WS 002": "shockrepeater",
+                "WS0001": "shockrepeater",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

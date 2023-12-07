@@ -1,0 +1,45 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 6,
+    "fluxVents": 0,
+	"goalVariant": true,
+    "hullId": "scarab_pirates",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "scarab_pirates_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 010": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "reaper",
+                "WS 003": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "irpulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightdualac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "lightmg",
+                "WS 009": "lightmg"
+            }
+        }
+    ]
+}

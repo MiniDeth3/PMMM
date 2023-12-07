@@ -1,0 +1,30 @@
+{
+	"hullName": "Defense Module",
+	"hullId": "derelict_master_cover",
+	"hullSize": "FRIGATE",
+	"spriteName": "graphics/ships/derelict/derelict_guardian_cover.png",
+	"style": "HIGH_TECH",
+	"height": 86,
+	"width": 88,
+	"center": [44, 40],
+	"collisionRadius": 51,
+	"shieldCenter": [0, -0],
+	"shieldRadius": 150,
+	"viewOffset": 0,
+	"builtInMods": [
+    "advancedshieldemitter",
+    "fluxshunt"
+	],
+	"weaponSlots": [],
+	"engineSlots": [],
+	"bounds": [
+		46, 16,
+		17, 42,
+		-30, 42,
+		-40, 27,
+		-40, -27,
+		-30, -42,
+		17, -42,
+		46, -16
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"id":"emp_omega",
+	"type":"EMP",
+	"aiType":"EMP",
+
+	"statsScript":"data.shipsystems.emp_omega",
+	
+	"range":600,
+	"empDamage":0,
+	"damage":0,
+	"damageType":ENERGY,
+	
+	#"effectColor1":[150,150,255,200],
+	#"effectColor2":[175,175,255,255],
+	"effectColor1":[0, 0, 0, 0],
+	"effectColor2":[0,0,0,0],
+
+
+	"useSound":"realitydisruptor_fire",
+	"loopSound":"realitydisruptor_loop",
+	"impactSound":"realitydisruptor_emp_impact",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":600,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

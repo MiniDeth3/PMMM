@@ -1,0 +1,43 @@
+{
+	"baseHullId":"fulgent",
+	"skinHullId":"fulgent_pirates",
+	"hullName":"Fulgent (P)",
+	"descriptionId":"fulgent",
+	"descriptionPrefix":"Most drone ships disabled in combat are salvage without the proper skills to restore their AI systems. It takes a wildly ambitious engineer to step up to the challenge and bring these machines back to life.",
+	"tags":["rare_bp","pirates","no_sell"],
+	"tech":"Pirate",
+	"baseValueMult":1.3,
+	"spriteName":"graphics/ships/remnants/fulgent_p.png",
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 009":{
+            "type": "COMPOSITE"
+        },
+        "WS 010":{
+            "type": "COMPOSITE"
+        },
+        "WS 001":{
+            "type": "UNIVERSAL"
+        },
+        "WS 002":{
+            "type": "SYNERGY"
+        },
+        "WS 000":{
+            "type": "SYNERGY"
+        },
+        "WS 006":{
+            "type": "SYNERGY",
+			"size": "MEDIUM"
+        },
+        "WS 005":{
+            "type": "SYNERGY",
+			"size": "MEDIUM"
+        },
+    },
+	"removeWeaponSlots":["WS 008","WS 007"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods",],
+	"builtInWeapons":{
+    },
+}

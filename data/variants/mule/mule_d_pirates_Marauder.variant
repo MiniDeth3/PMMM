@@ -1,0 +1,32 @@
+{
+    "displayName": "Marauder",
+    "fluxCapacitors": 4,
+    "fluxVents": 20,
+	"goalVariant": true,
+    "hullId": "mule_d_pirates",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "mule_d_pirates_Marauder",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "heavymortar",
+                "WS 002": "heavymortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "heavyac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "vulcan"}
+        }
+    ]
+}

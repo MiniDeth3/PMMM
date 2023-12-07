@@ -1,0 +1,51 @@
+{
+    "displayName": "SG Rival",
+    "fluxCapacitors": 18,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "derelict_master",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "derelict_master_SG_Rival",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "mjolnir",
+                "WS0010": "devastator",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "annihilator",
+                "WS0005": "annihilator",
+                "WS0003": "annihilator",
+                "WS0002": "annihilator",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "salamanderpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "pdburst",
+                "WS0007": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [
+        {"MASTER_COVER": "derelict_master_cover_sta"},
+    ],
+}

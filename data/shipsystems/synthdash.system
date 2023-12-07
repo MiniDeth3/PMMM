@@ -1,0 +1,32 @@
+{
+	"id":"synthdash",
+	"type":"ENGINE_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipsystems.SynthDash",
+	
+	#"engineGlowColor":[255,175,125,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":2,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":4,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"synth_dash",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.25,
+	
+	"aiHints":{
+		"activeSpeedIncrease":1000,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":500,
+	}
+}

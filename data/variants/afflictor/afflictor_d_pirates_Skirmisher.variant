@@ -1,0 +1,29 @@
+{
+    "displayName": "Skirmisher",
+    "fluxCapacitors": 10,
+    "fluxVents": 5,
+	"goalVariant": true,
+    "hullId": "afflictor_d_pirates",
+    "hullMods": ["magazines"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "afflictor_d_pirates_Skirmisher",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "amblaster"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "heavyac"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "shredder"}
+        }
+    ]
+}

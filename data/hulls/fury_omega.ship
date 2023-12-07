@@ -1,0 +1,231 @@
+{
+	"hullName": "Triquetra",
+	"hullId": "fury_omega",
+	"hullSize": "CRUISER",
+	"spriteName": "graphics/ships/omega/fury_omega.png",
+	"style": "OMEGA",
+	"height": 230,
+	"width": 140,
+	"center": [72, 115],
+	"collisionRadius": 128.5,
+	"shieldCenter": [0, -0],
+	"shieldRadius": 139,
+	"viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "shard_spawner",
+		"HUI",
+    ],
+    "builtInWeapons": {
+    },
+	"weaponSlots": [
+		{
+		"id": "WS0001",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 227,
+		"angle": -146.5,
+		"locations": [-79, -45]
+		},
+		{
+		"id": "WS0002",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 227,
+		"angle": 146.5,
+		"locations": [-77, 49]
+		},
+		{
+		"id": "WS0003",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 153,
+		"angle": -83,
+		"locations": [-16, -35]
+		},
+		{
+		"id": "WS0004",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 5,
+		"angle": -45,
+		"locations": [19.5, 19.5]
+		},
+		{
+		"id": "WS0005",
+		"size": "SMALL",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 5,
+		"angle": 45,
+		"locations": [19.5, 23.5]
+		},
+		{
+		"id": "WS0006",
+		"size": "MEDIUM",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 360,
+		"angle": 0,
+		"locations": [14, 28]
+		},
+		{
+		"id": "WS0007",
+		"size": "LARGE",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 360,
+		"angle": 0,
+		"locations": [-11.5, 15]
+		},
+		{
+		"id": "WS0008",
+		"size": "LARGE",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 210,
+		"angle": 0,
+		"locations": [35.5, -4]
+		},
+		{
+		"id": "WS0009",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 153,
+		"angle": -63.5,
+		"locations": [16, -36]
+		},
+		{
+		"id": "WS0010",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 210,
+		"angle": 0,
+		"locations": [73, -10]
+		},
+		{
+		"id": "WS0011",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [101.5, -3]
+		},
+		{
+		"id": "WS0012",
+		"size": "LARGE",
+		"type": "SYSTEM",
+		"mount": "HIDDEN",
+		"arc": 360,
+		"angle": 0,
+		"locations": [11, 19]
+		}
+	],
+	"engineSlots": [
+		{
+		"location": [-95.5, -58.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-93.5, 57.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-97.5, 40.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-28, -50.5],
+		"length": 64,
+		"width": 20,
+		"angle": -146.5,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-28, 50.5],
+		"length": 64,
+		"width": 20,
+		"angle": 146.5,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-69.5, -0],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-96.5, -33.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-77, 16.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-81.5, -4.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-80, -10],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		}
+	],
+	"bounds": [
+		-77.5, 15,
+		-105.5, 43.5,
+		-97.5, 69.5,
+		-36.5, 53,
+		4, 65,
+		55, 41,
+		66.5, 45,
+		105, 15,
+		103, -16,
+		114, -16.5,
+		4, -61,
+		-36.5, -49,
+		-97.5, -65.5,
+		-105.5, -39.5,
+		-77.5, -11
+	]
+}

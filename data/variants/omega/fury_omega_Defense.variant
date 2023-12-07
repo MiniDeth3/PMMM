@@ -1,0 +1,46 @@
+{
+    "displayName": "Defense",
+    "fluxCapacitors": 23,
+    "fluxVents": 23,
+    "goalVariant": true,
+    "hullId": "fury_omega",
+    "hullMods": [
+        "fluxdistributor",
+        "pointdefenseai",
+        "targetingunit",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "fury_omega_Defense",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "realitydisruptor",
+                "WS0007": "realitydisruptor",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "shockrepeater",
+                "WS0003": "shockrepeater",
+                "WS0002": "shockrepeater",
+                "WS0010": "shockrepeater",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "riftbeam",
+                "WS0009": "riftbeam",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

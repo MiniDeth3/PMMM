@@ -1,0 +1,83 @@
+{
+  "hullName": "Shard",
+  "hullId": "tempest_omega",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/omega/tempest_omega.png",
+  "style": "OMEGA",
+  "height": 92,
+  "width": 64,
+  "center": [32, 46],
+  "collisionRadius": 70,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 70,
+  "viewOffset": 0,
+  "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "shard_spawner",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-8, 9]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, -1]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [25, -14]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-32.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-30, 5],
+      "length": 40,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-30, -3],
+      "length": 64,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    -6.5, -30.5,
+    41.5, -11.5,
+    39.5, 13.5,
+    -3.5, 30.5,
+    -39.5, 15.5,
+    -41.5, -12.5,
+    -29, -28
+  ]
+}

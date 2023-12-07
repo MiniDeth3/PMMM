@@ -1,0 +1,64 @@
+{
+    "playableFaction":true,
+    "pirateFaction":true,
+    "corvusCompatible":true,
+    "noHomeworld":true,
+    "showIntelEvenIfDead":true,
+    
+    #"factionConditionSubplugin":"exerelin.campaign.econ.faction.OutlawFCSubplugin",
+        
+    "rebelFleetSuffix":"Rivals",
+    
+    "difficultyString":"hard",
+    
+    "alignments":{
+        "hierarchical":-1,
+        "ideological":0.5,
+    },
+    "diplomacyTraits":["neutralist", "anarchist"],
+    "morality":"evil",
+    
+    "freeMarket":true,
+    
+    "vengeanceFleetNames":["Enforcers", "Hit-Fleet", "Horde"],
+    "vengeanceFleetNamesSingle":["an Enforcer fleet", "a Hit-Fleet", "a Horde"],
+    
+    "specialForcesMaxFleets":0,
+
+    "startShipsSolo":[
+      ["uw_scythe_eli"],
+      ["cerberus_d_pirates_Shielded"]
+    ],
+    "startShipsCombatSmall":[
+      ["uw_boar_sta", "uw_tiger_wid", "uw_sidecar_cs"],   # lol Sidecar
+      ["enforcer_d_pirates_Strike", "buffalo2_FS", "hound_d_pirates_Standard"]
+    ],
+    "startShipsTradeSmall":[
+      ["mule_d_pirates_Standard", "uw_venom_shi", "hermes_FS"],
+      ["mule_d_pirates_Standard", "brawler_Assault", "shepherd_Frontier"]
+    ],
+    "startShipsCombatLarge":[
+      ["uw_barbarian_ass", "uw_shark_sta", "uw_scythe_cs"],
+      ["falcon_p_Strike", "enforcer_d_pirates_Strike", "lasher_Standard"]
+    ],
+    "startShipsExplorerLarge":[
+      ["uw_stalker_cs", "buffalo_pirates_Standard", "uw_venom_sta"],
+      ["venture_p_Pirate", "buffalo_pirates_Standard", "cerberus_d_pirates_Standard"]
+    ],
+    "startShipsCarrierSmall":[["condor_Attack", "buffalo2_FS", "lasher_Standard"]],
+    "startShipsCarrierLarge":[["colossus32_Pirate", "enforcer_d_pirates_Strike", "hound_d_pirates_Standard"]],
+    "startShipsSuper":[["uw_venomx_eli"]],
+    
+    "startSpecialItems":[
+        [["pirate_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.05},
+        {"id":"fuelprod", "mult":0.05, "roundUp":false},
+    ],
+}

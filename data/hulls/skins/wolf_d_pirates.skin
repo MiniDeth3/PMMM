@@ -1,0 +1,30 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_d_pirates",
+	"hullName":"Wolf (P)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"Due to pirate ingenuity or critical system failure, this ship has been aggressively modified to feature a more diverse loadout.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"ordnancePoints":47,
+	"baseValueMult":.9,
+	"systemId":"displacer",
+	"spriteName":"graphics/ships/wolf_p.png",
+	"suppliesToRecover":4,
+	"suppliesPerMonth":4,
+    "weaponSlotChanges":{ # breaks variant compatibility with base hull
+        "WS 004":{
+            "type": "SYNERGY"
+        },
+        "WS 002":{
+            "type": "BALLISTIC"
+        },
+    },
+	"removeWeaponSlots":["WS 003"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods",],
+	"builtInWeapons":{
+    },
+}

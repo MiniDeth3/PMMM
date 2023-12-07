@@ -1,0 +1,21 @@
+{
+	"baseHullId":"hound",
+	"skinHullId":"hound_d_pirates",
+	"hullName":"Hound (P)",
+	"descriptionId":"hound",
+	"descriptionPrefix":"Through a sweeping refit, this hound has seen its cargo bay and loading machinery retrofitted into a makeshift hanger bay sporting a downsized counterfeit forge vat. The cramped size of the hanger and limited power grid necessitates a downsized LPC chip, limiting deployment capacity.",
+	"tags":["pirate_bp"],
+	"fleetPoints":3,
+	"tech":"Pirate",
+	"addHints":["COMBAT"],
+	"fighterBays":-1,
+	"builtInMods":["converted_bay","masscargoconvert","compmods",],
+	"spriteName":"graphics/ships/hound_pirates.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInWeapons":{
+    },
+	"builtInWings":["mini_hook_wing",]
+}

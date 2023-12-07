@@ -1,0 +1,22 @@
+{
+	"baseHullId":"wolf",
+	"skinHullId":"wolf_pirates",
+	"hullName":"Wolf (P)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"ordnancePoints":47,
+	"baseValueMult":.9,
+	"systemId":"displacer_degraded",
+	"spriteName":"graphics/ships/wolf_p.png",
+	"suppliesToRecover":4,
+	"suppliesPerMonth":4,
+	"removeWeaponSlots":["WS 003"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["compmods"],
+	"builtInWeapons":{
+    },
+}

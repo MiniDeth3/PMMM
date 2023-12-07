@@ -1,0 +1,190 @@
+{
+	"hullName": "Aeon",
+	"hullId": "shrike_omega",
+	"hullSize": "DESTROYER",
+	"spriteName": "graphics/ships/omega/shrike_omega.png",
+	"style": "OMEGA",
+	"height": 170,
+	"width": 110,
+	"center": [55, 79],
+	"collisionRadius": 140,
+	"shieldCenter": [6, 0],
+	"shieldRadius": 116,
+	"viewOffset": 0,
+    "builtInMods": [
+        "automated",
+        "fluxbreakers",
+        "shard_spawner",
+    ],
+	"weaponSlots": [
+		{
+		"id": "WS 000",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 190,
+		"angle": 80,
+		"locations": [14, 36]
+		},
+		{
+		"id": "WS 001",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 210,
+		"angle": 0,
+		"locations": [31, 0],
+		"renderOrderMod": 10
+		},
+		{
+		"id": "WS 002",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 210,
+		"angle": -70,
+		"locations": [4, -28]
+		},
+		{
+		"id": "WS 003",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 220,
+		"angle": 25,
+		"locations": [43, 22]
+		},
+		{
+		"id": "WS 005",
+		"size": "MEDIUM",
+		"type": "UNIVERSAL",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [60, -16]
+		},
+		{
+		"id": "WS0001",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "HARDPOINT",
+		"arc": 5,
+		"angle": 0,
+		"locations": [73, 15]
+		},
+		{
+		"id": "WS0002",
+		"size": "SMALL",
+		"type": "UNIVERSAL",
+		"mount": "TURRET",
+		"arc": 360,
+		"angle": 0,
+		"locations": [-16, 7]
+		}
+	],
+	"engineSlots": [
+		{
+		"location": [-64, 14.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-65.5, -15.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-5, 41],
+		"length": 64,
+		"width": 20,
+		"angle": 128,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-68.5, -9.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-68.5, 9.5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-58.5, 20],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-55, -5],
+		"length": 30,
+		"width": 10,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-5, -41],
+		"length": 64,
+		"width": 20,
+		"angle": -128,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-68.5, -25.5],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		},
+		{
+		"location": [-58, 29],
+		"length": 64,
+		"width": 20,
+		"angle": 180,
+		"contrailSize": 64,
+		"style": "OMEGA"
+		}
+	],
+	"bounds": [
+		0, 48,
+		69, 29,
+		75, 20,
+		66, 13,
+		70, 3,
+		41, 1,
+		67, -2,
+		69, -28,
+		-1, -50,
+		-9, -36,
+		-21, -47,
+		-32, -46,
+		-65, -33,
+		-74, -9,
+		-56, -6,
+		-56, 7,
+		-74, 10,
+		-65, 32,
+		-30, 48,
+		-21, 46,
+		-6, 35
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"baseHullId":"monitor",
+	"skinHullId":"monitor_pirates",
+	"hullName":"Monitor (P)",
+	"descriptionId":"monitor",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1.3,
+	"spriteName":"graphics/ships/monitor_pirates.png",
+	"removeWeaponSlots":["WS 004", WS 003], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":["WS 001","WS 002",], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "HYBRID",
+		},
+		"WS 002":{
+            "type": "ENERGY",
+		},
+	},
+	"builtInMods":["compmods","faulty_grid"],
+}

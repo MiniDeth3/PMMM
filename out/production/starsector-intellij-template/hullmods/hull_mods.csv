@@ -1,0 +1,23 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Compromised Shield,noshield,,,,,,,,TRUE,,0,0,0,0,data.hullmods.noshield,"This ship's shields have been disabled, leaving it vulnerable to all forms of direct attacks. It is typically the result of damage sustained to the shield emitters or modifications to other critical ship systems. Or perhaps both, in this case.",Disables Shields,,graphics/hullmods/noshield.png
+Pirate Modifications,compmods,,,,,,,,,,0,0,0,0,data.hullmods.compmods,"This hull has undergone significant modifications, it's pirate crew prioritizing showy weapon systems and high-speed engines over frivolous things like ""reliability"", ""Hull Integrity"", and ""Flux Capacity"".
+
+Chance for malfuntion increased. Reduces Flux Capacity, Dissipation, Hull, and Armor by %s.",Lowers Stats,"Leaning further into these ecentric hull changes grants bonuses at the furthered expense of reliability.
+
+Flux Capacity, Dissipation, Hull, and Armor reduction increased to %s. increases max speed by %s.
+
+%s weapon damage increased by %s.
+
+%s weapon rate of fire increased by %s.",graphics/hullmods/compmod.png
+Weaponized Flux Core,fluxcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.fluxcore,"This ships energy grid has been retrofitted for combat-ready flux manipulation.
+
+The ""Fluxcore"", after charging to %s flux, fires continuous energy arcs at nearby ships dealing %s damage %s damage at a rate scaled by current flux level.
+
+Upon reaching %s flux the core will go critical, firing at an increased rate but also striking the home ship with arcs dealing %s damage %s damage.",EMP strikes nearby ships,,graphics/hullmods/fluxcore.png
+Heavy Missile Integration,HMI,,,,,,,,TRUE,,0,0,0,0,data.hullmods.HeavyMissileIntegration,Reduces the ordnance point cost of large missile weapons by %s.,Reduces ordnance point cost of large missile weapons.,,graphics/hullmods/missile_integration.png
+,,,,,,,,,,,,,,,,,,,
+Shard Spawner,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShardSpawner,Spawns shard ships when ship is disabled/destroyed.,,,
+,,,,,,,,,,,,,,,,,,,
+Enhanced Explosion,enhanced_explosion,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.EnhancedExplosion,Doubles explosion radius and damage.,,,
+Limited Energy Grid,limitedgrid,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.limitedgrid,Disables ship permanetly if flux cap is reached,,,
+Cargo Convert,masscargoconvert,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.masscargoconvert,Way to reduce cargo on .skin ships,Reduces Cargo,,

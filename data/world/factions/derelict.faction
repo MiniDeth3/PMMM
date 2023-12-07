@@ -1,0 +1,9 @@
+{
+	id:"derelict",
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"hulls":{
+			"derelict_master":0.1,
+		},
+	},
+},

@@ -1,0 +1,48 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 9,
+	"goalVariant": true,
+    "hullId": "vanguard_pirates",
+    "hullMods": [
+        "safetyoverrides",
+        "fluxbreakers",
+        "armoredweapons"
+    ],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "vanguard_pirates_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "pulselaser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "reaper",
+                "WS 002": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmortar",
+                "WS 006": "lightmortar",
+                "WS 007": "lightmortar"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualac",
+                "WS 004": "lightdualac"
+            }
+        }
+    ]
+}

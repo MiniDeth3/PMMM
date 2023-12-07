@@ -1,0 +1,4 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Improvised Mine Strike,mine_strike_frigate,,,,,,0.1,,1,.15,.7,,0.25,0,,,,,,,,,,,,,
+Isochronal Temporal Warp,OmegaWarp,350,,,,,0.25,,3,0.1,.5,1.5,.25,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Synth Drive,synthdash,,,,,,0.25,,1,.15,.1,1.7,.1,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png

@@ -1,0 +1,30 @@
+{
+	"baseHullId": "scarab",
+	"skinHullId": "scarab_pirates",
+	"hullName": "Scarab (P)",
+	"descriptionId":"scarab",  # optional
+	"descriptionPrefix": "The deployment of experimental hulls like the Scarab is already a rarity alone, making it all the more astonishing that such a vessel has fallen into the hands of bandits. The hull boasts a series of modifications, accompanied by a vibrant coat of paint that accentuates its inherent uniqueness.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":1,
+	"ordnancePoints":50,
+	"spriteName": "graphics/ships/Scarab_Pirates.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "HYBRID"
+		},	
+		"WS 005":{
+            "type": "HYBRID"
+		},
+		"WS 008":{
+            "type": "HYBRID"
+		},
+	},
+	"builtInMods":["compmods","unstable_injector"],
+	"builtInWeapons":{
+    },
+}
