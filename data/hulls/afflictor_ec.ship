@@ -1,0 +1,116 @@
+{
+  "hullName": "Afflictor (EC)",
+  "hullId": "afflictor_ec",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/phase/phase_strike_ff.png",
+  "style": "HIGH_TECH",
+  "height": 120,
+  "width": 72,
+  "center": [36, 63],
+  "collisionRadius": 97,
+  "shieldCenter": [-6, 0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, 28]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39, 17]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39, -17]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [33, -28]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [34, 0]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 160,
+      "locations": [10, 27]
+    },
+    {
+      "id": "WS 008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 200,
+      "locations": [10, -26]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, 18],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-63, -17],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -33, 27,
+    -26, 16,
+    8, 22,
+    18, 30,
+    32, 33,
+    56, 0,
+    31, -33,
+    15, -30,
+    5, -18,
+    -27, -17,
+    -32, -26,
+    -61, -22,
+    -61, 23
+  ]
+}

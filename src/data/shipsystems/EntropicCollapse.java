@@ -1,10 +1,11 @@
-package data.shipsystems.scripts;
+package data.shipsystems;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.impl.combat.EntropyAmplifierStats;
 import com.fs.starfarer.api.input.InputEventAPI;
+import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 import com.fs.starfarer.api.util.Misc;
 
@@ -34,12 +35,13 @@ import java.util.List;
         public static Color TEXT_COLOR = new Color(255, 55, 55, 255);
         public static Color JITTER_COLOR = new Color(255, 50, 50, 75);
         public static Color JITTER_UNDER_COLOR = new Color(255, 100, 100, 155);
-
+        public static Boolean sploded = false;
         public EntropicCollapse() {
         }
 
         public void apply(MutableShipStatsAPI stats, final String id, ShipSystemStatsScript.State state, float effectLevel) {
             ShipAPI ship = null;
+            final Boolean[] sploded = {false};
             if (stats.getEntity() instanceof ShipAPI) {
                 ship = (ShipAPI)stats.getEntity();
                 String targetDataKey = ship.getId() + "_entropy_target_data";
@@ -79,8 +81,26 @@ import java.util.List;
                                         targetData.target.getMutableStats().getArmorDamageTakenMult().modifyMult(id, targetData.currDamMult);
                                         targetData.target.getMutableStats().getShieldDamageTakenMult().modifyMult(id, targetData.currDamMult);
                                         targetData.target.getMutableStats().getEmpDamageTakenMult().modifyMult(id, targetData.currDamMult);
-                                        if(targetData.target.getHullLevel() < thresh){
-                                            targetData.target.setCurrentCR(0);
+                                        if((targetData.target.getHullLevel() < thresh) && sploded[0] == false){
+                                            DamagingExplosionSpec splosin = new DamagingExplosionSpec(
+                                                    1f,
+                                                    targetData.target.getShieldRadiusEvenIfNoShield(),
+                                                    targetData.target.getCollisionRadius(),
+                                                    999999,
+                                                    999998,
+                                                    CollisionClass.HITS_SHIPS_AND_ASTEROIDS,
+                                                    CollisionClass.HITS_SHIPS_AND_ASTEROIDS,
+                                                    3,
+                                                    3,
+                                                    .5f,
+                                                    10,
+                                                    JITTER_COLOR,
+                                                    JITTER_UNDER_COLOR
+
+
+                                                    );
+                                            Global.getCombatEngine().spawnDamagingExplosion(splosin, targetData.ship, targetData.target.getLocation(), true);
+                                            sploded[0] = true;
                                         }
                                     } else {
                                         targetData.target.getMutableStats().getHullDamageTakenMult().unmodify(id);
