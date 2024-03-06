@@ -7,6 +7,7 @@ import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
+import com.fs.starfarer.api.util.Misc;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -26,6 +27,12 @@ public class unstableflux extends BaseHullMod {
 
     @Override
     public void advanceInCombat(ShipAPI ship, float amount) {
+        float fluxpercent = ship.getFluxTracker().getCurrFlux()/ship.getFluxTracker().getMaxFlux();
+        Color targetcolor = new Color(255,125,125,75);
+        Color startcolor = new Color(125,125,255,75);
+        Color gradientcolor = Misc.interpolateColor(startcolor, targetcolor ,fluxpercent);
+        ship.getShield().setInnerColor(gradientcolor);
+
         if (ship.getFluxTracker().isOverloaded() || (ship.getFluxTracker().getFluxLevel() > 0.9f)) {
             ship.getMutableStats().getHardFluxDissipationFraction().modifyFlat(ship.getId(), HARD_DISS * 0.01f);
             Global.getSoundPlayer().playLoop("emp_loop", ship, 1f,.6f, ship.getLocation(), ship.getVelocity());

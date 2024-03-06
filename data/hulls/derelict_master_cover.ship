@@ -15,10 +15,10 @@
     "automated",
     "advancedshieldemitter",
     "fluxshunt",
-	"unstableflux",
 	"shield_always_on",
 	"always_detaches",
 	"nodam_explosion",
+	"unstableflux",
 	
   ],
   "weaponSlots": [

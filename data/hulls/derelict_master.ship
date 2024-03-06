@@ -14,8 +14,6 @@
 	"builtInMods": [
         "automated",
 		"hbi",
-        "shared_flux_sink",
-		"unstableflux",
 	],
 	"weaponSlots": [
 		{
