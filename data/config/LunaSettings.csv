@@ -19,4 +19,4 @@ Can be retrieved as a String.",,,Examples
 ,,,,,,,,
 ,,,,,,,,
 pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaMod.,,,,,PMM
-,,,,,,,,
+pmm_piratemodsglow,Pirate Modifications Smod Glow,Color,#f22e6e,,Select the color that weapons will glow on ships with s-modded pirate modifications.,,,PMM
