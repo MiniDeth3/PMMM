@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.combat.WeaponAPI;
+import scripts.PMMLunaSettings;
 
 import java.awt.*;
 import java.util.Iterator;
@@ -19,8 +20,8 @@ public class compmods extends BaseHullMod {
 	public static final float SMOD_ENG_BONUS = 1.1f;
 	public static final float SMOD_BAL_BONUS = 1.2f;
 	public static final float SMOD_MIS_HEALTH_BONUS = 1.1f;
-	public static Color BALLISTIC_GLOW = new Color(255,200,120,155);
-	public static Color ENERGY_GLOW = new Color(120, 120, 255,155);
+	public static Color BALLISTIC_GLOW = PMMLunaSettings.PirateGlowColor();
+	public static Color ENERGY_GLOW = PMMLunaSettings.PirateGlowColor();
 
 
 	public void advanceInCombat(ShipAPI ship, float amount) {
