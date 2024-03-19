@@ -19,4 +19,5 @@ Can be retrieved as a String.",,,Examples
 ,,,,,,,,
 ,,,,,,,,
 pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaMod.,,,,,PMM
-pmm_piratemodsglow,Pirate Modifications Smod Glow,Color,#f22e6e,,Select the color that weapons will glow on ships with s-modded pirate modifications.,,,PMM
+pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow,Color,#f22e6e,,Select the color that ballistic weapons will glow on ships with s-modded pirate modifications.,,,PMM
+pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow,Color,#f22e6e,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,PMM

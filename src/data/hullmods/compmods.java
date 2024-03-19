@@ -20,8 +20,8 @@ public class compmods extends BaseHullMod {
 	public static final float SMOD_ENG_BONUS = 1.1f;
 	public static final float SMOD_BAL_BONUS = 1.2f;
 	public static final float SMOD_MIS_HEALTH_BONUS = 1.1f;
-	public static Color BALLISTIC_GLOW = PMMLunaSettings.PirateGlowColor();
-	public static Color ENERGY_GLOW = PMMLunaSettings.PirateGlowColor();
+	public static Color BALLISTIC_GLOW = PMMLunaSettings.PirateGlowColorBallistic();
+	public static Color ENERGY_GLOW = PMMLunaSettings.PirateGlowColorEnergy();
 
 
 	public void advanceInCombat(ShipAPI ship, float amount) {
