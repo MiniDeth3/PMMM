@@ -33,7 +33,7 @@ vigilance_pirates,SHIP,"Definitely an odd modification, pirates have stripped mo
 tpcp,WEAPON,"A bulky energy weapon from an early epoch, modified with reckless abandon, this recovered TPC has been grafted directly into the hull and provides impressive firepower despite the immense strain on most power grids.",,,
 breachM,WEAPON,"A makeshift missile autoloader forge combo, integrated in line with the hull's existing support structure. This allows the firing of a heavily armored and fast missile with good guidance and a small, specialized anti-armor warhead.",,,
 ,,,,,
-mine_strike_frigate,SHIP_SYSTEM,Teleports a heavy phase mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated. Can be used while phased.,Offensive,Teleports a heavy proximity mine to the target area. Can be used while phased.,
+mine_strike_frigate,SHIP_SYSTEM,Teleports a phase mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated. Can be used while phased.,Offensive,Teleports a heavy proximity mine to the target area. Can be used while phased.,
 OmegaWarp,SHIP_SYSTEM,"Briefly stops the flow of time on board the ship. Generates a massive amount of flux when used.
 
 Query Omega:",Special,"Briefly stops the flow of time on board the ship. Generates a massive amount of flux when used.
