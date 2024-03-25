@@ -22,4 +22,12 @@ public class PMMLunaSettings {
         }
         return pirateglowcolor;
     }
+    public static Boolean OmegaToggle(){
+        Boolean omega = true;
+        if (Global.getSettings().getModManager().isModEnabled("lunalib"))
+        {
+             omega = LunaSettings.getBoolean("PirateMiniMegaMod","pmm_omegatoggle");
+        }
+        return omega;
+    }
 }

@@ -1,10 +1,8 @@
 package data.hullmods;
 
-import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.combat.WeaponAPI;
 import scripts.PMMLunaSettings;
 
 import java.awt.*;
@@ -25,16 +23,30 @@ public class compmods extends BaseHullMod {
 
 
 	public void advanceInCombat(ShipAPI ship, float amount) {
+		CombatEngineAPI engine = Global.getCombatEngine();
 		boolean sMod = isSMod(ship);
 		if (sMod) {
-			Iterator weaponiter = ship.getAllWeapons().iterator();
-			while (weaponiter.hasNext()){
-				WeaponAPI weapon = (WeaponAPI) weaponiter.next();
-				if(weapon.getType().equals(WeaponAPI.WeaponType.BALLISTIC)){
-					weapon.setGlowAmount(0.6f,BALLISTIC_GLOW);
+			if (engine.isEntityInPlay(ship)) {
+				Iterator weaponiter = ship.getAllWeapons().iterator();
+				while (weaponiter.hasNext()) {
+					WeaponAPI weapon = (WeaponAPI) weaponiter.next();
+					if (weapon.getType().equals(WeaponAPI.WeaponType.BALLISTIC)) {
+						weapon.setGlowAmount(0.8f, BALLISTIC_GLOW);
+					}
+					if (weapon.getType().equals(WeaponAPI.WeaponType.ENERGY)) {
+						weapon.setGlowAmount(0.8f, ENERGY_GLOW);
+					}
 				}
-				if(weapon.getType().equals(WeaponAPI.WeaponType.ENERGY)){
-					weapon.setGlowAmount(0.6f,ENERGY_GLOW);
+			} else {
+				Iterator weaponiter = ship.getAllWeapons().iterator();
+				while (weaponiter.hasNext()) {
+					WeaponAPI weapon = (WeaponAPI) weaponiter.next();
+					if (weapon.getType().equals(WeaponAPI.WeaponType.BALLISTIC)) {
+						weapon.setGlowAmount(0.4f, BALLISTIC_GLOW);
+					}
+					if (weapon.getType().equals(WeaponAPI.WeaponType.ENERGY)) {
+						weapon.setGlowAmount(0.4f, ENERGY_GLOW);
+					}
 				}
 			}
 		}
