@@ -11,6 +11,7 @@ import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import com.fs.starfarer.api.loading.HullModSpecAPI;
 import data.listeners.PirateFleetInflationListener;
 import org.apache.log4j.Logger;
+import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
 
 import java.util.Iterator;
@@ -35,6 +36,9 @@ public class PMMMmodplugin extends BaseModPlugin {
     @Override
     public void onApplicationLoad() throws Exception {
         log.info("Welcome to PMMM! Im MiniDeth3 and im in your logs now...");
+        if (Global.getSettings().getModManager().isModEnabled("TouchOfVanilla_vri")){
+            PMMCrossmodScript.initVRICrossmod();
+        }
     }
 
     /**
