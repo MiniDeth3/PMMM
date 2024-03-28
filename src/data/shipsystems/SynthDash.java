@@ -13,11 +13,11 @@ import java.util.Map;
 import static com.fs.starfarer.api.impl.combat.DamperFieldStats.getDamper;
 
 public class SynthDash extends BaseShipSystemScript {
-	public static final float MAX_TIME_MULT = 10f;
+	public static final float MAX_TIME_MULT = 3f;
 	public static final float MIN_TIME_MULT = 0.1f;
 	public static final float DAM_MULT = 0.1f;
 
-	public static float SPEED_BONUS = 500f;
+	public static float SPEED_BONUS = 400f;
 	public static float TURN_BONUS = 200f;
 	
 	public static final Color JITTER_COLOR = new Color(250, 227, 83, 40);

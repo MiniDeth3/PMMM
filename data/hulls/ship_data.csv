@@ -10,6 +10,8 @@ Prometheus Mk.III,prometheus3,Modified Tanker,Pirate,ammofeed,20,15000,1200,1050
 Vigilance (P),vigilance_pirates,Frigate,Pirate,fastmissileracks,5,1750,200,2500,2250,180,45,,110,120,100,45,90,100,OMNI,,150,0.4,0.8,,,10,25,40,25,1,25,10,10000,8,10,240,0.25,5,5,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, HIDE_IN_CODEX",restricted,,0.5,2,2,,208
 Afflictor (EC),afflictor_ec,Phase Frigate,High Tech,entropiccollapse,11,1500,400,3000,5000,400,55,,165,120,100,60,120,200,PHASE,phasecloak,90,,,0.03,0.04,5,10,25,50,1,50,10,42000,10,30,180,0.25,10,10,,,,,,,,"rare_bp, merc, ind",,0.5,2,2,,210
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gauntlet (P),gauntlet_pirates,Heavy Combat Carrier,Pirate,microburn,16,6500,650,10000,12000,600,165,2,65,100,80,30,60,650,OMNI,,180,0.3,0.7,,,60,120,60,80,3,27,9,115000,4,12,420,0.25,30,30,,,,,,,,,,0.7,2,3,,415
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,pirate_armorplate1,Armor,,,1,5000,1500,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,,2051
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,fury_omega,Triquetra,Unknown,emp_omega,40,10000,1300,10000,25000,1200,180,,100,120,120,45,135,2000,OMNI,,150,0,0.5,,,0,0,40,150,3,50,11,500000,20,5,,,24,24,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","omega, no_autofit, restricted",,0.5,2,3,,416

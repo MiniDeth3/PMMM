@@ -14,7 +14,8 @@
   "builtInMods": [
     "noshield",
     "always_detaches",
-    "nodam_explosion"
+    "nodam_explosion",
+	"reflectplate"
   ],
   "weaponSlots": [],
   "engineSlots": [],

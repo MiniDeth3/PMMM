@@ -24,3 +24,4 @@ No Damage Explosion,nodam_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,d
 Enhanced Explosion,enhanced_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.EnhancedExplosion,Doubles explosion radius and damage.,,,
 Limited Energy Grid,limitedgrid,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.limitedgrid,Disables ship permanetly if flux cap is reached,,,
 Cargo Convert,masscargoconvert,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.masscargoconvert,Way to reduce cargo on .skin ships,Reduces Cargo,,
+Triflect™ Powered Armor,reflectplate,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.BeamReflector,An experimental power armor plate made to counter beam weaponry.,Reflects Lasers,,graphics/hullmods/advanced_optics.png

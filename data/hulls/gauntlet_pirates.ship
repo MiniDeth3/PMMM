@@ -1,0 +1,171 @@
+{
+  "hullName": "Gauntlet (P)",
+  "hullId": "gauntlet_pirates",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/vri/gauntlet_pirates.png",
+  "style": "HIGH_TECH",
+  "height": 235,
+  "width": 148,
+  "center": [74, 117.5],
+  "collisionRadius": 166.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 143,
+  "viewOffset": 0,
+  "builtInMods": [
+    "compmods","fluxdistributor",
+  ],
+  "builtInWeapons": {
+    "WS 006": "pirate_gauntlet_frontmed"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 0,
+      "locations": [73.5, 33]
+    },
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 0,
+      "locations": [73.5, -33]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": 45,
+      "locations": [39, 32]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": 315,
+      "locations": [39, -32]
+    },
+    {
+      "id": "WS 004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 180,
+      "locations": [-12, 0]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 14,
+      "angle": 0,
+      "locations": [88.5, 0]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [75.5, -0.5]
+    },
+    {
+      "id": "LB 000",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        -68.5, 20.5,
+        -46.5, 13.5
+      ]
+    },
+    {
+      "id": "LB 001",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [
+        -48, -17,
+        -68.5, -21.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-89.5, 60.5],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89.5, -60.5],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106.5, 36.5],
+      "length": 56,
+      "width": 18,
+      "angle": 180.5,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-106.5, -36.5],
+      "length": 56,
+      "width": 18,
+      "angle": 179.5,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97.5, 49.5],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97.5, -49.5],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -107.5, -20.5,
+    -101, -43,
+    -58, -71.5,
+    40.5, -54.5,
+    109.5, -23,
+    109.5, 23,
+    40.5, 54.5,
+    -58, 71.5,
+    -101, 43,
+    -107.5, 20.5
+  ]
+}
