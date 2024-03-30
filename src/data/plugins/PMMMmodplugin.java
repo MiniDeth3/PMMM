@@ -20,7 +20,7 @@ public class PMMMmodplugin extends BaseModPlugin {
 
     public String TRIQUETRA = "fury_omega";
     public String AEON = "shrike_omega";
-    public String STATUS = "status_shard";
+    public String SATUS = "satus_shard";
     public String PERCEPT = "tempest_omega";
 
     public Logger log = Logger.getLogger(this.getClass());
@@ -68,13 +68,13 @@ public class PMMMmodplugin extends BaseModPlugin {
                 if (omega){
                         omegafac.addKnownShip(TRIQUETRA, false);
                         omegafac.addKnownShip(AEON, false);
-                        omegafac.addKnownShip(STATUS, false);
+                        omegafac.addKnownShip(SATUS, false);
                         omegafac.addKnownShip(PERCEPT, false);
                     }
                 if (!omega) {
                     omegafac.removeKnownShip(TRIQUETRA);
                     omegafac.removeKnownShip(AEON);
-                    omegafac.removeKnownShip(STATUS);
+                    omegafac.removeKnownShip(SATUS);
                     omegafac.removeKnownShip(PERCEPT);
                 }
             }
