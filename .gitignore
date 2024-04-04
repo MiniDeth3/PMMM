@@ -1,5 +1,6 @@
 .idea/*
 !.idea/libraries
+.idea/libraries/starfarer_api.xml
 
 /jars*
 /out*
