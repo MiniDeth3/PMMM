@@ -12,14 +12,14 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-public class BeamReflector extends BaseHullMod {
+public class ReflectivePlate extends BaseHullMod {
     float BEAM_ABSORPTION = 0.1f;
     Map<String, ShipAPI> beamdroneMap = new HashMap<>();
     Map<String, ShipAPI> updatedDronesMap = new HashMap<>();
 
     Map<String, Integer> removeCandidates = new HashMap<>();
 
-    final Color transparent = new Color(0,0,0,0);
+    static final Color TRANSPARENT = new Color(0,0,0,0);
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -43,7 +43,7 @@ public class BeamReflector extends BaseHullMod {
                     ShipAPI beamDrone = beamdroneMap.get(getBeamId(beam));
 
                     if (beamDrone == null) {
-                        beamDrone = createBeamDrone(ship, beam, reflectionVector);
+                        beamDrone = createBeamDrone(ship, beam);
 
                         beamdroneMap.put(getBeamId(beam), beamDrone);
                         engine.addEntity(beamDrone);
@@ -61,8 +61,6 @@ public class BeamReflector extends BaseHullMod {
                             weaponDisplacement
                     );
 
-                    Global.getLogger(BeamReflector.class).info(String.format("Beam drone was updated for beam %s", getBeamId(beam)));
-
                     updatedDronesMap.put(getBeamId(beam), beamDrone);
                 }
             }
@@ -72,7 +70,6 @@ public class BeamReflector extends BaseHullMod {
 
         for(String beamId : removeCandidates.keySet()) {
             if(4 < removeCandidates.get(beamId)) {
-                Global.getLogger(BeamReflector.class).info(String.format("Beam drone for beam %s was removed", beamId));
                 engine.removeEntity(beamdroneMap.get(beamId));
                 beamdroneMap.remove(beamId);
                 removedIds.add(beamId);
@@ -121,15 +118,15 @@ public class BeamReflector extends BaseHullMod {
         }
 
         StatBonus mutableWeaponRangeBonus = beamDrone.getMutableStats().getBeamWeaponRangeBonus();
-        mutableWeaponRangeBonus.modifyFlat("beam_reflector", reflectedBeamRange - beamDroneWeapon.getRange() + mutableWeaponRangeBonus.getFlatBonus());
+        mutableWeaponRangeBonus.modifyFlat("pmmm_beam_drone", reflectedBeamRange - beamDroneWeapon.getRange() + mutableWeaponRangeBonus.getFlatBonus());
     }
 
-    private ShipAPI createBeamDrone(ShipAPI owner, BeamAPI beam, Vector2f reflectionVector) {
+    private ShipAPI createBeamDrone(ShipAPI owner, BeamAPI beam) {
         CombatEngineAPI engine = Global.getCombatEngine();
         SettingsAPI settingsAPI = Global.getSettings();
 
         //Get ship variant
-        ShipVariantAPI beamDroneVariant = Global.getSettings().createEmptyVariant("beam_drone", settingsAPI.getHullSpec("beam_drone"));
+        ShipVariantAPI beamDroneVariant = Global.getSettings().createEmptyVariant("pmmm_beam_drone", settingsAPI.getHullSpec("pmmm_beam_drone"));
 
         // Setting up weapon
         WeaponGroupSpec weaponGroupSpec = new WeaponGroupSpec(WeaponGroupType.LINKED);
@@ -143,39 +140,21 @@ public class BeamReflector extends BaseHullMod {
         beamDrone.setOwner(owner.getOriginalOwner());
 
         //Apply stats
-        beamDrone.getMutableStats().getArmorDamageTakenMult().modifyMult("beamdrone", 0f);
-        beamDrone.getMutableStats().getHullDamageTakenMult().modifyMult("beamdrone", 0f);
-        beamDrone.getMutableStats().getShieldDamageTakenMult().modifyMult("beamdrone", 0f);
+        beamDrone.getMutableStats().getArmorDamageTakenMult().modifyMult("pmmm_beam_drone", 0f);
+        beamDrone.getMutableStats().getHullDamageTakenMult().modifyMult("pmmm_beam_drone", 0f);
+        beamDrone.getMutableStats().getShieldDamageTakenMult().modifyMult("pmmm_beam_drone", 0f);
 
-        beamDrone.getMutableStats().getBeamWeaponDamageMult().modifyMult("beamdrone", 1f - BEAM_ABSORPTION);
-        beamDrone.getMutableStats().getBeamWeaponFluxCostMult().modifyMult("beamdrone", 0);
+        beamDrone.getMutableStats().getBeamWeaponDamageMult().modifyMult("pmmm_beam_drone", 1f - BEAM_ABSORPTION);
+        beamDrone.getMutableStats().getBeamWeaponFluxCostMult().modifyMult("pmmm_beam_drone", 0);
 
 
         WeaponAPI beamDroneWeapon = beamDrone.getWeaponGroupsCopy().get(0).getWeaponsCopy().get(0);
         beamDroneWeapon.setTurnRateOverride(1000f);
 
-        float beamStartDispositionX = beam.getFrom().x - beam.getWeapon().getLocation().x;
-        float beamStartDispositionY = beam.getFrom().y - beam.getWeapon().getLocation().y;
-
-
-        float beamLength = beam.getLength();
-        float beamX = beam.getTo().x - beam.getFrom().x;
-        float beamY = beam.getTo().y - beam.getFrom().y;
-
-        float reflectionVectorLength = reflectionVector.length();
-
-        float cosTheta = (reflectionVector.x * beamX + reflectionVector.y * beamY) / (beamLength * reflectionVectorLength);
-        float sinTheta = (beamX * reflectionVector.y) - (beamY * reflectionVector.x) / (beamLength * reflectionVectorLength);
-
-        float rotatedBeamStartDispositionX = beamStartDispositionX * cosTheta + beamStartDispositionY * sinTheta;
-        float rotatedBeamStartDispositionY = - beamStartDispositionX * sinTheta + beamStartDispositionY * cosTheta;
-
         beamDroneWeapon.getLocation().set(100f, -100f);
 
-        beamDroneWeapon.getSprite().setColor(transparent);
-        beamDroneWeapon.getGlowSpriteAPI().setColor(transparent);
-
-        Global.getLogger(BeamReflector.class).info(String.format("Beam drone was created for beam %s", getBeamId(beam)));
+        beamDroneWeapon.getSprite().setColor(TRANSPARENT);
+        beamDroneWeapon.getGlowSpriteAPI().setColor(TRANSPARENT);
 
         return beamDrone;
     }
@@ -210,9 +189,6 @@ public class BeamReflector extends BaseHullMod {
 
         return null;
     }
-    //VFX drones are the way to do this apparently
-    //pain and suffering ; (
-
 
     private BoundsAPI.SegmentAPI getIntersectedSegment(BeamAPI beam, ShipAPI ship) {
         if (beam.getDamageTarget() != ship) {

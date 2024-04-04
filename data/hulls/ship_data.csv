@@ -1,6 +1,7 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,rarity,breakProb,minPieces,maxPieces,travel drive,number
 Hook,hook,,Pirate,,,200,20,500,,100,0,,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,100
 Modified Pod,blasterdrone,,Pirate,,,500,100,1200,,0,0,,125,75,75,45,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,108
+Reflective Beam Drone,pmmm_beam_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Nebula Mk.II,nebula2,Modified Civilian Transport,Pirate,ammofeed,7,4000,225,4000,,250,85,,75,30,17,25,12,450,FRONT,,160,0.5,1,,,120,150,150,100,2,25,8,50000,4,20,240,0.25,8,8,,,,,,,,pirate_bp,,,2,3,,313
 Champion Mk.II,champion2,Heavy Cruiser,Pirate,burndrive,30,10000,1100,12000,,700,112,,70,45,35,18,25,1500,FRONT,,210,0.4,0.8,,,200,300,150,150,4,38,8,125000,4,12,480,0.25,40,40,,,,,,,,"pirates, rare_bp",,,,,,

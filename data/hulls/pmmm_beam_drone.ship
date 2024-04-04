@@ -1,0 +1,34 @@
+{
+    "center": [
+        2,
+        2
+    ],
+    "collisionRadius": 0,
+    "coversColor": "",
+    "height": 4,
+    "hullId": "pmmm_beam_drone",
+    "hullName": "Reflective Beam Drone",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 2,
+    "spriteName": "graphics/ships/fighters/invisible_drone.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": -90,
+            "arc": 360,
+            "id": "WS 001",
+            "locations": [
+                0,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "UNIVERSAL"
+        }],
+    "width": 4
+}
