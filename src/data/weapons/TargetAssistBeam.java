@@ -2,7 +2,7 @@ package data.weapons;
 
 import com.fs.starfarer.api.combat.*;
 
-public class FonsiTargetingBeam implements EveryFrameWeaponEffectPlugin { // Let's assume it works
+public class TargetAssistBeam implements EveryFrameWeaponEffectPlugin { // Let's assume it works
 
     private float beamHitDuration = 0f;
 
@@ -11,7 +11,6 @@ public class FonsiTargetingBeam implements EveryFrameWeaponEffectPlugin { // Let
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         ShipAPI droneShip = weapon.getShip();
         ShipAPI fonsi = droneShip.getDroneSource();
-
 
         if(fonsi == null || !fonsi.isAlive()){
             // Self-destruction

@@ -1,4 +1,5 @@
 id,type,text1,text2,text3,notes
+
 hook,SHIP,"The Hook is a heavily modified iteration of the classic Talon design, boasting an improvised omni-shield generator controlled by a copilot to counter light PD retaliations. It can deal appreciable damage to larger ships when used en masse, though such use usually results in heavy pilot losses.",,,
 blasterdrone,SHIP,"This mining auxiliary has been repurposed into an unmanned bomber. The retrofits include a compacted mining blaster and a jury-rigged sensor module to allow limited independent functionality. These modifications entirely disregard the finite energy grid of the original design, resulting in a complete system meltdown upon firing its payload.",,,
 ,,,,,
@@ -19,6 +20,8 @@ derelict_master,SHIP,"Although automated machines of war were forbidden in core 
 There are elements of standard droneships within the hull structure, but they are covered by malevolently angled glacises and illogical tangles of conduit. Surely this monstrous vessel is the product of some deranged Domain naval architect, or a production chip corrupted by exposure to kilolights of faulty drive field?",,,
 derelict_master_cover,SHIP,"Although automated machines of war were forbidden in core Domain space, war drones were quietly employed outside of officially incorporated volume. Nothing like this, however, could possibly have been deployed by the Domain drone armadas.
 
+
+
 There are elements of standard droneships within the hull structure, but they are covered by malevolently angled glacises and illogical tangles of conduit. Surely this monstrous vessel is the product of some deranged Domain naval architect, or a production chip corrupted by exposure to kilolights of faulty drive field?",,,
 ,,,,,
 kite_P,SHIP,"A familiar civilian design, the ""Kite""-class aero shuttle is the day-to-day reminder of Fabrique Orbitale's reputation for aeronautical engineering- a valuable specialty even in the age of space travel. This shuttle has been heavily modified by pirates to install an expanded missile rack paired with an advanced autoloader, enabling an impressive missile onslaught despite its compact size. These upgrades came at a cost: the shield generator has been removed, and power has been diverted from the aux propulsion subsystem.",,,
@@ -32,6 +35,7 @@ vigilance_pirates,SHIP,"Definitely an odd modification, pirates have stripped mo
 ,,,,,
 tpcp,WEAPON,"A bulky energy weapon from an early epoch, modified with reckless abandon, this recovered TPC has been grafted directly into the hull and provides impressive firepower despite the immense strain on most power grids.",,,
 breachM,WEAPON,"A makeshift missile autoloader forge combo, integrated in line with the hull's existing support structure. This allows the firing of a heavily armored and fast missile with good guidance and a small, specialized anti-armor warhead.",,,
+pmmm_derelict_fonsi_target_assist_beam,WEAPON,AAAAAA,,,
 ,,,,,
 mine_strike_frigate,SHIP_SYSTEM,Teleports a phase mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated. Can be used while phased.,Offensive,Teleports a heavy proximity mine to the target area. Can be used while phased.,
 OmegaWarp,SHIP_SYSTEM,"Briefly stops the flow of time on board the ship. Generates a massive amount of flux when used.
