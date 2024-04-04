@@ -27,8 +27,8 @@ public class MineStrikeFrigateStats extends BaseShipSystemScript implements Mine
 	
 	protected static float MINE_RANGE = 1000f;
 	
-	public static final float MIN_SPAWN_DIST = 40f;
-	public static final float MIN_SPAWN_DIST_FRIGATE = 40f;
+	public static final float MIN_SPAWN_DIST = 30f;
+	public static final float MIN_SPAWN_DIST_FRIGATE = 30f;
 	
 	public static final float LIVE_TIME = 2f;
 	

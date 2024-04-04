@@ -12,9 +12,12 @@
   "shieldRadius": 160,
   "viewOffset": 0,
   "builtInMods": [
-    "fluxcore","enhanced_explosion","high_maintenance","do_not_back_off","compmods",
+    "fluxcore",
+    "enhanced_explosion",
+    "high_maintenance",
+    "do_not_back_off",
+    "compmods"
   ],
-  "builtInWeapons": {},
   "weaponSlots": [
     {
       "id": "WS 000",
@@ -105,7 +108,7 @@
       "arc": 150,
       "angle": -20,
       "locations": [87, -28]
-    },
+    }
   ],
   "engineSlots": [
     {
@@ -170,6 +173,70 @@
       "width": 20,
       "angle": 180,
       "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-15, 50],
+      "length": 10,
+      "width": 4,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-16, -52],
+      "length": 10,
+      "width": 4,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-21, 48],
+      "length": 10,
+      "width": 4,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-21, -48],
+      "length": 10,
+      "width": 4,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [34, -47],
+      "length": 10,
+      "width": 4,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [34, 47],
+      "length": 10,
+      "width": 4,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [40, -49],
+      "length": 10,
+      "width": 4,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [40, 49],
+      "length": 10,
+      "width": 4,
+      "angle": 135,
+      "contrailSize": 128,
       "style": "MIDLINE"
     }
   ],
