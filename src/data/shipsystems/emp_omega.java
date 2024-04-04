@@ -12,12 +12,10 @@ import com.fs.starfarer.api.impl.combat.*;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
-import com.thoughtworks.xstream.mapper.Mapper;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.combat.CombatUtils;
 import org.lazywizard.lazylib.combat.entities.SimpleEntity;
 import org.lwjgl.util.vector.Vector2f;
-import sun.invoke.empty.Empty;
 
 import static com.fs.starfarer.api.impl.combat.DamperFieldOmegaStats.KEY_SHIP;
 
