@@ -1,0 +1,28 @@
+{
+	"specClass":"beam",
+	"id":"pmmm_derelict_fonsi_beam",
+	"type":"ENERGY",
+	"size":"SMALL",
+
+	"turretSprite":"graphics/weapons/pirate_thermal_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/pirate_thermal_glow.png",
+
+	"hardpointSprite":"graphics/weapons/pirate_thermal_turret_base.png",
+	"hardpointGlowSprite":"graphics/weapons/pirate_thermal_glow.png",
+
+	"turretOffsets":[15, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[255, 255, 80, 255],
+	"coreColor":[255, 255, 255, 255],
+	"glowColor":[255, 255, 255, 255],
+	"width":3.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":260.0,
+	"pixelsPerTexel":5.0,
+	#"fireSoundOne":"graviton_beam_intro",
+	"fireSoundTwo":"graviton_beam_loop",
+	"beamEffect":"data.weapons.FonsiBeam",
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+}
