@@ -4,7 +4,7 @@ import com.fs.starfarer.api.combat.*;
 
 public class TargetAssistBeam implements BeamEffectPlugin {
 
-    private float beamHitDuration = 0f;
+//    private float beamHitDuration = 0f;
 
     ShipAPI savedTarget = null;
 
@@ -18,12 +18,13 @@ public class TargetAssistBeam implements BeamEffectPlugin {
 
         if (target == null) {
             if (savedTarget != null) {
+                savedTarget.getTags().remove("TargetAssistBeam");
 //                beamHitDuration = 0f;
 //                updateLevel(savedTarget, levelBeamHitDuration(beamHitDuration));
             }
         } else if (target.hasTag("TargetAssistBeam")) {
 //            target.addTag(getTag(levelBeamHitDuration(beamHitDuration)));
-            beamHitDuration += amount;
+//            beamHitDuration += amount;
         } else {
             target.addTag("TargetAssistBeam");
         }
