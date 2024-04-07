@@ -121,8 +121,8 @@ class TargetAssistBeamPlugin implements EveryFrameCombatPlugin {
 
     }
 
-    public static final Color JITTER_COLOR = new Color(100,100,255,150);
-    public static final Color JITTER_UNDER_COLOR = new Color(100,100,255,150);
+    public static final Color JITTER_COLOR = new Color(255,50,50,75);
+    public static final Color JITTER_UNDER_COLOR = new Color(255,100,100,155);
 
     public void applyBeamEffect(ShipAPI affectedShip, float beamEffectProgressionPercent) {
         if (affectedShip != null) {
@@ -131,8 +131,9 @@ class TargetAssistBeamPlugin implements EveryFrameCombatPlugin {
             affectedShip.getMutableStats().getArmorDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
             affectedShip.getMutableStats().getMaxSpeed().modifyMult("FonsiTargetingBeam", 1.0f - (0.5f * beamEffectProgressionPercent) / 100f);
             // Just an indicator
-            affectedShip.setJitter(this, JITTER_UNDER_COLOR, beamEffectProgressionPercent / 100f, 4, 10f, beamEffectProgressionPercent);
-            affectedShip.setJitterUnder(this, JITTER_COLOR, beamEffectProgressionPercent / 100f, 4, 10f, beamEffectProgressionPercent);
+            affectedShip.setJitter(this, JITTER_UNDER_COLOR, beamEffectProgressionPercent / 200f, 4, 2f, beamEffectProgressionPercent / 80f);
+            affectedShip.setJitterUnder(this, JITTER_COLOR, beamEffectProgressionPercent / 200f, 4, 2f, beamEffectProgressionPercent / 80f);
+            Global.getSoundPlayer().playLoop("system_entropy_loop", affectedShip, 1f, beamEffectProgressionPercent / 150f, affectedShip.getLocation(), affectedShip.getVelocity());
         }
     }
 
