@@ -6,6 +6,7 @@ import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.combat.listeners.DamageListener;
 import com.fs.starfarer.api.input.InputEventAPI;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -120,6 +121,9 @@ class TargetAssistBeamPlugin implements EveryFrameCombatPlugin {
 
     }
 
+    public static final Color JITTER_COLOR = new Color(100,100,255,150);
+    public static final Color JITTER_UNDER_COLOR = new Color(100,100,255,150);
+
     public void applyBeamEffect(ShipAPI affectedShip, float beamEffectProgressionPercent) {
         if (affectedShip != null) {
             affectedShip.getMutableStats().getArmorDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
@@ -127,8 +131,8 @@ class TargetAssistBeamPlugin implements EveryFrameCombatPlugin {
             affectedShip.getMutableStats().getArmorDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
             affectedShip.getMutableStats().getMaxSpeed().modifyMult("FonsiTargetingBeam", 1.0f - (0.5f * beamEffectProgressionPercent) / 100f);
             // Just an indicator
-            affectedShip.setAlphaMult(1f - (0.8f * beamEffectProgressionPercent) / 100f);
-            Global.getLogger(TargetAssistBeam.class).warn("affectedShip: " + affectedShip.getId() + " percent: " + beamEffectProgressionPercent);
+            affectedShip.setJitter(this, JITTER_UNDER_COLOR, beamEffectProgressionPercent / 100f, 4, 10f, beamEffectProgressionPercent);
+            affectedShip.setJitterUnder(this, JITTER_COLOR, beamEffectProgressionPercent / 100f, 4, 10f, beamEffectProgressionPercent);
         }
     }
 
