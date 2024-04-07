@@ -1,0 +1,10 @@
+{
+    "startShipsSolo":[],
+    "startShipsCombatSmall":[],
+    "startShipsTradeSmall":[],
+    "startShipsCombatLarge":[],
+    "startShipsExplorerLarge":[],
+    "startShipsCarrierSmall":[],
+    "startShipsCarrierLarge":[],
+    "startShipsSuper":[["champion2_Modified"]],
+}

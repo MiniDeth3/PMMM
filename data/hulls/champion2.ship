@@ -177,66 +177,66 @@
     },
     {
       "location": [-15, 50],
-      "length": 20,
+      "length": 15,
       "width": 6,
       "angle": 135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
       "location": [-16, -52],
-      "length": 20,
+      "length": 15,
       "width": 6,
       "angle": -135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
       "location": [-21, 48],
-      "length": 30,
+      "length": 25,
       "width": 6,
       "angle": 135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
       "location": [-21, -48],
-      "length": 30,
+      "length": 25,
       "width": 6,
       "angle": -135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
-      "location": [34, -47],
-      "length": 20,
+      "location": [33, -48],
+      "length": 25,
       "width": 6,
       "angle": -135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
-      "location": [34, 47],
-      "length": 20,
+      "location": [33, 48],
+      "length": 25,
       "width": 6,
       "angle": 135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
-      "location": [40, -49],
-      "length": 10,
+      "location": [39, -50],
+      "length": 15,
       "width": 6,
       "angle": -135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     },
     {
-      "location": [40, 49],
-      "length": 10,
+      "location": [39, 50],
+      "length": 15,
       "width": 6,
       "angle": 135,
-      "contrailSize": 128,
+      "contrailSize": 64,
       "style": "MIDLINE"
     }
   ],

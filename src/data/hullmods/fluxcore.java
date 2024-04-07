@@ -34,7 +34,7 @@ public class fluxcore extends BaseHullMod {
         CombatEngineAPI engine = Global.getCombatEngine();
         if (ship.getFluxTracker().isOverloaded() || (ship.getFluxTracker().getFluxLevel() > 0.8f)) {
             ship.getMutableStats().getHardFluxDissipationFraction().modifyFlat(ship.getId(), HARD_DISS * 0.01f);
-            Global.getSoundPlayer().playLoop("emp_loop", ship, 1f,.6f, ship.getLocation(), ship.getVelocity());
+            Global.getSoundPlayer().playLoop("emp_loop", ship, .8f,.8f, ship.getLocation(), ship.getVelocity());
             selfzapInterval.advance(amount);
             if (selfzapInterval.intervalElapsed()) {
                 selfzapInterval.setInterval(0.3f, 0.6f);
@@ -68,7 +68,7 @@ public class fluxcore extends BaseHullMod {
         }
 
         if (ship.getFluxTracker().getFluxLevel() > 0.15f) {
-            Global.getSoundPlayer().playLoop("system_high_energy_focus_loop", ship, ship.getFluxLevel() * 2.5f, ship.getFluxLevel() * 1.3f + 0.6f, ship.getLocation(), ship.getVelocity());
+            Global.getSoundPlayer().playLoop("system_high_energy_focus_loop", ship, ship.getFluxLevel() * 2.5f, ship.getFluxLevel() * 1.5f + 0.6f, ship.getLocation(), ship.getVelocity());
             Global.getSoundPlayer().playLoop("system_emp_emitter_loop", ship, ship.getFluxLevel() + 0.5f, (ship.getFluxLevel() + 0.1f), ship.getLocation(), ship.getVelocity());
 
             float EMP_arc_speed_level = (0.9f - ship.getFluxTracker().getFluxLevel());

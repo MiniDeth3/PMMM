@@ -4,7 +4,7 @@ Modified Pod,blasterdrone,,Pirate,,,500,100,1200,,0,0,,125,75,75,45,90,50,NONE,,
 Reflective Beam Drone,pmmm_beam_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Nebula Mk.II,nebula2,Modified Civilian Transport,Pirate,ammofeed,7,4000,225,4000,,250,85,,75,30,17,25,12,450,FRONT,,160,0.5,1,,,120,150,150,100,2,25,8,50000,4,20,240,0.25,8,8,,,,,,,,pirate_bp,,,2,3,,313
-Champion Mk.II,champion2,Heavy Cruiser,Pirate,burndrive,30,10000,1100,12000,,700,112,,70,45,35,18,25,1500,FRONT,,210,0.4,0.8,,,200,300,150,150,4,38,8,125000,4,12,480,0.25,40,40,,,,,,,,"pirates, rare_bp",,,,,,
+Champion Mk.II,champion2,Heavy Cruiser,Pirate,microburn,30,10000,1100,12000,,700,112,,70,45,35,18,25,1500,FRONT,,210,0.4,0.8,,,200,300,150,150,4,38,8,125000,4,12,480,0.25,40,40,,,,,,,,"pirates, rare_bp",,,,,,
 Colossus Mk.II,colossus2,Modified Freighter,Luddic Path,burndrive,9,6000,600,3250,3600,180,60,,50,25,10,12,12,1400,FRONT,,150,0.5,1,,,60,120,300,60,4,15,7,50000,3,20,480,0.25,9,9,,,,,,,ALWAYS_PANIC,"rare_bp, LP_bp",,0.6,2,3,,411.1
 Colossus Mk.III,colossus3,Modified Freighter,Pirate,flarelauncher,9,6000,600,3250,3600,180,60,1,50,25,10,12,12,1400,FRONT,,150,0.5,1,,,80,160,300,60,4,15,7,50000,3,20,480,0.25,9,9,,,,,,,"CARRIER, COMBAT","rare_bp, pirate_bp",,0.6,2,3,,411.2
 Prometheus Mk.III,prometheus3,Modified Tanker,Pirate,ammofeed,20,15000,1200,10500,11250,450,240,,50,16,10,4,4,4000,OMNI,,180,0.5,1.2,,,250,300,200,800,10,80,7,200000,2,20,720,0.25,30,30,,,,,,,"CARRIER, COMBAT","rare_bp, pirates",,0.75,3,5,,506.5
@@ -22,7 +22,7 @@ Gauntlet (P),gauntlet_pirates,Heavy Combat Carrier,Pirate,microburn,16,6500,650,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Master,derelict_master,Droneship,Explorarium,synthdash,12,5500,800,3000,3750,1000,100,,100,80,50,40,50,500,NONE,,0,0.4,0.8,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,0.5,2,3,,317
 Defense Module,derelict_master_cover,Defense Module,,,12,2000,100,10000,3750,700,40,,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","derelict, auto_rec",,1,2,3,,317
-
-Fonsi,pmmm_derelict_fonsi,Droneship,,,24,8000,600,5000,3750,700,40,1,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"HIDE_IN_CODEX","restricted",,1,2,3,,318
-Fonsi Traget Drone,pmmm_derelict_fonsi_target_drone,,Pirate,,,200,20,500,,100,0,0,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,"HIDE_IN_CODEX","restricted",,0,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fonsi,pmmm_derelict_fonsi,Droneship,,,24,8000,600,5000,3750,700,40,1,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,HIDE_IN_CODEX,restricted,,1,2,3,,318
+Fonsi Traget Drone,pmmm_derelict_fonsi_target_drone,,Pirate,,,200,20,500,,100,0,0,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,restricted,,0,,,,100
 # Astral,astral,Carrier,High Tech,recalldevice,27,10000,900,12000,15000,600,270,6,30,15,10,7,4,3000,FRONT,,360,0.7,0.6,,,450,1000,250,200,10,20,7,400000,3,15,600,0.25,50,50,,,,,,,CARRIER,"rare_bp, merc",,0.6,2,4,,501
