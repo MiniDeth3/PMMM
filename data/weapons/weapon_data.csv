@@ -6,7 +6,7 @@ Breach SRM Autoloader,breachM,0,,200,1500,,150,,15,0,,3,.5,1,HIGH_EXPLOSIVE,0,,0
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Improvised Minelayer,miniminelayer,0,,200000,1000,,1000,,15,30,12,30,,,HIGH_EXPLOSIVE,0,,0,2,3,0.2,0,0,0,0,,50,50,20,500,,,SYSTEM,"he0, no_sell, no_drop, no_drop_salvage",,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Target Assist Beam,pmmm_derelict_fonsi_target_assist_beam,2,,1500,1800,100,,,10,15,9,,,,KINETIC,,75,0.1,0.1,,,,,,,2400,,,,,,,,"no_drop, no_drop_salvage",,,,Suppression,,,,,"Target assist beam for Fonsi direlict ship", Weaken the ships against owner attack,,,21
+Target Assist Beam,pmmm_derelict_fonsi_target_assist_beam,2,,1500,1800,0,,,10,15,9,,,,KINETIC,,75,0.1,0.1,,,,,,,2400,,,,,,,,"no_drop, no_drop_salvage",,,,Suppression,,,,,"Target assist beam for Fonsi direlict ship", Weaken the ships against owner attack,,,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #decos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -22,8 +22,7 @@
 	"textureType":ROUGH,
 	"textureScrollSpeed":260.0,
 	"pixelsPerTexel":5.0,
-	#"fireSoundOne":"graviton_beam_intro",
 	"fireSoundTwo":"graviton_beam_loop",
-	#"beamEffect":"data.weapons.TargetAssistBeam",
+	"beamEffect":"data.weapons.TargetAssistBeam",
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
 }

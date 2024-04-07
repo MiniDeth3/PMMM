@@ -12,9 +12,7 @@
   "shieldRadius": 160,
   "viewOffset": 0,
   "builtInWings": ["pmmm_derelict_fonsi_target_drone"],
-  "builtInMods": [
-    "fluxcore","enhanced_explosion","high_maintenance","do_not_back_off","compmods",reflectplate
-  ],
+  "builtInMods": [],
   "builtInWeapons": {},
   "weaponSlots": [
     {

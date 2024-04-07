@@ -1,76 +1,101 @@
 package data.weapons;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
+import com.fs.starfarer.api.combat.listeners.DamageListener;
 
-public class TargetAssistBeam implements EveryFrameWeaponEffectPlugin { // Let's assume it works
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-    private float beamHitDuration = 0f;
+public class TargetAssistBeam implements BeamEffectPlugin { // Let's assume it works
 
-    ShipAPI savedTarget = null;
+    // Edit this stuff to get effect you need
+    private static final float beamEffectProgressionIncreasePerSecond = 20f;
+    private static final float beamEffectProgressionDecreasePerSecond = 40f;
+
+    private final Map<ShipAPI, Float> affectedShipsToProgression = new HashMap<>();
+
+
+    public TargetAssistBeam() {
+        Global.getLogger(TargetAssistBeam.class).warn("create TargetAssistBeam");
+    }
+
+    ShipAPI fonsi;
+
     @Override
-    public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
-        ShipAPI droneShip = weapon.getShip();
-        ShipAPI fonsi = droneShip.getDroneSource();
+    public void advance(float amount, CombatEngineAPI engine, BeamAPI beam) {
+        final ShipAPI targetAssistDrone = beam.getWeapon().getShip();
+
+        // Having several fonsi drones wouldn't work
+        if(fonsi == null) {
+            for (ShipAPI ship : engine.getShips()) {
+                if (ship.getHullSpec().getHullId().equals("pmmm_derelict_fonsi")) {
+                    fonsi = ship;
+                    fonsi.addListener(new DamageListener() {
+                        @Override
+                        public void reportDamageApplied(Object source, CombatEntityAPI target, ApplyDamageResultAPI result) {
+                            // We can implement threshold here something like "more than 100 damage per second"
+                            if(target == fonsi) {
+                                targetAssistDrone.setHoldFireOneFrame(true);
+                            }
+                        }
+                    });
+                }
+            }
+        }
 
         if(fonsi == null || !fonsi.isAlive()){
-            // Self-destruction
-            droneShip.setHulk(true);
-        }
-
-        ShipAPI target = null;
-        if(!weapon.getBeams().isEmpty()){
-            CombatEntityAPI targetEntity = weapon.getBeams().get(0).getDamageTarget();
-            if(targetEntity instanceof ShipAPI) {
-                target = (ShipAPI)targetEntity;
-                savedTarget = target;
+            for(ShipAPI affectedShip : affectedShipsToProgression.keySet()){
+                applyBeamEffect(affectedShip, 0.0f);
+            }
+            affectedShipsToProgression.clear();
+            beam.getWeapon().getShip().setHulk(true);
+        } else {
+            if(fonsi.getShipTarget() != targetAssistDrone.getShipTarget()) {
+                targetAssistDrone.setShipTarget(fonsi.getShipTarget());
             }
         }
 
-        if(target == null) {
-            if(savedTarget != null) {
-                beamHitDuration = 0f;
-                updateLevel(savedTarget, levelBeamHitDuration(beamHitDuration));
+        CombatEntityAPI targetEntity = beam.getDamageTarget();
+        if(targetEntity instanceof ShipAPI && !affectedShipsToProgression.containsKey(targetEntity)) {
+            affectedShipsToProgression.put((ShipAPI)targetEntity, 0.0f);
+        }
+
+        List<ShipAPI> noLongerAffectedShips = new ArrayList<>();
+        for(ShipAPI affectedShip : affectedShipsToProgression.keySet()){
+            float updatedEffectPercent = affectedShipsToProgression.get(affectedShip);
+            if(affectedShip == targetEntity) {
+                updatedEffectPercent = Math.min(updatedEffectPercent + beamEffectProgressionIncreasePerSecond * amount, 100f);
+                beam.setWidth(2f + 0.1f * updatedEffectPercent);
+            } else {
+                updatedEffectPercent = Math.max(updatedEffectPercent - beamEffectProgressionDecreasePerSecond * amount, 0.0f);
+                if(updatedEffectPercent == 0.0f) {
+                    noLongerAffectedShips.add(affectedShip);
+                }
             }
-        } else if(target.hasTag("FonsiTargetingBeam")) {
-            target.addTag(getTag(levelBeamHitDuration(beamHitDuration)));
-            beamHitDuration += amount;
-        } else {
-            target.addTag("FonsiTargetingBeam");
+            affectedShipsToProgression.put(affectedShip, updatedEffectPercent);
+            applyBeamEffect(affectedShip, updatedEffectPercent);
+        }
+
+        for(ShipAPI noLongerAffectedShip: noLongerAffectedShips) {
+            affectedShipsToProgression.remove(noLongerAffectedShip);
         }
     }
 
-    String getTag(int level){
-        return String.format("FonsiTargetingBeam_Level_%s", level);
-    }
-
-    void updateLevel(ShipAPI target, int level) {
-        switch (level) {
-            case 1:
-                target.getTags().remove(getTag(2));
-                target.addTag(getTag(1));
-                break;
-            case 2:
-                target.getTags().remove(getTag(3));
-                target.addTag(getTag(2));
-                break;
-            case 3:
-                target.addTag(getTag(3));
-                break;
-            default:
-                target.getTags().remove(getTag(1));
-                target.getTags().remove(getTag(2));
-                target.getTags().remove(getTag(3));
-                break;
-        }
-    }
-
-    int levelBeamHitDuration(float beamHitDuration) {
-        if(beamHitDuration < 3000f) {
-            return 1;
-        } else if (beamHitDuration < 6000f) {
-            return 2;
-        } else {
-            return 3;
+    public void applyBeamEffect(ShipAPI affectedShip, float beamEffectProgressionPercent) {
+        if (affectedShip != null) {
+            affectedShip.getMutableStats().getArmorDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
+            affectedShip.getMutableStats().getShieldDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
+            affectedShip.getMutableStats().getArmorDamageTakenMult().modifyMult("FonsiTargetingBeam", 1.0f + (0.5f * beamEffectProgressionPercent) / 100f);
+            affectedShip.getMutableStats().getMaxSpeed().modifyMult("FonsiTargetingBeam", 1.0f - (0.5f * beamEffectProgressionPercent) / 100f);
+            // Just an indicator
+            affectedShip.setAlphaMult(1f - (0.8f * beamEffectProgressionPercent) / 100f);
+            Global.getLogger(TargetAssistBeam.class).warn("affectedShip: " + affectedShip.getId() + " percent: " + beamEffectProgressionPercent);
         }
     }
 }
+
+
