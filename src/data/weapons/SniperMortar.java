@@ -28,8 +28,8 @@ public class SniperMortar implements EveryFrameWeaponEffectPlugin {
     }
 
     void applyCharge(WeaponAPI weapon, float chargePercent) {
-        weapon.getSpec().setMaxRange(420f + (1_000f * chargePercent) / 100f);
-        weapon.getDamage().getModifier().modifyFlat("SniperMortar", 10_000f * chargePercent);
+        weapon.getSpec().setMaxRange(400f + (1_600f * chargePercent) / 100f);
+        weapon.getDamage().getModifier().modifyFlat("SniperMortar", (10_000f * chargePercent) / 100f);
         weapon.getSpec().setMaxSpread(50f - (48f * chargePercent)/100f);
     }
 }
