@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class PirateFleetInflationListener implements FleetInflationListener {
     public static final String COMPMODS = "compmods"; //target hullmod ID
-    public static final float CHANCE = 0.15f; //chance for hullmod to spawn smod
+    public static final float CHANCE = 0.25f; //chance for hullmod to spawn smod
     public int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }
