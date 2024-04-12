@@ -18,9 +18,11 @@ public class TargetAssistBeam implements BeamEffectPlugin { // Let's assume it w
     }
 
     ShipAPI fonsi = null;
+    boolean fonsiWasDamaged;
 
     @Override
     public void advance(float amount, CombatEngineAPI engine, BeamAPI beam) {
+        
         final ShipAPI targetAssistDrone = beam.getWeapon().getShip();
 
         // Having several fonsi drones wouldn't work
@@ -33,13 +35,20 @@ public class TargetAssistBeam implements BeamEffectPlugin { // Let's assume it w
                         public void reportDamageApplied(Object source, CombatEntityAPI target, ApplyDamageResultAPI result) {
                             // We can implement threshold here something like "more than 100 damage per second"
                             if(target == fonsi) {
-                                targetAssistDrone.setHoldFireOneFrame(true);
+                                fonsiWasDamaged = true;
                             }
                         }
                     });
                     engine.addPlugin(new TargetAssistBeamPlugin(engine, fonsi, targetAssistDrone));
                 }
             }
+        }
+
+        if(fonsiWasDamaged) {
+//            beam.getWeapon().setForceNoFireOneFrame(true);
+//            fonsiWasDamaged = false;
+        } else if(targetAssistDrone.isAlive()){
+            beam.getWeapon().setForceFireOneFrame(true);
         }
     }
 }
