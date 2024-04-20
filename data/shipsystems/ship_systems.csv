@@ -1,9 +1,14 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
-Entropic Collapse,entropiccollapse,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
 Improvised Mine Strike,mine_strike_frigate,,,,,,0.1,,2,0.1,.5,,0.25,0,,,,,,,,,,,,,
-Isochronal Temporal Warp,omegawarp,300,,,,,0.25,,2,0.1,.7,2,.25,0,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
-Active Cloak,activecloak,300,,,,,,,,,1,,0.5,2,TRUE,TRUE,TRUE,TRUE,TRUE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+Isochronal Temporal Warp,omegawarp,100,,,,,0.25,,2,0.1,.8,1.5,.25,0,,,,TRUE,TRUE,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Synth Drive,synthdash,,,,,,0.25,,1,.10,.1,1.5,.2,0,,,,,TRUE,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Rift Emitter,emp_omega,1,,,,,0.2,,,,1,4,1,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
 Degraded Ammo Feeder,degammofeed,,,,,,,,,,1,4,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#testing,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rdtest,rdtest,,,,,,,,2,0.05,,,,3,,,,,,,,,,,,,
+Entropic Collapse,entropiccollapse,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Minkowski Space Shift,minkowskispace,300,,,,,,,,,1.5,,1,2,TRUE,,TRUE,TRUE,FALSE,,,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#crossmod,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancer Lunge,acs_raiderdrivesafe_crossmod,1,,,,,,,,,2,9,1,25,,,,,,FALSE,FALSE,FALSE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png

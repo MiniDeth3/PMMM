@@ -1,9 +1,9 @@
 {
-	"id":"activecloak",
+	"id":"minkowskispace",
 	"type":"PHASE_CLOAK",
 	"aiType":"PHASE_CLOAK",
 	
-	"statsScript":"data.shipsystems.ActiveCloakStats",
+	"statsScript":"data.shipsystems.MinkowskiSpaceStats",
 	"runScriptWhilePaused":true, # only for the player's ship
 	"runScriptWhileIdle":true,  # this means unapply() never gets called
 	"blockActionsWhileChargingDown":false,

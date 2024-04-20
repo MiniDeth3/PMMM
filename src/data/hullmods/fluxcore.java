@@ -68,7 +68,9 @@ public class fluxcore extends BaseHullMod {
         }
 
         if (ship.getFluxTracker().getFluxLevel() > 0.15f) {
-            Global.getSoundPlayer().playLoop("system_high_energy_focus_loop", ship, ship.getFluxLevel() * 2.5f, ship.getFluxLevel() * 1.5f + 0.6f, ship.getLocation(), ship.getVelocity());
+            Global.getSoundPlayer().playLoop("system_high_energy_focus_loop", ship, ship.getFluxLevel() * 2.5f, ship.getFluxLevel() * 1f + 0.6f, ship.getLocation(), ship.getVelocity());
+            Global.getSoundPlayer().playLoop("system_high_energy_focus_loop", ship, ship.getFluxLevel() * 0.5f, ship.getFluxLevel() * 1.5f + 0.6f, ship.getLocation(), ship.getVelocity());
+            Global.getSoundPlayer().playLoop("high_intensity_laser_loop", ship, ship.getFluxLevel() * 0.8f, ship.getFluxLevel() * 0.8f, ship.getLocation(), ship.getVelocity());
             Global.getSoundPlayer().playLoop("system_emp_emitter_loop", ship, ship.getFluxLevel() + 0.5f, (ship.getFluxLevel() + 0.1f), ship.getLocation(), ship.getVelocity());
 
             float EMP_arc_speed_level = (0.9f - ship.getFluxTracker().getFluxLevel());

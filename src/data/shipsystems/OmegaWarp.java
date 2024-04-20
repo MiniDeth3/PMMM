@@ -61,6 +61,9 @@ public class OmegaWarp extends BaseShipSystemScript {
 		} else if (state == State.OUT) {
 			stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
 			stats.getMaxTurnRate().unmodify(id);
+			stats.getDeceleration().unmodify(id);
+			stats.getAcceleration().unmodify(id);
+			stats.getTurnAcceleration().unmodify(id);
 
 			jitterRangeBonus = jitterLevel * maxRangeBonus;
 		}
@@ -104,6 +107,9 @@ public class OmegaWarp extends BaseShipSystemScript {
 
 		stats.getMaxSpeed().unmodify(id); // to slow down ship to its regular top speed while powering drive down
 		stats.getMaxTurnRate().unmodify(id);
+		stats.getDeceleration().unmodify(id);
+		stats.getAcceleration().unmodify(id);
+		stats.getTurnAcceleration().unmodify(id);
 		
 //		stats.getHullDamageTakenMult().unmodify(id);
 //		stats.getArmorDamageTakenMult().unmodify(id);
