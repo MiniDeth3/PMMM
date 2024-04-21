@@ -8,10 +8,10 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="LunaLib" level="project" />
-    <orderEntry type="library" name="ExerelinCore" level="project" />
-    <orderEntry type="library" name="LazyLib" level="project" />
-    <orderEntry type="library" name="MagicLib" level="project" />
-    <orderEntry type="library" name="starfarer.api" level="project" />
+    <orderEntry type="library" exported="" name="LunaLib" level="project" />
+    <orderEntry type="library" exported="" name="ExerelinCore" level="project" />
+    <orderEntry type="library" exported="" name="LazyLib" level="project" />
+    <orderEntry type="library" exported="" name="MagicLib" level="project" />
+    <orderEntry type="library" exported="" name="starfarer.api" level="project" />
   </component>
 </module>
