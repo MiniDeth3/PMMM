@@ -1,6 +1,8 @@
 package scripts;
 
 import com.fs.starfarer.api.Global;
+import com.fs.starfarer.api.campaign.FactionAPI;
+import com.fs.starfarer.loading.specs.FactionDoctrine;
 
 public class PMMCrossmodScript {
 
@@ -16,23 +18,28 @@ public class PMMCrossmodScript {
 
     //Tags
     public static String SHIP_TAG_PIRATE_BP = "pirate_bp";
-    public static String SHIP_TAG_PIRATE = "pirate";
+    public static String SHIP_TAG_PIRATE = "pirates";
     public static String SHIP_TAG_RARE_BP = "rare_bp";
 
     public static void initVRICrossmod(){
         IsVRIEnabled = true;
         Global.getSettings().getHullSpec(PIRATE_GAUNTLET).addTag(SHIP_TAG_PIRATE_BP);
+        Global.getSettings().getHullSpec(PIRATE_GAUNTLET).addTag(SHIP_TAG_PIRATE);
+
 
     }
     public static void initIndiesCrossmod(){
         IsIndiesEnabled = true;
         Global.getSettings().getHullSpec(PIRATE_SUPERCHAMP).addTag(SHIP_TAG_PIRATE_BP);
+        Global.getSettings().getHullSpec(PIRATE_SUPERCHAMP).addTag(SHIP_TAG_PIRATE);
+
 
     }
     public static void initScrapyardCrossmod(){
         IsScrapyardEnabled = true;
         Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_PIRATE);
         Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_RARE_BP);
+        
 
     }
 }

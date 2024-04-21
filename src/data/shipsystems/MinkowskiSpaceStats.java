@@ -65,7 +65,7 @@ public class MinkowskiSpaceStats extends BaseShipSystemScript {
 		if (Global.getCombatEngine().isPaused()) {
 			return;
 		}
-		
+
 		float level = effectLevel;
 		float levelForAlpha = level;
 		float jitterLevel = effectLevel;

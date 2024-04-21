@@ -36,18 +36,6 @@ public class PMMMmodplugin extends BaseModPlugin {
     @Override
     public void onApplicationLoad() throws Exception {
         log.info("Welcome to PMMM! Im MiniDeth3 and im in your logs now...");
-        if (Global.getSettings().getModManager().isModEnabled("TouchOfVanilla_vri")){
-            PMMCrossmodScript.initVRICrossmod();
-            log.info("So you're a teal enjoyer!");
-        }
-        if (Global.getSettings().getModManager().isModEnabled("aerialcombatsuit")){
-            PMMCrossmodScript.initIndiesCrossmod();
-            log.info("Cool backwards ships!");
-        }
-        if (Global.getSettings().getModManager().isModEnabled("Scrapyard")){
-            PMMCrossmodScript.initScrapyardCrossmod();
-            log.info("\"Where spacers sees scrap metal, a salvager sees a fleet\"");
-        }
     }
 
     /**
@@ -62,6 +50,18 @@ public class PMMMmodplugin extends BaseModPlugin {
             }
         }
 
+        if (Global.getSettings().getModManager().isModEnabled("TouchOfVanilla_vri")){
+            PMMCrossmodScript.initVRICrossmod();
+            log.info("So you're a teal enjoyer!");
+        }
+        if (Global.getSettings().getModManager().isModEnabled("aerialcombatsuit")){
+            PMMCrossmodScript.initIndiesCrossmod();
+            log.info("Cool backwards ships!");
+        }
+        if (Global.getSettings().getModManager().isModEnabled("Scrapyard")){
+            PMMCrossmodScript.initScrapyardCrossmod();
+            log.info("\"Where spacers sees scrap metal, a salvager sees a fleet\"");
+        }
         setListenersIfNeeded();
         ListenerManagerAPI l = Global.getSector().getListenerManager();
             if (!l.hasListenerOfClass(PirateFleetInflationListener .class)) {

@@ -1,0 +1,40 @@
+{
+    "displayName": "Armorbreaker",
+    "fluxCapacitors": 9,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "tempest_omega",
+    "hullMods": [
+        "fluxcoil",
+        "fluxdistributor",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "tempest_omega_Armorbreaker",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "disintegrator",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "amsrm",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "disintegrator",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}
