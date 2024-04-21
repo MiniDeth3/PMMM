@@ -7,8 +7,6 @@
 			"falcon_p":0.5, 			# it's pretty good, so make it more rare
 			"eagle_pirates":0.3, 		# it's pretty good, so make it more rare
 			"champion2":0.25, 			# Alittledeadly
-			"lumen_pirates":100,		#rare due to lore
-			"fulgent_pirates":100,		#rare due to lore
 			"champion_pirates":0.3,
 			"wolf_d_pirates":0.8,
 			"mudskipper2":1.3,
