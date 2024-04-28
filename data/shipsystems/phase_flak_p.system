@@ -1,8 +1,0 @@
-{
-	"id":"phase_flak_p",
-	"type":"WEAPON",
-	"aiType":"CANISTER_FLAK",
-	
-	"weaponDataId":"miniminelayer",
-	"outOfUsesSound":"gun_out_of_ammo",
-}

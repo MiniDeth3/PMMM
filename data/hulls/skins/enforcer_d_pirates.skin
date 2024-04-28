@@ -6,13 +6,13 @@
 	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
-	"systemId":"degammofeed",
-	"spriteName":"graphics/ships/enforcer_pirates.png",
+	"systemId":"pmm_degammofeed",
+	"spriteName":"graphics/ships/pmm_enforcer_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
-	"builtInMods":["turretgyros","compmods",],
+	"builtInMods":["turretgyros","pmm_compmods",],
 	"builtInWeapons":{
     },
 }

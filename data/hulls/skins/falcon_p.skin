@@ -10,7 +10,6 @@
 	"suppliesToRecover":20,
 	"suppliesPerMonth":20,
 	"baseValueMult":1.25,
-	"spriteName":"graphics/ships/falcon/falcon_p.png",
 	"removeWeaponSlots":["WS 003","WS 004"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
@@ -45,7 +44,7 @@
             "type": "MISSILE"
 		},
 	},
-	"builtInMods":["augmentedengines","unstable_injector","compmods",],
+	"builtInMods":["augmentedengines","unstable_injector","pmm_compmods",],
 	"builtInWeapons":{
     },
 }

@@ -1,0 +1,21 @@
+{
+	"baseHullId":"shepherd",
+	"skinHullId":"pmm_shepherd_p",
+	"hullName":"Shepherd (P)",
+	"descriptionId":"shepherd",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"tags":["pirate_bp","pirates",],
+	"tech":"Pirate",
+	"ordnancePoints":10,
+	"baseValueMult":1.3,
+	"spriteName":"graphics/ships/pmm_shepherd_p.png",
+	"removeWeaponSlots":["WS 008"], 		# ids
+	"removeBuiltInWings":["borer_wing"],
+	"builtInWings":["pmm_mini_blasterdrone_wing"], # wing ids; breaks variant compatibility with base hull
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["pmm_compmods",],
+	"builtInWeapons":{
+    },
+}

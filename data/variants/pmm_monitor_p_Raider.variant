@@ -1,0 +1,30 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 9,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "pmm_monitor_p",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_monitor_p_Raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavyburst",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "shredder",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

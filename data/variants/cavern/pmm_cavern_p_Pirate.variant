@@ -1,0 +1,48 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 24,
+    "fluxVents": 27,
+    "goalVariant": true,
+    "hullId": "pmm_cavern_p",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_cavern_p_Pirate",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "pulselaser",
+                "WS 007": "pulselaser",
+                "WS 000": "pulselaser",
+                "WS 003": "pulselaser",
+                "WS0001": "heavymauler",
+                "WS 010": "irpulse",
+                "WS 011": "irpulse",
+                "WS 012": "irpulse",
+                "WS 013": "irpulse",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "harpoonpod",
+                "WS 005": "harpoonpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "devastator",
+                "WS 008": "pdburst",
+                "WS 009": "pdburst",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

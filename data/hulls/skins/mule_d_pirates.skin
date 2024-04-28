@@ -8,7 +8,7 @@
 	"ordnancePoints":60,
 	"tech":"Pirate",
 	"baseValueMult":1.2,
-	"spriteName":"graphics/ships/mule_pirates.png",
+	"spriteName":"graphics/ships/pmm_mule_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
@@ -38,5 +38,5 @@
 			"angle": 150,
 		},
 	},
-	"builtInMods":["shielded_holds","compmods",],
+	"builtInMods":["shielded_holds","pmm_compmods",],
 }

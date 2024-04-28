@@ -1,0 +1,34 @@
+{
+    "displayName": "Overdriven",
+    "fluxCapacitors": 8,
+    "fluxVents": 0,
+	"goalVariant": true,
+    "hullId": "pmm_brawler_p",
+    "hullMods": ["safetyoverrides"],
+    "permaMods": [],
+    "sMods": [],
+	"suppressedMods": [],
+    "variantId": "pmm_brawler_p_Overdriven",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "phasebeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "reaper"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightag"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "heavymg"}
+        }
+    ]
+}

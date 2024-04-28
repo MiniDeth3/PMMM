@@ -7,7 +7,7 @@
 	#"tags":["pirate_bp", "special_allows_system_use", "system_allows_special_use"],
 	"tags":["rare_bp", "special_allows_system_use", "system_allows_special_use"],
 	"tech":"Pirate",
-	"spriteName":"graphics/ships/vanguard_pirate.png",
+	"spriteName":"graphics/ships/pmm_vanguard_p.png",
 	"systemId":"displacer_degraded",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
@@ -30,5 +30,5 @@
             "type": "SYNERGY",
 		},
 	},
-	"builtInMods":["compmods",],
+	"builtInMods":["pmm_compmods",],
 }

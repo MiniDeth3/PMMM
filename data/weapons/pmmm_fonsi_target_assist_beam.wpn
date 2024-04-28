@@ -5,11 +5,11 @@
 	"size":"SMALL",
 	#"displayArcRadius":550,
 
-	"turretSprite":"graphics/weapons/pirate_thermal_turret_base.png",
-	"turretGlowSprite":"graphics/weapons/pirate_thermal_glow.png",
+	"turretSprite":"graphics/weapons/pmm_thermal_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/pmm_thermal_glow.png",
 
-	"hardpointSprite":"graphics/weapons/pirate_thermal_turret_base.png",
-	"hardpointGlowSprite":"graphics/weapons/pirate_thermal_glow.png",
+	"hardpointSprite":"graphics/weapons/pmm_thermal_turret_base.png",
+	"hardpointGlowSprite":"graphics/weapons/pmm_thermal_glow.png",
 
 	"turretOffsets":[15, 0],
 	"turretAngleOffsets":[0],

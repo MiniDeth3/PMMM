@@ -6,7 +6,7 @@
 	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
-	"spriteName":"graphics/ships/buffalo_pirates.png",
+	"spriteName":"graphics/ships/pmm_buffalo_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":["degraded_engines"], 		# hullmod ids
@@ -20,7 +20,7 @@
             "type": "BALLISTIC"
 		}	
 	},
-	"builtInMods":["shielded_holds","ill_advised", "comp_storage","phasefield","compmods",],
+	"builtInMods":["shielded_holds","ill_advised", "comp_storage","phasefield","pmm_compmods",],
 	"builtInWeapons":{
 	},
 }

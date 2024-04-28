@@ -45,7 +45,7 @@
         "civgrade",
         "converted_bay",
         "ground_support",
-		"compmods",
+		"pmm_compmods",
     ],
     "center": [
         93,
@@ -130,7 +130,7 @@
         1
     ],
     "shieldRadius": 170,
-    "spriteName": "graphics/ships/colossus/colossus32_pirate.png",
+    "spriteName": "graphics/ships/colossus/pmm_colossus32_pirate.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

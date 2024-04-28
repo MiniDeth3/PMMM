@@ -9,13 +9,13 @@
 	"tech":"Pirate",
 	"addHints":["COMBAT"],
 	"fighterBays":-1,
-	"builtInMods":["converted_bay","masscargoconvert","compmods",],
-	"spriteName":"graphics/ships/hound_pirates.png",
+	"builtInMods":["converted_bay","pmm_masscargoconvert","pmm_compmods",],
+	"spriteName":"graphics/ships/pmm_hound_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
 	"builtInWeapons":{
     },
-	"builtInWings":["mini_hook_wing",]
+	"builtInWings":["pmm_mini_hook_wing",]
 }

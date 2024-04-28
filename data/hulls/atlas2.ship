@@ -1,4 +1,4 @@
 {    
-	"builtInMods": ["compmods","advancedcore"],
+	"builtInMods": ["pmm_compmods","advancedcore"],
     "hullId": "atlas2",
 }

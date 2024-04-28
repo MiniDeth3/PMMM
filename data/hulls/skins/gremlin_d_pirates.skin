@@ -8,8 +8,8 @@
 	"tech":"Pirate",
 	"ordnancePoints":20,
 	"baseValueMult":1.2,
-	"systemId":"mine_strike_frigate",
-	"spriteName":"graphics/ships/phase/gremlin_p.png",
+	"systemId":"pmm_mine_strike_frigate",
+	"spriteName":"graphics/ships/phase/pmm_gremlin_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
@@ -23,7 +23,7 @@
 			"mount": "HIDDEN",
 		},
 	},
-	"builtInMods":["ill_advised","compmods",],
+	"builtInMods":["ill_advised","pmm_compmods",],
 	"builtInWeapons":{
 	},
 }

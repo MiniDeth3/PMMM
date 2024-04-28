@@ -7,7 +7,7 @@
 	#"tags":["pirate_bp"],
 	"tags":["rare_bp"],
 	"tech":"Pirate",
-	"spriteName":"graphics/ships/manticore/manticore_pirate.png",
+	"spriteName":"graphics/ships/manticore/pmm_manticore_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
@@ -23,8 +23,8 @@
 		},	
 	},
 	"builtInWeapons":{
-	"WS 008": "breachM",
-	"WS 009": "breachM",
+	"WS 008": "pmm_breach_auto",
+	"WS 009": "pmm_breach_auto",
     },   
-	"builtInMods":["compmods",],
+	"builtInMods":["pmm_compmods",],
 }

@@ -11,7 +11,7 @@
 	"baseValueMult":1.3,
 	"suppliesToRecover":6,
 	"suppliesPerMonth":6,
-	"spriteName":"graphics/ships/phase/afflictor_d_pirates.png",
+	"spriteName":"graphics/ships/phase/pmm_afflictor_p.png",
 	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
@@ -28,5 +28,5 @@
 	},
 	"builtInWeapons":{
     },
-	"builtInMods":["compmods",],
+	"builtInMods":["pmm_compmods",],
 }

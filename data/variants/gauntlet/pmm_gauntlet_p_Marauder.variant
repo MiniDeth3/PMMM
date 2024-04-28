@@ -1,0 +1,53 @@
+{
+    "displayName": "Marauder",
+    "fluxCapacitors": 29,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "pmm_gauntlet_p",
+    "hullMods": [
+        "blast_doors",
+        "fluxcoil",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_gauntlet_p_Marauder",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "sabotpod",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "ionpulser",
+                "WS 005": "ionpulser",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "irautolance",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "flak",
+                "WS 004": "heavyburst",
+            }
+        },
+    ],
+    "wings": [
+        "blasterdrone_wing",
+        "blasterdrone_wing",
+    ],
+    "modules": [],
+}

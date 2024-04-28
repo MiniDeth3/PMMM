@@ -1,0 +1,28 @@
+{
+  "hullName": "Makeshift Plate",
+  "hullId": "pmm_armorplate1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/armor/pmm_armorplate1.png",
+  "style": "MIDLINE",
+  "height": 21,
+  "width": 51,
+  "center": [26, 4],
+  "collisionRadius": 24.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "noshield",
+    "always_detaches",
+    "nodam_explosion",
+	"reflectplate"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    15, -26,
+    3, -21,
+    3, 21,
+    15, 26
+  ]
+}

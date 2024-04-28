@@ -11,7 +11,7 @@
 	"baseValueMult":.8,
 	"suppliesToRecover":6,
 	"suppliesPerMonth":6,
-	"spriteName":"graphics/ships/phase/shade_d_pirates.png",
+	"spriteName":"graphics/ships/phase/pmm_shade_p.png",
 	"removeWeaponSlots":["WS 003", "WS 005"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
@@ -27,7 +27,7 @@
             "type": "UNIVERSAL"
 		},
 	},
-	"builtInMods":["unstable_injector","compmods",],
+	"builtInMods":["unstable_injector","pmm_compmods",],
 	"builtInWeapons":{
     },
 }

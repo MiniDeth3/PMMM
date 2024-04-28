@@ -1,0 +1,59 @@
+{
+    "displayName": "Pirate",
+    "fluxCapacitors": 24,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "pmm_gauntlet_p",
+    "hullMods": [
+        "fluxcoil",
+        "missleracks",
+        "unstable_injector",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_gauntlet_p_Pirate",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "pulselaser",
+                "WS 000": "pulselaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "typhoon",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "gravitonbeam",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavyburst",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "heavymg",
+            }
+        },
+    ],
+    "wings": [
+        "pirate_hook_wing",
+        "pirate_hook_wing",
+    ],
+    "modules": [],
+}

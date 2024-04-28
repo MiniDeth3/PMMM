@@ -48,7 +48,7 @@
         1
     ],
     "shieldRadius": 20,
-    "spriteName": "graphics/ships/fighters/hook.png",
+    "spriteName": "graphics/ships/fighters/pmm_hook.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
 	"builtInMods": [],

@@ -10,7 +10,7 @@
 	"tech":"Pirate",
 	"builtInWings": [],
 	"fighterBays":0,
-	"spriteName":"graphics/ships/venture_p.png",
+	"spriteName":"graphics/ships/pmm_venture_p.png",
 	"baseValueMult":1,
 	"removeHints":[CIVILIAN],
 	#"addHints":[],
@@ -19,7 +19,7 @@
 	#"removeBuiltInMods":["civgrade"], 	# hullmod ids
 	#"removeBuiltInWeapons":[], 			# weapon slot ids
 	#"builtInMods":["ill_advised", "comp_storage"],
-	"builtInMods":["comp_storage","HMI","compmods",],
+	"builtInMods":["comp_storage","pmm_HMI","pmm_compmods",],
 	"builtInWeapons":{
     },
     "weaponSlotChanges":{

@@ -9,7 +9,7 @@
 	"ordnancePoints":47,
 	"baseValueMult":.9,
 	"systemId":"displacer",
-	"spriteName":"graphics/ships/wolf_p.png",
+	"spriteName":"graphics/ships/pmm_wolf_p.png",
 	"suppliesToRecover":4,
 	"suppliesPerMonth":4,
     "weaponSlotChanges":{ # breaks variant compatibility with base hull
@@ -24,7 +24,7 @@
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
-	"builtInMods":["compmods",],
+	"builtInMods":["pmm_compmods",],
 	"builtInWeapons":{
     },
 }

@@ -9,7 +9,7 @@
 	"ordnancePoints":20,
 	"baseValueMult":.8,
 	"systemId":"fastmissileracks",
-	"spriteName":"graphics/ships/kite_p.png",
+	"spriteName":"graphics/ships/pmm_kite_p.png",
 	"removeHints":[CIVILIAN],
 	"addHints":[ALWAYS_PANIC],	
 	"removeWeaponSlots":[], 		# ids
@@ -24,7 +24,7 @@
             "type": "MISSILE",
 		}	
 	},
-	"builtInMods":["civgrade","noshield","missleracks","ill_advised","compmods",],
+	"builtInMods":["civgrade","pmm_noshield","missleracks","ill_advised","pmm_compmods",],
 	"builtInWeapons":{
     },
 }

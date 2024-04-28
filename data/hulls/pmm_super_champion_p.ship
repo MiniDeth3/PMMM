@@ -1,0 +1,188 @@
+{
+  "hullName": "Savvaran (P)",
+  "hullId": "pmm_super_champion_p",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/indies/pmm_super_champion_p.png",
+  "style": "MIDLINE",
+  "height": 336,
+  "width": 182,
+  "center": [91, 168],
+  "collisionRadius": 326.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 237,
+  "viewOffset": 0,
+  "builtInMods": [
+    "pmm_compmods"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": 0,
+      "locations": [91, 50]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 131,
+      "angle": -0,
+      "locations": [91, -50]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [151, 37]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -0,
+      "locations": [151, -37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": -0,
+      "locations": [147, 64]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 187,
+      "angle": 0,
+      "locations": [147, -64]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": -0,
+      "locations": [116, 28]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 218,
+      "angle": 0,
+      "locations": [116, -28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 90,
+      "locations": [39, 55]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -90,
+      "locations": [39, -55]
+    },
+    {
+      "id": "WS0013",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 325,
+      "angle": 0,
+      "locations": [87, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [136, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-98, -17],
+      "length": 98.629997,
+      "width": 24.9,
+      "angle": 180,
+      "contrailSize": 24.9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-98, 17],
+      "length": 98.629997,
+      "width": 24.9,
+      "angle": -180,
+      "contrailSize": 24.9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-84.5, -37.5],
+      "length": 60.970001,
+      "width": 18.700001,
+      "angle": -180,
+      "contrailSize": 18.700001,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-84.5, 37.5],
+      "length": 60.970001,
+      "width": 18.700001,
+      "angle": 180,
+      "contrailSize": 18.700001,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [62.5, -55.5],
+      "length": 30.16,
+      "width": 13.31,
+      "angle": -135,
+      "contrailSize": 13.31,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [62.5, 55.5],
+      "length": 30.16,
+      "width": 13.31,
+      "angle": 135,
+      "contrailSize": 13.31,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    145, -67,
+    36, -63,
+    -93, -71.5,
+    -83.5, -6,
+    -144.5, -0,
+    -82.5, 10,
+    -91, 72,
+    36, 63,
+    145, 67
+  ]
+}
