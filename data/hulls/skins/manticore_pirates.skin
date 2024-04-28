@@ -7,7 +7,7 @@
 	#"tags":["pirate_bp"],
 	"tags":["rare_bp"],
 	"tech":"Pirate",
-	"spriteName":"graphics/ships/manticore_pirate.png",
+	"spriteName":"graphics/ships/manticore/manticore_pirate.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
