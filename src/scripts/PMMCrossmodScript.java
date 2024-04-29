@@ -13,13 +13,13 @@ public class PMMCrossmodScript {
     public static boolean IsIndiesEnabled = false;
 
     //Ships
-    public static String PIRATE_GAUNTLET = "gauntlet_pirates";
-    public static String PIRATE_SUPERCHAMP = "super_champion_pirates";
-    public static String PIRATE_CAVERN = "cavern_pirates";
+    public static String PIRATE_GAUNTLET = "pmm_gauntlet_p";
+    public static String PIRATE_SUPERCHAMP = "pmm_super_champion_p";
+    public static String PIRATE_CAVERN = "pmm_cavern_p";
 
     //Tags
     public static String SHIP_TAG_PIRATE_BP = "pirate_bp";
-    public static String SHIP_TAG_PIRATE = "pirates";
+    public static String SHIP_TAG_PIRATE = "pirates"; //Use addknownships instead
     public static String SHIP_TAG_RARE_BP = "rare_bp";
 
     public static void initVRICrossmod(){

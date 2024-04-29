@@ -17,8 +17,8 @@
 	"unstable_injector"
   ],
   "builtInWings": [
-    "mini_blasterdrone_wing",
-    "mini_blasterdrone_wing"
+    "pmm_mini_blasterdrone_wing",
+    "pmm_mini_blasterdrone_wing"
   ],
   "weaponSlots": [
     {

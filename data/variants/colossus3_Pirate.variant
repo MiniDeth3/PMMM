@@ -36,9 +36,9 @@
         },
     ],
     "wings": [
-        "pirate_hook_wing",
-        "pirate_hook_wing",
-        "blasterdrone_wing",
+        "pmm_hook_wing",
+        "pmm_hook_wing",
+        "pmm_blasterdrone_wing",
     ],
     "modules": [],
 }

@@ -12,7 +12,7 @@
 	"shieldRadius": 24,
 	"viewOffset": 0,
 	"builtInMods": [
-	"limitedgrid"],
+	"pmm_limitedgrid"],
 	"weaponSlots": [
 		{
 		"id": "WS 001",

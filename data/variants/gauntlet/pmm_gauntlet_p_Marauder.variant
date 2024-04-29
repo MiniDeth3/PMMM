@@ -46,8 +46,8 @@
         },
     ],
     "wings": [
-        "blasterdrone_wing",
-        "blasterdrone_wing",
+        "pmm_blasterdrone_wing",
+        "pmm_blasterdrone_wing",
     ],
     "modules": [],
 }

@@ -44,7 +44,7 @@
         },
     ],
     "wings": [
-        "pirate_hook_wing",
+        "pmm_hook_wing",
     ],
     "modules": [],
 }

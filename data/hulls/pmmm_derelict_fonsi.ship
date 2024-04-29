@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInWings": ["pmmm_derelict_fonsi_target_drone"],
   "builtInMods": [
-    "pmm_fluxcore","enhanced_explosion","high_maintenance","do_not_back_off","pmm_compmods",
+    "pmm_fluxcore","pmm_enhanced_explosion","high_maintenance","do_not_back_off","pmm_compmods",
   ],
   "builtInWeapons": {},
   "weaponSlots": [

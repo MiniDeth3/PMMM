@@ -23,3 +23,5 @@ Enhanced Explosion,pmm_enhanced_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0
 Limited Energy Grid,pmm_limitedgrid,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.limitedgrid,Disables ship permanetly if flux cap is reached,,,
 Cargo Convert,pmm_masscargoconvert,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.masscargoconvert,Way to reduce cargo on .skin ships,Reduces Cargo,,
 Triflect™ Powered Armor,pmm_reflectplate,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.ReflectivePlate,An experimental power armor plate made to counter beam weaponry.,Reflects Lasers,,graphics/hullmods/advanced_optics.png
+,,,,,,,,,,,,,,,,,,,
+flux,c2flux,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.c2flux,Sets flux at 70 percent.,70% flux,,

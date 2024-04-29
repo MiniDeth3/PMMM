@@ -11,7 +11,7 @@
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
 	"removeBuiltInWeapons":[], 		# weapon slot ids
-	"systemId":"degammofeed",
+	"systemId":"pmm_degammofeed",
 	"builtInMods":["pmm_compmods","augmentedengines","unstable_injector"],
 	"builtInWeapons":{
     },
