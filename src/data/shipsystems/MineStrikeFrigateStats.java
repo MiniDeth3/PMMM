@@ -126,7 +126,7 @@ public class MineStrikeFrigateStats extends BaseShipSystemScript implements Mine
 		
 		//Vector2f currLoc = mineLoc;
 		MissileAPI mine = (MissileAPI) engine.spawnProjectile(source, null, 
-															  "miniminelayer",
+															  "pmm_miniminelayer",
 															  currLoc, 
 															  (float) Math.random() * 360f, null);
 		if (source != null) {

@@ -9,6 +9,7 @@ import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import com.fs.starfarer.api.loading.HullModSpecAPI;
+import data.hullmods.ShardSpawner;
 import data.listeners.PirateFleetInflationListener;
 import org.apache.log4j.Logger;
 import scripts.PMMCrossmodScript;
@@ -18,10 +19,10 @@ import java.util.Iterator;
 
 public class PMMMmodplugin extends BaseModPlugin {
 
-    public String TRIQUETRA = "fury_omega";
-    public String AEON = "shrike_omega";
-    public String SATUS = "satus_shard";
-    public String PERCEPT = "tempest_omega";
+    public String TRIQUETRA = "pmm_fury_omega";
+    public String AEON = "pmm_shrike_omega";
+    public String SATUS = "pmm_satus_shard";
+    public String PERCEPT = "pmm_tempest_omega";
 
     public Logger log = Logger.getLogger(this.getClass());
     public void setListenersIfNeeded() {
@@ -45,7 +46,7 @@ public class PMMMmodplugin extends BaseModPlugin {
     public void onGameLoad(boolean WasEnabledBefore){
         for (ShipHullSpecAPI hullSpec : Global.getSettings().getAllShipHullSpecs()) {
             if (hullSpec.getManufacturer().contains("Pirate") && !hullSpec.isBuiltInMod("compmods")) {
-                hullSpec.addBuiltInMod("compmods");
+                hullSpec.addBuiltInMod("pmm_compmods");
                 log.info("Added Pirate Modifications to " + hullSpec.getHullNameWithDashClass());
             }
         }
@@ -75,11 +76,11 @@ public class PMMMmodplugin extends BaseModPlugin {
             Boolean omega = PMMLunaSettings.OmegaToggle();
             FactionAPI omegafac = Global.getSector().getFaction(Factions.OMEGA);
                 if (omega){
-                        omegafac.addKnownShip(TRIQUETRA, false);
-                        omegafac.addKnownShip(AEON, false);
-                        omegafac.addKnownShip(SATUS, false);
-                        omegafac.addKnownShip(PERCEPT, false);
-                    }
+                    omegafac.addKnownShip(TRIQUETRA, false);
+                    omegafac.addKnownShip(AEON, false);
+                    omegafac.addKnownShip(SATUS, false);
+                    omegafac.addKnownShip(PERCEPT, false);
+                }
                 if (!omega) {
                     omegafac.removeKnownShip(TRIQUETRA);
                     omegafac.removeKnownShip(AEON);

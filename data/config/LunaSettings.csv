@@ -21,5 +21,7 @@ Can be retrieved as a String.",,,Examples
 pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaMod.,,,,,PMM
 pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow,Color,#FFC864,,Select the color that ballistic weapons will glow on ships with s-modded pirate modifications.,,,PMM
 pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow,Color,#9B78FF,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,PMM
-pmm_omegatoggle,PMM Omega Hull Toggle,Boolean,true,,"Enables or Disables the spawning of the Satus, Aeon, and Triquetra in Omega fleets.",,,PMM
+pmm_omegatoggle,PMM Omega Hull Toggle,Boolean,true,,"Enables or Disables the spawning of the Satus, Aeon, and Triquetra in Omega fleets.
+
+!!Note This requires game restart to apply to shard spawning!!",,,PMM
 ,,,,,,,,

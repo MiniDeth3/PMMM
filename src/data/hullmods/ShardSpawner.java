@@ -36,14 +36,18 @@ import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
+import scripts.PMMLunaSettings;
 
 public class ShardSpawner extends BaseHullMod {
 
 	public static Color JITTER_COLOR = new Color(100,100,255,50);
 	public static String DATA_KEY = "core_shard_spawner_data_key";
-	
+	public static float PMM_WEIGHT;
+	public static float PMM_WEIGHT_TEST = 10f;
+	public static float PMM_WEIGHT_RARE;
+	public static float PMM_WEIGHT_RARE_TEST = 4f;
 	public static float SPAWN_TIME = 4f;
-	
+
 	public static enum ShardType {
 		GENERAL,
 		ANTI_ARMOR,
@@ -51,8 +55,9 @@ public class ShardSpawner extends BaseHullMod {
 		POINT_DEFENSE,
 		MISSILE,
 	}
-	
+
 	public static class ShardTypeVariants {
+
 		public Map<ShardType, WeightedRandomPicker<String>> variants = new HashMap<ShardType, WeightedRandomPicker<String>>();
 		public ShardTypeVariants() {
 		}
@@ -65,9 +70,13 @@ public class ShardSpawner extends BaseHullMod {
 			return result;
 		}
 	}
-	
 	public static Map<HullSize, ShardTypeVariants> variantData = new HashMap<HullSize, ShardTypeVariants>();
+
 	static {
+		Boolean omega = PMMLunaSettings.OmegaToggle().equals(true);
+		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_TEST : 0f);  //This disables/enables pmm omega shard spawning.
+		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_TEST : 0f); // Note: Seems to require restart to properly apply.
+
 		ShardTypeVariants fighters = new ShardTypeVariants();
 		variantData.put(HullSize.FIGHTER, fighters);
 		fighters.get(ShardType.GENERAL).add("aspect_attack_wing", 10f);
@@ -88,26 +97,31 @@ public class ShardSpawner extends BaseHullMod {
 		small.get(ShardType.GENERAL).add("shard_left_Attack", 10f);
 		small.get(ShardType.GENERAL).add("shard_left_Attack2", 10f);
 		small.get(ShardType.GENERAL).add("shard_right_Attack", 10f);
-		small.get(ShardType.GENERAL).add("satus_shard_Attack", 10f);
+		small.get(ShardType.GENERAL).add("pmm_satus_shard_Attack", PMM_WEIGHT);
+		small.get(ShardType.GENERAL).add("pmm_tempest_omega_Attack", PMM_WEIGHT_RARE);
 		small.get(ShardType.GENERAL).add("aspect_attack_wing", 10f);
 		small.get(ShardType.GENERAL).add("aspect_missile_wing", 4f);
 		
 		small.get(ShardType.ANTI_ARMOR).add("shard_left_Armorbreaker", 10f);
-		small.get(ShardType.ANTI_ARMOR).add("satus_shard_Armorbreaker", 10f);
+		small.get(ShardType.ANTI_ARMOR).add("pmm_satus_shard_Armorbreaker", PMM_WEIGHT);
+		small.get(ShardType.ANTI_ARMOR).add("pmm_tempest_omega_Armorbreaker", PMM_WEIGHT_RARE);
 
 		small.get(ShardType.ANTI_SHIELD).add("shard_left_Shieldbreaker", 10f);
 		small.get(ShardType.ANTI_SHIELD).add("shard_right_Shieldbreaker", 10f);
-		small.get(ShardType.ANTI_SHIELD).add("satus_shard_Shieldbreaker", 10f);
+		small.get(ShardType.ANTI_SHIELD).add("pmm_satus_shard_Shieldbreaker", PMM_WEIGHT);
+		small.get(ShardType.ANTI_SHIELD).add("pmm_tempest_omega_Shieldbreaker", PMM_WEIGHT_RARE);
 		//small.get(ShardType.ANTI_SHIELD).add("aspect_shieldbreaker_wing", 10f);
 		
 		small.get(ShardType.POINT_DEFENSE).add("shard_left_Defense", 10f);
 		small.get(ShardType.POINT_DEFENSE).add("shard_right_Shock", 10f);
-		small.get(ShardType.POINT_DEFENSE).add("satus_shard_Defense", 10f);
+		small.get(ShardType.POINT_DEFENSE).add("pmm_satus_shard_Defense", PMM_WEIGHT);
+		small.get(ShardType.POINT_DEFENSE).add("pmm_tempest_omega_Defense", PMM_WEIGHT_RARE);
 		//small.get(ShardType.POINT_DEFENSE).add("aspect_shock_wing", 10f);
 		
 		small.get(ShardType.MISSILE).add("shard_left_Missile", 10f);
 		small.get(ShardType.MISSILE).add("shard_right_Missile", 10f);
-		small.get(ShardType.MISSILE).add("satus_shard_Missile", 10f);
+		small.get(ShardType.MISSILE).add("pmm_satus_shard_Missile", PMM_WEIGHT);
+		small.get(ShardType.MISSILE).add("pmm_tempest_omega_Missile", PMM_WEIGHT_RARE);
 		//small.get(ShardType.MISSILE).add("aspect_missile_wing", 10f);
 		
 		
@@ -116,19 +130,19 @@ public class ShardSpawner extends BaseHullMod {
 		
 		medium.get(ShardType.GENERAL).add("facet_Attack", 10f);
 		medium.get(ShardType.GENERAL).add("facet_Attack2", 10f);
-		medium.get(ShardType.GENERAL).add("shrike_omega_Attack", 10f);
+		medium.get(ShardType.GENERAL).add("pmm_shrike_omega_Attack", PMM_WEIGHT);
 
 		medium.get(ShardType.ANTI_ARMOR).add("facet_Armorbreaker", 10f);
-		medium.get(ShardType.ANTI_ARMOR).add("shrike_omega_Armorbreaker", 10f);
+		medium.get(ShardType.ANTI_ARMOR).add("pmm_shrike_omega_Armorbreaker", PMM_WEIGHT);
 
 		medium.get(ShardType.ANTI_SHIELD).add("facet_Shieldbreaker", 10f);
-		medium.get(ShardType.ANTI_SHIELD).add("shrike_omega_Shieldbreaker", 10f);
+		medium.get(ShardType.ANTI_SHIELD).add("pmm_shrike_omega_Shieldbreaker", PMM_WEIGHT);
 
 		medium.get(ShardType.POINT_DEFENSE).add("facet_Defense", 10f);
-		medium.get(ShardType.POINT_DEFENSE).add("shrike_omega_Defense", 10f);
+		medium.get(ShardType.POINT_DEFENSE).add("pmm_shrike_omega_Defense", PMM_WEIGHT);
 
 		medium.get(ShardType.MISSILE).add("facet_Missile", 10f);
-		medium.get(ShardType.MISSILE).add("shrike_omega_Missile", 10f);
+		medium.get(ShardType.MISSILE).add("pmm_shrike_omega_Missile", PMM_WEIGHT);
 
 		ShardTypeVariants large = new ShardTypeVariants();
 		variantData.put(HullSize.CRUISER, large);
@@ -137,21 +151,21 @@ public class ShardSpawner extends BaseHullMod {
 		large.get(ShardType.GENERAL).add("tesseract_Attack2", 10f);
 		large.get(ShardType.GENERAL).add("tesseract_Strike", 10f);
 		large.get(ShardType.GENERAL).add("tesseract_Disruptor", 10f);
-		large.get(ShardType.GENERAL).add("fury_omega_Attack", 10f);
-		large.get(ShardType.GENERAL).add("fury_omega_Attack2", 10f);
+		large.get(ShardType.GENERAL).add("pmm_fury_omega_Attack", PMM_WEIGHT);
+		large.get(ShardType.GENERAL).add("pmm_fury_omega_Attack2", PMM_WEIGHT);
 		
 		large.get(ShardType.ANTI_ARMOR).add("tesseract_Disruptor", 10f);
 		large.get(ShardType.ANTI_ARMOR).add("tesseract_Strike", 10f);
-		large.get(ShardType.ANTI_ARMOR).add("fury_omega_Armorbreaker", 10f);
+		large.get(ShardType.ANTI_ARMOR).add("pmm_fury_omega_Armorbreaker", PMM_WEIGHT);
 		
 		large.get(ShardType.ANTI_SHIELD).add("tesseract_Shieldbreaker", 10f);
-		large.get(ShardType.ANTI_SHIELD).add("fury_omega_Shieldbreaker", 10f);
+		large.get(ShardType.ANTI_SHIELD).add("pmm_fury_omega_Shieldbreaker", PMM_WEIGHT);
 		
 		large.get(ShardType.POINT_DEFENSE).add("tesseract_Defense", 10f);
-		large.get(ShardType.POINT_DEFENSE).add("fury_omega_Defense", 10f);
+		large.get(ShardType.POINT_DEFENSE).add("pmm_fury_omega_Defense", PMM_WEIGHT);
 		
 		large.get(ShardType.MISSILE).add("tesseract_Strike", 10f);
-		large.get(ShardType.MISSILE).add("fury_omega_Missile", 10f);
+		large.get(ShardType.MISSILE).add("pmm_fury_omega_Missile", PMM_WEIGHT);
 	}
 	
 	public static class ShardSpawnerData {
@@ -166,6 +180,10 @@ public class ShardSpawner extends BaseHullMod {
 	@Override
 	public void advanceInCombat(ShipAPI ship, float amount) {
 		CombatEngineAPI engine = Global.getCombatEngine();
+		Boolean omega = PMMLunaSettings.OmegaToggle().equals(true);
+		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_TEST : 0f);  //This disables/enables pmm omega shard spawning.
+		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_TEST : 0f); // Note: Seems to require restart to properly apply.
+
 		if (ship.getOriginalOwner() != 0) {
 			engine.setCombatNotOverForAtLeast(SPAWN_TIME + 1f);
 		}
