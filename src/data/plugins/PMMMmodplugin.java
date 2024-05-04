@@ -45,7 +45,7 @@ public class PMMMmodplugin extends BaseModPlugin {
     @Override
     public void onGameLoad(boolean WasEnabledBefore){
         for (ShipHullSpecAPI hullSpec : Global.getSettings().getAllShipHullSpecs()) {
-            if (hullSpec.getManufacturer().contains("Pirate") && !hullSpec.isBuiltInMod("compmods")) {
+            if (hullSpec.getManufacturer().contains("Pirate") && !hullSpec.isBuiltInMod("pmm_compmods")) {
                 hullSpec.addBuiltInMod("pmm_compmods");
                 log.info("Added Pirate Modifications to " + hullSpec.getHullNameWithDashClass());
             }

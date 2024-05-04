@@ -1,0 +1,23 @@
+{
+    "hullId": "pmm_swank",
+    "variantId": "pmm_swank_fighter",
+    "displayName": "Heavy Fighter",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "quality": 1,
+    "hullMods":[],
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"irpulse_fighter",
+		 			#"WS 002":"irpulse",
+		 			#"WS 003":"irpulse",
+		 		   },
+		},
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS0001":"swarmer_fighter",
+		 		   },
+		},
+	],
+}

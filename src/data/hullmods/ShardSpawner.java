@@ -43,9 +43,9 @@ public class ShardSpawner extends BaseHullMod {
 	public static Color JITTER_COLOR = new Color(100,100,255,50);
 	public static String DATA_KEY = "core_shard_spawner_data_key";
 	public static float PMM_WEIGHT;
-	public static float PMM_WEIGHT_TEST = 10f;
+	public static float PMM_WEIGHT_NUM = 10f;
 	public static float PMM_WEIGHT_RARE;
-	public static float PMM_WEIGHT_RARE_TEST = 4f;
+	public static float PMM_WEIGHT_RARE_NUM = 4f;
 	public static float SPAWN_TIME = 4f;
 
 	public static enum ShardType {
@@ -74,8 +74,8 @@ public class ShardSpawner extends BaseHullMod {
 
 	static {
 		Boolean omega = PMMLunaSettings.OmegaToggle().equals(true);
-		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_TEST : 0f);  //This disables/enables pmm omega shard spawning.
-		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_TEST : 0f); // Note: Seems to require restart to properly apply.
+		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_NUM : 0f);  //This disables/enables pmm omega shard spawning.
+		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_NUM : 0f); // Note: Seems to require restart to properly apply.
 
 		ShardTypeVariants fighters = new ShardTypeVariants();
 		variantData.put(HullSize.FIGHTER, fighters);
@@ -181,8 +181,8 @@ public class ShardSpawner extends BaseHullMod {
 	public void advanceInCombat(ShipAPI ship, float amount) {
 		CombatEngineAPI engine = Global.getCombatEngine();
 		Boolean omega = PMMLunaSettings.OmegaToggle().equals(true);
-		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_TEST : 0f);  //This disables/enables pmm omega shard spawning.
-		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_TEST : 0f); // Note: Seems to require restart to properly apply.
+		PMM_WEIGHT = 0f + (omega ? PMM_WEIGHT_NUM : 0f);  //This disables/enables pmm omega shard spawning.
+		PMM_WEIGHT_RARE = 0f + (omega ? PMM_WEIGHT_RARE_NUM : 0f); // Note: Seems to require restart to properly apply.
 
 		if (ship.getOriginalOwner() != 0) {
 			engine.setCombatNotOverForAtLeast(SPAWN_TIME + 1f);
