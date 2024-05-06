@@ -1,0 +1,52 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 3,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "cerberus_d_pirates",
+    "hullMods": [
+        "blast_doors",
+        "fluxcoil",
+        "fluxdistributor",
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "cerberus_d_pirates_Raider",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "typhoon",
+                "WS 003": "lightdualac",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 001": "lightac",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 003": "lightdualac",
+                "WS 001": "lightac",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "typhoon",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
+}

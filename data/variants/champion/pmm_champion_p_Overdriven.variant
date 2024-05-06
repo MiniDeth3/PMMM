@@ -1,42 +1,46 @@
 {
     "displayName": "Overdriven",
-    "fluxCapacitors": 20,
-    "fluxVents": 20,
-	"goalVariant": true,
+    "fluxCapacitors": 17,
+    "fluxVents": 2,
+    "goalVariant": true,
     "hullId": "pmm_champion_p",
     "hullMods": [
+        "armoredweapons",
         "safetyoverrides",
-        "armoredweapons"
     ],
     "permaMods": [],
     "sMods": [],
-	"suppressedMods": [],
+    "suppressedMods": [],
     "variantId": "pmm_champion_p_Overdriven",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS 009": "locust"}
+            "weapons": {
+                "WS 009": "locust",
+            }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
+                "WS 011": "reaper",
                 "WS 010": "reaper",
-                "WS 011": "reaper"
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS 008": "plasma"}
+            "weapons": {
+                "WS 008": "plasma",
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS 006": "pulselaser",
-                "WS 007": "pulselaser"
+                "WS 007": "pulselaser",
             }
         },
         {
@@ -44,7 +48,7 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 002": "vulcan",
-                "WS 003": "vulcan"
+                "WS 003": "vulcan",
             }
         },
         {
@@ -52,8 +56,10 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 000": "mininglaser",
-                "WS 001": "mininglaser"
+                "WS 001": "mininglaser",
             }
-        }
-    ]
+        },
+    ],
+    "wings": [],
+    "modules": [],
 }

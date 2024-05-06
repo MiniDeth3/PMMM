@@ -1,16 +1,16 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 20,
-    "fluxVents": 50,
-	"goalVariant": true,
+    "fluxCapacitors": 25,
+    "fluxVents": 21,
+    "goalVariant": true,
     "hullId": "pmm_prometheus3",
     "hullMods": [
+        "armoredweapons",
         "targetingunit",
-        "missleracks"
     ],
     "permaMods": [],
     "sMods": [],
-	"suppressedMods": [],
+    "suppressedMods": [],
     "variantId": "pmm_prometheus3_Strike",
     "weaponGroups": [
         {
@@ -18,26 +18,30 @@
             "mode": "ALTERNATING",
             "weapons": {
                 "WS 016": "heatseeker",
-                "WS0007": "heatseeker"
+                "WS0007": "heatseeker",
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS0006": "hurricane"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
             "weapons": {
-                "WS 032": "mark9",
-                "WS0001": "mark9"
+                "WS0006": "hurricane",
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS 031": "hil"}
+            "weapons": {
+                "WS0001": "mark9",
+                "WS 032": "mark9",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 031": "hil",
+            }
         },
         {
             "autofire": true,
@@ -45,27 +49,31 @@
             "weapons": {
                 "WS 004": "hveldriver",
                 "WS 005": "hveldriver",
-                "WS0005": "hveldriver"
+                "WS0005": "hveldriver",
             }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS0002": "devastator"}
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 003": "mininglaser",
-                "WS 006": "mininglaser",
-                "WS 012": "mininglaser",
-                "WS 013": "mininglaser",
-                "WS 014": "mininglaser",
-                "WS 015": "mininglaser",
-                "WS0003": "mininglaser",
-                "WS0004": "mininglaser"
+                "WS0002": "devastator",
             }
-        }
-    ]
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "mininglaser",
+                "WS 006": "mininglaser",
+                "WS 015": "mininglaser",
+                "WS 013": "mininglaser",
+                "WS 003": "mininglaser",
+                "WS 014": "mininglaser",
+                "WS 012": "mininglaser",
+                "WS0004": "mininglaser",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
 }

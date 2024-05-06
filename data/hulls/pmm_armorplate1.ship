@@ -12,10 +12,10 @@
   "shieldRadius": 24.5,
   "viewOffset": 0,
   "builtInMods": [
-    "noshield",
+    "pmm_noshield",
     "always_detaches",
-    "nodam_explosion",
-	"reflectplate"
+    "pmm_nodam_explosion",
+	"pmm_reflectplate"
   ],
   "weaponSlots": [],
   "engineSlots": [],

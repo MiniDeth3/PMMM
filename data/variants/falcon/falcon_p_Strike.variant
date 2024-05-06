@@ -1,40 +1,41 @@
 {
     "displayName": "Strike",
-    "fluxCapacitors": 10,
-    "fluxVents": 8,
+    "fluxCapacitors": 11,
+    "fluxVents": 10,
     "goalVariant": true,
     "hullId": "falcon_p",
     "hullMods": [
-        "missleracks",
+        "converted_hangar",
         "eccm",
-        "converted_hangar"
+        "missleracks",
     ],
     "permaMods": [],
     "sMods": [],
+    "suppressedMods": [],
     "variantId": "falcon_p_Strike",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
+                "WS 008": "annihilatorpod",
                 "WS 007": "annihilatorpod",
-                "WS 008": "annihilatorpod"
             }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
+                "WS 002": "swarmer",
                 "WS 001": "swarmer",
-                "WS 002": "swarmer"
             }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
+                "WS 006": "typhoon",
                 "WS 005": "typhoon",
-                "WS 006": "typhoon"
             }
         },
         {
@@ -42,9 +43,12 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 009": "irpulse",
-                "WS 010": "irpulse"
+                "WS 010": "irpulse",
             }
-        }
+        },
     ],
-    "wings": ["pmm_hook_wing"]
+    "wings": [
+        "pmm_hook_wing",
+    ],
+    "modules": [],
 }

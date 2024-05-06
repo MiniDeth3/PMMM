@@ -1,32 +1,62 @@
 {
     "displayName": "Shielded",
     "fluxCapacitors": 10,
-    "fluxVents": 10,
+    "fluxVents": 8,
+    "goalVariant": false,
     "hullId": "cerberus_d_pirates",
     "hullMods": [
         "blast_doors",
     ],
     "permaMods": [],
     "sMods": [],
+    "suppressedMods": [],
     "variantId": "cerberus_d_pirates_Shielded",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS 003": "lightag"}
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {"WS 004": "arbalest"}
+            "weapons": {
+                "WS 003": "lightag",
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "vulcan",
-                "WS 002": "vulcan"
+                "WS 004": "arbalest",
             }
-        }
-    ]
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 001": "vulcan",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightag",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "arbalest",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 001": "vulcan",
+            }
+        },
+    ],
+    "wings": [],
+    "modules": [],
 }

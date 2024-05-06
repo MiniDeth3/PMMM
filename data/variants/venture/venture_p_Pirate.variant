@@ -1,47 +1,49 @@
 {
-    "displayName": "Raider",
-    "fluxCapacitors": 7,
-    "fluxVents": 17,
+    "displayName": "Pirate",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
     "goalVariant": true,
-    "hullId": "pmm_hammerhead_p",
+    "hullId": "venture_p",
     "hullMods": [
-        "missleracks",
+        "fluxcoil",
+        "fluxdistributor",
+        "targetingunit",
     ],
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
-    "variantId": "pmm_hammerhead_p_Raider",
+    "variantId": "venture_p_Pirate",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 002": "annihilatorpod",
-                "WS 001": "annihilatorpod",
+                "WS 009": "hurricane",
             }
         },
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 004": "reaper",
-                "WS 003": "reaper",
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "ALTERNATING",
-            "weapons": {
-                "WS 006": "railgun",
-                "WS 005": "railgun",
+                "WS 006": "heavyac",
+                "WS 007": "breach",
+                "WS 004": "breach",
+                "WS 005": "heavyac",
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 008": "lightmg",
-                "WS 007": "lightmg",
+                "WS 002": "irautolance",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "flak",
+                "WS 001": "flak",
             }
         },
     ],

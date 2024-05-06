@@ -16,8 +16,6 @@ Heavy Missile Integration,pmm_HMI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hu
 Heavy Universal Integration,pmm_HUI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.HeavyUniversalIntegration,Reduces the ordnance point cost of large weapons by %s.,Reduces ordnance point cost of large weapons.,,graphics/hullmods/pmm_universal_integration.png
 Duel Flux Grid,pmm_unstableflux,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.unstableflux,This ship boasts a confusing duel flux grid allowing independent operation of offensive and defensive systems. The unrefined nature of this flux handling method is prone to backfires and meltdowns.,,,
 ,,,,,,,,,,,,,,,,,,,
-Shard Spawner,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ShardSpawner,Spawns shard ships when ship is disabled/destroyed.,,,
-,,,,,,,,,,,,,,,,,,,
 No Damage Explosion,pmm_nodam_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.nodamExplosion,Negates explosion damage.,,,
 Enhanced Explosion,pmm_enhanced_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.EnhancedExplosion,Doubles explosion radius and damage.,,,
 Limited Energy Grid,pmm_limitedgrid,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.limitedgrid,Disables ship permanetly if flux cap is reached,,,

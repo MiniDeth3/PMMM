@@ -1,0 +1,15 @@
+{
+    "displayName": "Raider",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "pmm_armorplate1",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "suppressedMods": [],
+    "variantId": "pmm_armorplate1_Raider",
+    "weaponGroups": [],
+    "wings": [],
+    "modules": [],
+}

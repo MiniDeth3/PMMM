@@ -1,42 +1,46 @@
 {
     "displayName": "Marauder",
-    "fluxCapacitors": 20,
-    "fluxVents": 30,
-	"goalVariant": true,
+    "fluxCapacitors": 18,
+    "fluxVents": 28,
+    "goalVariant": true,
     "hullId": "pmm_champion_p",
     "hullMods": [
+        "extendedshieldemitter",
         "hardenedshieldemitter",
-        "extendedshieldemitter"
     ],
     "permaMods": [],
     "sMods": [],
-	"suppressedMods": [],
+    "suppressedMods": [],
     "variantId": "pmm_champion_p_Marauder",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
-            "weapons": {"WS 009": "hammerrack"}
+            "weapons": {
+                "WS 009": "hammerrack",
+            }
         },
         {
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
+                "WS 011": "sabot",
                 "WS 010": "sabot",
-                "WS 011": "sabot"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
-            "weapons": {"WS 008": "autopulse"}
+            "weapons": {
+                "WS 008": "autopulse",
+            }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
                 "WS 006": "heavyac",
-                "WS 007": "heavyac"
+                "WS 007": "heavyac",
             }
         },
         {
@@ -44,7 +48,7 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 002": "lightmg",
-                "WS 003": "lightmg"
+                "WS 003": "lightmg",
             }
         },
         {
@@ -52,8 +56,10 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 000": "pdburst",
-                "WS 001": "pdburst"
+                "WS 001": "pdburst",
             }
-        }
-    ]
+        },
+    ],
+    "wings": [],
+    "modules": [],
 }

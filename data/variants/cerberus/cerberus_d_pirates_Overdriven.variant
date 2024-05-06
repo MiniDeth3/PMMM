@@ -1,37 +1,38 @@
 {
-    "displayName": "Raider",
-    "fluxCapacitors": 12,
-    "fluxVents": 8,
+    "displayName": "Overdriven",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
     "goalVariant": true,
-    "hullId": "mule_d_pirates",
+    "hullId": "cerberus_d_pirates",
     "hullMods": [
-        "missleracks",
+        "hardened_subsystems",
+        "safetyoverrides",
     ],
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
-    "variantId": "mule_d_pirates_Standard",
+    "variantId": "cerberus_d_pirates_Overdriven",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 003": "annihilatorpod",
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 002": "annihilatorpod",
-                "WS 001": "shredder",
+                "WS 004": "chaingun",
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 005": "mininglaser",
+                "WS 003": "lightdualmg",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 001": "vulcan",
             }
         },
     ],

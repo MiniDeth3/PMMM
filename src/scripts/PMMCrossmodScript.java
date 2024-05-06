@@ -36,7 +36,7 @@ public class PMMCrossmodScript {
     }
     public static void initScrapyardCrossmod(){
         IsScrapyardEnabled = true;
-        Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_PIRATE_BP);
+        Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_PIRATE);
         Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_RARE_BP);
         Global.getSector().getFaction(Factions.PIRATES).addKnownShip(PIRATE_CAVERN, false);
 

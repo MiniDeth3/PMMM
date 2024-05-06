@@ -6,6 +6,9 @@
 	"tags":["pirate","rare_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/pmm_hammerhead_p.png",
+	"suppliesToRecover":14,
+	"suppliesPerMonth":14,
+	"ordnancePoints":80,
 	"baseValueMult":1.5,
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file

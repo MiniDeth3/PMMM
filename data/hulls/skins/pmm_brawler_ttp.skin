@@ -6,7 +6,7 @@
     "descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
 	"tags":["pirate_bp", "pirates"],
 	"tech":"Pirate",
-    "ordnancePoints":60,
+    "ordnancePoints":50,
     "systemId":"plasmajets",
     "spriteName":"graphics/ships/brawler/pmm_brawler_ttp.png",
     "baseValueMult":1.5,

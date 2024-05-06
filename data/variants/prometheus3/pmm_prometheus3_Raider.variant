@@ -1,12 +1,12 @@
 {
     "displayName": "Raider",
-    "fluxCapacitors": 50,
-    "fluxVents": 30,
+    "fluxCapacitors": 22,
+    "fluxVents": 26,
     "goalVariant": true,
     "hullId": "pmm_prometheus3",
     "hullMods": [
         "converted_hangar",
-        "targetingunit",
+        "turretgyros",
     ],
     "permaMods": [],
     "sMods": [],
@@ -47,13 +47,13 @@
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS0004": "lightac",
                 "WS0003": "lightac",
-                "WS 005": "heavyac",
-                "WS 004": "heavyac",
-                "WS 014": "lightac",
                 "WS 006": "lightac",
+                "WS 004": "heavyac",
+                "WS 005": "heavyac",
+                "WS 014": "lightac",
                 "WS0005": "hveldriver",
+                "WS0004": "lightac",
             }
         },
         {
@@ -68,9 +68,9 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 015": "lightmg",
+                "WS 013": "lightmg",
                 "WS 003": "lightmg",
                 "WS 012": "lightmg",
-                "WS 013": "lightmg",
             }
         },
     ],

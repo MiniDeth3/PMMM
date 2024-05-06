@@ -6,7 +6,7 @@
     "hullId": "pmm_vigilance_p",
     "hullMods": [
         "eccm",
-        "missile_autoloader",
+        "missleracks",
     ],
     "permaMods": [],
     "sMods": [],
@@ -31,6 +31,6 @@
     ],
     "wings": [],
     "modules": [
-        {"ARMORPLATE": "pmm_armorplate1"},
+        {"ARMORPLATE": "pmm_armorplate1_Raider"},
     ],
 }
