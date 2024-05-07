@@ -27,9 +27,10 @@ public class PhaseMineFlakStats extends BaseShipSystemScript {
         if (ship.getSystem().getState() == ShipSystemAPI.SystemState.ACTIVE){
             if ((nummines > 0) && (minespawninterval.intervalElapsed())){
                 spawnMine(ship, MathUtils.getRandomPointInCircle(ship.getLocation(), ship.getCollisionRadius()));
+                nummines = nummines-1;
             }
         }
-        minespawninterval.advance(amount);
+        minespawninterval.advance(0.25f);
     }
 
     public void spawnMine(ShipAPI source, Vector2f mineLoc) {
