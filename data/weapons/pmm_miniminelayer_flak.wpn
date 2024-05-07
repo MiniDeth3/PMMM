@@ -24,6 +24,6 @@
 				 "blowbackLength":10.0,
 				 "blowbackSpread":8.0,
 				 "particleColor":[95,70,155,110]},
-	"projectileSpecId":"pmm_miniminelayer_flak
+	"projectileSpecId":"pmm_miniminelayer_flak",
 	#"fireSoundTwo":"minelayer_fire",
 }

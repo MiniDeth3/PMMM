@@ -1,5 +1,5 @@
 {
-	"id":"pmm_miniminelayer_mine",
+	"id":"pmm_miniminelayer_flak",
 	"specClass":"missile",	
 	"missileType":"PHASE_MINE",
 	"sprite":"graphics/missiles/pmm_minimine.png",
