@@ -1,6 +1,6 @@
 {
 	"id":"pmm_phase_flak_1",
-	"type":"WEAPON",
+	"type":"STAT_MOD",
 	"aiType":"CANISTER_FLAK",
 	"statsScript":"data.shipsystems.PhaseMineFlakStats",
 
