@@ -1,8 +1,7 @@
 {
 	"id":"pmm_phase_flak_1",
-	"type":"STAT_MOD",
+	"type":"WEAPON",
 	"aiType":"CANISTER_FLAK",
-	"statsScript":"data.shipsystems.PhaseMineFlakStats",
-
+	"weaponDataId":"pmm_miniminelayer_flak",
 	"outOfUsesSound":"gun_out_of_ammo",
 }
