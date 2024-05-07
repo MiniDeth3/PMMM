@@ -4,7 +4,6 @@
 	"specClass":"projectile",
 	"type":"MISSILE",
 	"size":"MEDIUM",
-	"onFireEffect":"data.weapons.PhaseMineFlakScript",
 	"turretSprite":"graphics/weapons/phase_charge_launcher_turret_base.png",
 	"hardpointSprite":"graphics/weapons/phase_charge_launcher_hardpoint_base.png",
 	"hardpointOffsets":[15, 0],
@@ -25,6 +24,6 @@
 				 "blowbackLength":10.0,
 				 "blowbackSpread":8.0,
 				 "particleColor":[95,70,155,110]},
-	"projectileSpecId":"pmm_miniminelayer_mine",
+	"projectileSpecId":"pmm_miniminelayer_flak
 	#"fireSoundTwo":"minelayer_fire",
 }
