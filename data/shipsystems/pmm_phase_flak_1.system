@@ -1,7 +1,0 @@
-{
-	"id":"pmm_phase_flak_1",
-	"type":"WEAPON",
-	"aiType":"CANISTER_FLAK",
-	"weaponDataId":"pmm_miniminelayer_flak",
-	"outOfUsesSound":"gun_out_of_ammo",
-}

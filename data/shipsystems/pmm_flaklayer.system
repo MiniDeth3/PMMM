@@ -3,7 +3,7 @@
 	"type":"STAT_MOD",
 	"aiType":"CANISTER_FLAK",
 	
-	"statsScript":"data.shipsystems.FlakLayerStats",
+	"statsScript":"data.weapons.PhaseMineFlakScript",
 
 	"canUseWhileRightClickSystemOn":true,
 
