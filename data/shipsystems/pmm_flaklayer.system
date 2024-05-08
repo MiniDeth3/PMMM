@@ -1,0 +1,24 @@
+{
+	"id":"pmm_flaklayer",
+	"type":"STAT_MOD",
+	"aiType":"CANISTER_FLAK",
+	
+	"statsScript":"data.shipsystems.FlakLayerStats",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_interdictor",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1500,
+		"threatAmount":7,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

@@ -23,7 +23,7 @@ import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
 
-public class MineStrikeFrigateStats extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider {
+public class PhaseFlakStats extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider {
 	
 	protected static float MINE_RANGE = 1000f;
 	
@@ -126,7 +126,7 @@ public class MineStrikeFrigateStats extends BaseShipSystemScript implements Mine
 		
 		//Vector2f currLoc = mineLoc;
 		MissileAPI mine = (MissileAPI) engine.spawnProjectile(source, null, 
-															  "pmm_miniminelayer",
+															  "pmm_flaklayer",
 															  currLoc, 
 															  (float) Math.random() * 360f, null);
 		if (source != null) {

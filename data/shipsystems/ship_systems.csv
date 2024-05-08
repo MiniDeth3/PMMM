@@ -4,7 +4,7 @@ Isochronal Temporal Warp,pmm_omegawarp,100,,,,,0.25,,2,0.1,.8,1.5,.25,0,,,,TRUE,
 Synth Drive,pmm_synthdash,,,,,,0.25,,1,.10,.1,1.5,.2,0,,,,,TRUE,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Rift Emitter,pmm_emp_omega,1,,,,,0.2,,,,1,4,1,4,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
 Degraded Ammo Feeder,pmm_degammofeed,,,,,,,,,,1,4,1,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
-Phase Flak,pmm_phase_flak_1,,,,,,,,2,0.05,,,,3,,,,,,,,,,,,,
+Phase Flak,pmm_flaklayer,,,,,,,,2,0.05,.5,,0.25,0,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #testing,,,,,,,,,,,,,,,,,,,,,,,,,,,
 rdtest,rdtest,,,,,,,,2,0.05,,,,3,,,,,,,,,,,,,
