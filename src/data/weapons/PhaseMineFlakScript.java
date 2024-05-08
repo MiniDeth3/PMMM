@@ -22,8 +22,9 @@ public class PhaseMineFlakScript implements OnFireEffectPlugin {
         float fadeInTime = 0.5F;
 
         Vector2f loc = MathUtils.getRandomPointInCone(weapon.getLocation(), RANGE, minangle, maxangle);
-        engine.addNebulaSmokeParticle(loc, projectile.getVelocity(), projectile.getCollisionRadius(), 1.5f, 0.7f, 1,1, Color.MAGENTA);
         projectile.getLocation().set(loc);
+        engine.addNebulaSmokeParticle(projectile.getLocation(), projectile.getVelocity(), projectile.getCollisionRadius(), 1.5f, 0.7f, 1,1, Color.MAGENTA);
+
         Global.getSoundPlayer().playSound("mine_teleport", 1.0F, 1.0F, projectile.getLocation(), projectile.getVelocity());
 
     }
