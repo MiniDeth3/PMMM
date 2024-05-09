@@ -61,14 +61,20 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
             float num;
             for (num = 0; num < 7; num++){
                 Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
-                spawnMine(ship, loc);
+                loc = findClearLocation(ship, loc);
+                if (loc != null) {
+                    spawnMine(ship, loc);
+                }
             }
         }
         if (state == State.OUT){
             float num;
             for (num = 0; num < 7; num++){
                 Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
-                spawnMine(ship, loc);
+                loc = findClearLocation(ship, loc);
+                if (loc != null) {
+                    spawnMine(ship, loc);
+                }
             }
 
         }
