@@ -15,7 +15,7 @@ import org.lwjgl.util.vector.Vector2f;
 import java.awt.*;
 import java.util.List;
 
-public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider {
+public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider{
 
     public static float RANGE = 600;
 

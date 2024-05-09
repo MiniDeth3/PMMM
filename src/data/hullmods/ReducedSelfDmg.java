@@ -1,18 +1,17 @@
 package data.hullmods;
 
-import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.CombatEntityAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.listeners.ApplyDamageResultAPI;
 import com.fs.starfarer.api.combat.listeners.DamageListener;
+import org.lwjgl.util.vector.Vector2f;
 
-public class ReducedSelfDmg extends BaseHullMod implements DamageListener {
+public class ReducedSelfDmg implements OnHitEffectPlugin {
     @Override
-    public void reportDamageApplied(Object source, CombatEntityAPI target, ApplyDamageResultAPI result) {
-        if (source == target){
-            result.setDamageToHull(result.getDamageToHull()/10);
-            result.setDamageToShields(result.getDamageToShields()/10);
-            result.setTotalDamageToArmor(result.getTotalDamageToArmor()/10);
+    public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
+        if (projectile.getSource() == target){
+            damageResult.setDamageToShields(damageResult.getDamageToShields()/10);
+            damageResult.setDamageToHull(damageResult.getDamageToHull()/10);
+            damageResult.setTotalDamageToArmor(damageResult.getTotalDamageToArmor()/10);
         }
     }
 }
