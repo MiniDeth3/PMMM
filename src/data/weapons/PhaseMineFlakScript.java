@@ -57,15 +57,20 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
         ship.setJitterUnder(this, JITTER_UNDER_COLOR, jitterLevel, 11, 0f, 3f + jitterRangeBonus);
         ship.setJitter(this, JITTER_COLOR, jitterLevel, 4, 0f, 0 + jitterRangeBonus);
 
-        if (state == ShipSystemStatsScript.State.IN) {
-        } else if (effectLevel >= 1) {
+        if (state == State.ACTIVE){
             float num;
-            for (num = 0; num < 13; num++){
+            for (num = 0; num < 7; num++){
+                Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
+                spawnMine(ship, loc);
+            }
+        }
+        if (state == State.OUT){
+            float num;
+            for (num = 0; num < 7; num++){
                 Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
                 spawnMine(ship, loc);
             }
 
-        } else if (state == ShipSystemStatsScript.State.OUT ) {
         }
     }
 
