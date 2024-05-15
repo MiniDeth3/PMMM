@@ -76,8 +76,6 @@
 		"pmm_harbinger_p_Raider":10,
 		"pmm_hammerhead_p_Raider":10,
 
-		"pmm_derelict_master_Breach_CETA":5,
-		"pmm_derelict_master_SG_Rival":5,
 		"pmm_fulgent_p_Marauder":5,
 		"pmm_fulgent_p_Raider":5,
 
@@ -122,6 +120,9 @@
 		"pmm_fury_omega_Defense":1,
 		"pmm_fury_omega_Missile":2,
 		"pmm_fury_omega_Shieldbreaker":2,
+
+		"pmm_derelict_master_Breach_CETA":5,
+		"pmm_derelict_master_SG_Rival":5,
 
 		#Vanilla Replace
 		"falcon_p_Strike":10,

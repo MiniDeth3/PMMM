@@ -8,11 +8,11 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 
 public class OmegaWarp extends BaseShipSystemScript {
-	public static final float MAX_TIME_MULT = 50f;
+	public static final float MAX_TIME_MULT = 100f;
 	public static final float MIN_TIME_MULT = 0.1f;
 	public static final float DAM_MULT = 0.1f;
 
-	public static float SPEED_BONUS = 125f;
+	public static float SPEED_BONUS = 120f;
 	public static float TURN_BONUS = 20f;
 	
 	public static final Color JITTER_COLOR = new Color(100,100,255,150);
@@ -52,8 +52,8 @@ public class OmegaWarp extends BaseShipSystemScript {
 				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 1f, 0.15f, ship.getLocation(), ship.getVelocity());
 				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 2f, 0.3f, ship.getLocation(), ship.getVelocity());
 			} else {
-				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 6f, 0.8f, ship.getLocation(), ship.getVelocity());
-				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 7f, 1f, ship.getLocation(), ship.getVelocity());
+				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 7f, 0.8f, ship.getLocation(), ship.getVelocity());
+				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 5.5f, 1f, ship.getLocation(), ship.getVelocity());
 			}
 
 			jitterLevel = 5f;

@@ -5,8 +5,6 @@
 	"descriptionId":"mule",  # optional
 	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
 	"tags":["pirate_bp"],
-	"suppliesToRecover":8,
-	"suppliesPerMonth":8,
 	"ordnancePoints":60,
 	"tech":"Pirate",
 	"baseValueMult":1.2,
@@ -21,7 +19,7 @@
 			"size": "MEDIUM",
 		},
 		"WS 002":{
-            "type": "UNIVERSAL",
+            "type": "BALLISTIC",
 			"size": "MEDIUM",
 		},	
 		"WS 003":{

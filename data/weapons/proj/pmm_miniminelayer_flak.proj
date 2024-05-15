@@ -11,8 +11,7 @@
 	#"armingTime":1,
 	"collisionClass":"MISSILE_NO_FF",
 	"onFireEffect":"data.weapons.PhaseMineFlakScript",
-		"onHitEffect":"data.hullmods.ReducedSelfDmg",
-
+	"onHitEffect":"data.hullmods.ReducedSelfDmg",
 	"flameoutTime":0.1, # total time from flameout to full fadeout
 	"fadeTime":0.1, # fadeout duration
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
@@ -23,28 +22,28 @@
 				  "acc":500,
 				  "dec":500},
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
-					"range":175,
+					"range":125,
 					"slowToMaxSpeed":true,
 					"delay":2,
-					"pingSound":"mine_ping",
+					"pingSound":"pmm_mine_ping",
 					"pingColor":[148,0,211,255],
 					"pingRadius":250,
 					"pingDuration":0.25,
-					"windupSound":"mine_windup_heavy",
+					"windupSound":"pmm_mine_windup_heavy",
 					"windupDelay":1,
 					"explosionSpec":{"duration":0.1f,
-									 "radius":175,
-									 "coreRadius":100, # full damage within core radius
+									 "radius":100,
+									 "coreRadius":50, # full damage within core radius
 									 "collisionClass":MISSILE_FF,
 									 "collisionClassByFighter":MISSILE_FF,
 									 "particleSizeMin":2.0,
 									 "particleSizeRange":2.0,
 									 "particleDuration":1,
-									 "particleCount":200,
+									 "particleCount":100,
 									 "particleColor":[148,70,211,255],
 									 "explosionColor":[255,165,135,255],
 									 "useDetailedExplosion":true,
-									 "sound":"mine_explosion"},
+									 "sound":"pmm_mine_explosion"},
 					}	
 }
 

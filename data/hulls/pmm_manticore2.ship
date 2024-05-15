@@ -13,7 +13,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "ballistic_rangefinder",
-    "pmm_compmods"
+    "pmm_compmods",
   ],
   "weaponSlots": [
     {

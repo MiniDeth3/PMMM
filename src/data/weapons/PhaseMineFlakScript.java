@@ -19,12 +19,12 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
 
     public static float RANGE = 600;
 
-    protected static float MINE_RANGE = 1000f;
+    protected static float MINE_RANGE = 500;
 
-    public static final float MIN_SPAWN_DIST = 60f;
-    public static final float MIN_SPAWN_DIST_FRIGATE = 70f;
+    public static final float MIN_SPAWN_DIST = 120f;
+    public static final float MIN_SPAWN_DIST_FRIGATE = 120f;
 
-    public static final float LIVE_TIME = 2f;
+    public static final float LIVE_TIME = .5f;
 
     public static final Color JITTER_COLOR = new Color(255,155,255,75);
     public static final Color JITTER_UNDER_COLOR = new Color(255,155,255,155);
@@ -60,7 +60,7 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
         if (state == State.ACTIVE){
             float num;
             for (num = 0; num < 7; num++){
-                Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
+                Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), RANGE);
                 loc = findClearLocation(ship, loc);
                 if (loc != null) {
                     spawnMine(ship, loc);
@@ -70,7 +70,7 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
         if (state == State.OUT){
             float num;
             for (num = 0; num < 7; num++){
-                Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), 500);
+                Vector2f loc = MathUtils.getRandomPointInCircle(ship.getLocation(), RANGE);
                 loc = findClearLocation(ship, loc);
                 if (loc != null) {
                     spawnMine(ship, loc);
@@ -138,7 +138,7 @@ public class PhaseMineFlakScript extends BaseShipSystemScript implements MineStr
         //liveTime = 0.01f;
         mine.setFlightTime(mine.getMaxFlightTime() - liveTime);
 
-        Global.getSoundPlayer().playSound("mine_teleport", 1f, 1f, mine.getLocation(), mine.getVelocity());
+        Global.getSoundPlayer().playSound("mine_teleport", MathUtils.getRandomNumberInRange(0.8f, 1.2f), 0.3f, mine.getLocation(), mine.getVelocity());
     }
 
     protected EveryFrameCombatPlugin createMissileJitterPlugin(final MissileAPI mine, final float fadeInTime) {
