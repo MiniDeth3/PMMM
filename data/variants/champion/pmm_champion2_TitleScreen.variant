@@ -2,7 +2,7 @@
     "displayName": "TitleScreen",
     "fluxCapacitors": 15,
     "fluxVents": 20,
-    "goalVariant": true,
+    "goalVariant": false,
     "hullId": "pmm_champion2",
     "hullMods": [
         "reinforcedhull",
