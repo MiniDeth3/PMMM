@@ -49,9 +49,12 @@
         "fleet_composition_quality": 2,
         "fleet_transponder": false,
         "fleet_no_retreat": true,
-        "fleet_behavior": "AGGRESSIVE",
+        "fleet_behavior": "GUARDED",
 
         "location_distance": "CLOSE",
+        "location_marketFactions": [  # Default: no faction specified. Markets of specified faction for the fleet to spawn at. Adding a faction market supersedes all other parameters except location_id.
+        "pirates" 
+        ],
         "location_themes": [
             "theme_core_unpopulated",
             "theme_interesting",
@@ -79,6 +82,10 @@
             "debris",
             "stable_location",
             "comm_relay",
+            "nav_buoy",
+            "sensor_array",
+            "gas_giant",
+            "planet",
             "jump_point",
         ],
         "location_prioritizeUnexplored": true,
