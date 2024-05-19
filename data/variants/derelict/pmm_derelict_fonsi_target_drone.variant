@@ -1,8 +1,8 @@
 {
 	"quality":0.0,
 	"displayName":"Interceptor",
-	"hullId":"pmmm_derelict_fonsi_target_drone",
-	"variantId":"pmmm_derelict_fonsi_target_drone",
+	"hullId":"pmm_derelict_fonsi_target_drone",
+	"variantId":"pmm_derelict_fonsi_target_drone",
 	"fluxVents":0,
 	"fluxCapacitors":0,
 	"mods":[], # array of strings
@@ -12,7 +12,7 @@
 	"weaponGroups":[
 		{"mode":"LINKED",
 		 "weapons":{
-		 			"WS 001":"pmmm_derelict_fonsi_target_assist_beam",
+		 			"WS 001":"pmm_derelict_fonsi_target_assist_beam",
 		 		   },
 		},
 	],

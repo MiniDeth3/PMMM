@@ -1,6 +1,6 @@
 {
   "hullName": "Fonsi",
-  "hullId": "pmmm_derelict_fonsi",
+  "hullId": "pmm_derelict_fonsi",
   "hullSize": "CRUISER",
   "spriteName": "graphics/ships/champion/pmm_champion2.png",
   "style": "MIDLINE",
@@ -11,7 +11,7 @@
   "shieldCenter": [3, 0],
   "shieldRadius": 160,
   "viewOffset": 0,
-  "builtInWings": ["pmmm_derelict_fonsi_target_drone"],
+  "builtInWings": ["pmm_derelict_fonsi_target_drone"],
   "builtInMods": [
     "pmm_fluxcore","pmm_enhanced_explosion","high_maintenance","do_not_back_off","pmm_compmods",
   ],

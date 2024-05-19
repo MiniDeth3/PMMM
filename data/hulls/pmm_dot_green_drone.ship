@@ -6,15 +6,15 @@
     "collisionRadius": 0,
     "coversColor": "",
     "height": 4,
-    "hullId": "pmm_beam_drone",
-    "hullName": "Reflective Beam Drone",
+    "hullId": "pmm_dot_green_drone",
+    "hullName": "Green Dot",
     "hullSize": "FIGHTER",
     "shieldCenter": [
         0,
         0
     ],
     "shieldRadius": 2,
-    "spriteName": "graphics/ships/fighters/pmm_dot_drone.png",
+    "spriteName": "graphics/ships/fighters/pmm_dot_green_drone.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

@@ -6,8 +6,8 @@
     "collisionRadius": 0,
     "coversColor": "",
     "height": 4,
-    "hullId": "pmmm_beam_drone",
-    "hullName": "Reflective Beam Drone",
+    "hullId": "pmm_dot_drone",
+    "hullName": "Red Dot",
     "hullSize": "FIGHTER",
     "shieldCenter": [
         0,

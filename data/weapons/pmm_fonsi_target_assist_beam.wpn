@@ -1,6 +1,6 @@
 {
 	"specClass":"beam",
-	"id":"pmmm_derelict_fonsi_target_assist_beam",
+	"id":"pmm_derelict_fonsi_target_assist_beam",
 	"type":"ENERGY",
 	"size":"SMALL",
 	#"displayArcRadius":550,

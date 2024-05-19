@@ -2,7 +2,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 #fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hook,pmm_hook,,Pirate,,,200,20,500,,100,0,,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,,,,0,,,,100
 Modified Pod,pmm_blasterdrone,,Pirate,,,500,100,1200,,0,0,,125,75,75,45,90,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,108
-Reflective Beam Drone,pmmm_beam_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
+Reflective Beam Drone,pmm_beam_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
 Swank,pmm_swank,,Pirate,plasmajets,,350,50,300,,60,0,,210,340,340,100,240,30,OMNI,,160,0,1,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,115
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #ships,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -35,5 +35,9 @@ Master,pmm_derelict_master,Droneship,Explorarium,pmm_synthdash,14,5500,800,3000,
 Defense Module,pmm_derelict_master_cover,Defense Module,,,0,2000,100,10000,3750,700,40,,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,0,0,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,1,2,3,,317
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #bosses,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fonsi,pmmm_derelict_fonsi,Droneship,,,24,8000,600,5000,3750,700,40,1,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,HIDE_IN_CODEX,restricted,,1,2,3,,318
-Fonsi Traget Drone,pmmm_derelict_fonsi_target_drone,,Pirate,,,200,20,500,,100,0,0,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,restricted,,0,,,,100
+Fonsi,pmm_derelict_fonsi,Droneship,,,24,8000,600,5000,3750,700,40,1,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,HIDE_IN_CODEX,restricted,,1,2,3,,318
+Fonsi Traget Drone,pmm_derelict_fonsi_target_drone,,Pirate,,,200,20,500,,100,0,0,325,400,300,150,300,10,OMNI,,90,0.2,1,,,2,2,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,restricted,,0,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Stuff
+Reflective Beam Drone,pmm_dot_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
+Reflective Beam Drone,pmm_dot_green_drone,,,,,10000000,0,100000,,100000,,,100,100,100,10000,10000,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,0,,,,8
