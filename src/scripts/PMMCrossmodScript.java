@@ -1,9 +1,7 @@
 package scripts;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
-import com.fs.starfarer.loading.specs.FactionDoctrine;
 
 public class PMMCrossmodScript {
 

@@ -14,7 +14,7 @@
         0
     ],
     "shieldRadius": 2,
-    "spriteName": "graphics/ships/fighters/invisible_drone.png",
+    "spriteName": "graphics/ships/fighters/pmm_dot_drone.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

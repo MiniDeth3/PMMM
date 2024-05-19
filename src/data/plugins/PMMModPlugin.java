@@ -12,7 +12,7 @@ import org.apache.log4j.Logger;
 import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
 
-public class PMMMmodplugin extends BaseModPlugin {
+public class PMMModPlugin extends BaseModPlugin {
 
     public String TRIQUETRA = "pmm_fury_omega";
     public String AEON = "pmm_shrike_omega";

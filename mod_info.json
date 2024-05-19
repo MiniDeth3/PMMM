@@ -22,7 +22,7 @@
 		
 	],
   	"jars":["jars/PMMM.jar"],
-    "modPlugin":"data.plugins.PMMMmodplugin",
+    "modPlugin":"data.plugins.PMMModPlugin",
 	  	"dependencies": [
         {
             "id": "lw_lazylib",

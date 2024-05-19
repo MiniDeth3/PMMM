@@ -1,28 +1,35 @@
 {
-  "hullName": "Makeshift Plate",
-  "hullId": "pmm_armorplate1",
-  "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/armor/pmm_armorplate1.png",
-  "style": "MIDLINE",
-  "height": 21,
-  "width": 51,
-  "center": [26, 4],
-  "collisionRadius": 24.5,
-  "shieldCenter": [0, -0],
-  "shieldRadius": 24.5,
-  "viewOffset": 0,
-  "builtInMods": [
-    "pmm_noshield",
-    "always_detaches",
-    "pmm_nodam_explosion",
-	"pmm_reflectplate"
-  ],
-  "weaponSlots": [],
-  "engineSlots": [],
-  "bounds": [
-    15, -26,
-    3, -21,
-    3, 21,
-    15, 26
-  ]
+    "hullName": "Makeshift Plate",
+    "hullId": "pmm_armorplate1",
+    "hullSize": "FRIGATE",
+    "style": "MIDLINE",
+    "spriteName": "graphics/ships/armor/pmm_armorplate1.png",
+    "height": 21,
+    "width": 51,
+    "center": [
+        25.5, 16
+    ],
+    "collisionRadius": 25,
+    "coversColor": "",
+    "shieldCenter": [
+        -12, -0.5
+    ],
+    "shieldRadius": 24.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "pmm_noshield",
+        "always_detaches",
+        "pmm_nodam_explosion",
+        "pmm_reflectplate"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+               1,       25,
+               1,      -25,
+           -13.5,    -16.5,
+           -13.5,     16.5
+    ]
 }
