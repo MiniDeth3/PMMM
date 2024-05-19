@@ -17,18 +17,6 @@
     "spriteName": "graphics/ships/fighters/pmm_dot_green_drone.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
-    "weaponSlots": [
-        {
-            "angle": -90,
-            "arc": 360,
-            "id": "WS 001",
-            "locations": [
-                0,
-                0
-            ],
-            "mount": "TURRET",
-            "size": "LARGE",
-            "type": "UNIVERSAL"
-        }],
+    "weaponSlots": [],
     "width": 4
 }
