@@ -15,6 +15,7 @@
         "automated",
         "fluxbreakers",
         "shard_spawner",
+		"do_not_back_off",
   ],
   "weaponSlots": [
     {

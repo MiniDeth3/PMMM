@@ -11,6 +11,7 @@ import data.listeners.PirateFleetInflationListener;
 import org.apache.log4j.Logger;
 import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
+import scripts.PMMShipTagsScript;
 
 public class PMMMmodplugin extends BaseModPlugin {
 
@@ -68,6 +69,8 @@ public class PMMMmodplugin extends BaseModPlugin {
         public void updateLunaSettings() {
             //Omega toggle settings
             Boolean omega = PMMLunaSettings.OmegaToggle();
+            Boolean mastrec = PMMLunaSettings.OmegaToggle();
+
             FactionAPI omegafac = Global.getSector().getFaction(Factions.OMEGA);
                 if (omega){
                     com.fs.starfarer.api.impl.hullmods.ShardSpawner.ShardTypeVariants fighters = com.fs.starfarer.api.impl.hullmods.ShardSpawner.variantData.get(ShipAPI.HullSize.FIGHTER);
@@ -142,6 +145,10 @@ public class PMMMmodplugin extends BaseModPlugin {
                     omegafac.removeKnownShip(PERCEPT);
 
                     log.info("Disabled PMM omega");
+                }
+            if (mastrec){
+                PMMShipTagsScript.initMasterRec();
+                log.info("PMM Master can be recovered");
                 }
             }
         }

@@ -40,7 +40,7 @@ public class PMMBountyConclusion extends BaseCommandPlugin {
 
         ActiveBounty.Stage bountyStage = bounty.getStage();
         MagicBountyIntel intel = bounty.getIntel();
-        
+
 
         throw new RuntimeException("success!");
 
