@@ -17,7 +17,7 @@ import java.util.List;
 public class fluxcore extends BaseHullMod {
     public static float ARC_DAM = 200f;
     public static float ARC_EMP = 50f;
-    public static float ARC_DAM_SELF = 300f;
+    public static float ARC_DAM_SELF = 350f;
     public static float ARC_EMP_SELF = 0f;
     public static float HARD_DISS = 20f;
 
