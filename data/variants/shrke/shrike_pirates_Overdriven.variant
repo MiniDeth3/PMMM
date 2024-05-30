@@ -1,7 +1,7 @@
 {
     "displayName": "Overdriven",
-    "fluxCapacitors": 6,
-    "fluxVents": 8,
+    "fluxCapacitors": 7,
+    "fluxVents": 2,
     "goalVariant": true,
     "hullId": "shrike_pirates",
     "hullMods": [

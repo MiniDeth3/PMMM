@@ -1,15 +1,14 @@
 package data.shipsystems;
 
-import java.awt.Color;
-
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.PhaseCloakSystemAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import com.fs.starfarer.api.impl.campaign.ids.Tags;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
+
+import java.awt.*;
 
 public class MinkowskiSpaceStats extends BaseShipSystemScript {
 
@@ -20,7 +19,7 @@ public class MinkowskiSpaceStats extends BaseShipSystemScript {
 	public static float SHIP_ALPHA_MULT = 0f;
 	public static float VULNERABLE_FRACTION = 0f;
 
-	public static float MAX_TIME_MULT = 3f;
+	public static float MAX_TIME_MULT = 2f;
 	public static float MIN_SPEED_MULT = 0.33f;
 	public static float BASE_FLUX_LEVEL_FOR_MIN_SPEED = 0.5f;
 	

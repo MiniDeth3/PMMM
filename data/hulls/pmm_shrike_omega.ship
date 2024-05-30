@@ -1,190 +1,175 @@
 {
-	"hullName": "Aeon",
-	"hullId": "pmm_shrike_omega",
-	"hullSize": "DESTROYER",
-	"spriteName": "graphics/ships/omega/pmm_shrike_omega.png",
-	"style": "OMEGA",
-	"height": 170,
-	"width": 110,
-	"center": [55, 79],
-	"collisionRadius": 140,
-	"shieldCenter": [6, 0],
-	"shieldRadius": 116,
-	"viewOffset": 0,
-    "builtInMods": [
-        "automated",
-        "fluxbreakers",
-        "shard_spawner",
-    ],
-	"weaponSlots": [
-		{
-		"id": "WS 000",
-		"size": "SMALL",
-		"type": "UNIVERSAL",
-		"mount": "TURRET",
-		"arc": 190,
-		"angle": 80,
-		"locations": [14, 36]
-		},
-		{
-		"id": "WS 001",
-		"size": "SMALL",
-		"type": "UNIVERSAL",
-		"mount": "TURRET",
-		"arc": 210,
-		"angle": 0,
-		"locations": [31, 0],
-		"renderOrderMod": 10
-		},
-		{
-		"id": "WS 002",
-		"size": "MEDIUM",
-		"type": "UNIVERSAL",
-		"mount": "TURRET",
-		"arc": 210,
-		"angle": -70,
-		"locations": [4, -28]
-		},
-		{
-		"id": "WS 003",
-		"size": "MEDIUM",
-		"type": "UNIVERSAL",
-		"mount": "TURRET",
-		"arc": 220,
-		"angle": 25,
-		"locations": [43, 22]
-		},
-		{
-		"id": "WS 005",
-		"size": "MEDIUM",
-		"type": "UNIVERSAL",
-		"mount": "HARDPOINT",
-		"arc": 5,
-		"angle": 0,
-		"locations": [60, -16]
-		},
-		{
-		"id": "WS0001",
-		"size": "SMALL",
-		"type": "UNIVERSAL",
-		"mount": "HARDPOINT",
-		"arc": 5,
-		"angle": 0,
-		"locations": [73, 15]
-		},
-		{
-		"id": "WS0002",
-		"size": "SMALL",
-		"type": "UNIVERSAL",
-		"mount": "TURRET",
-		"arc": 360,
-		"angle": 0,
-		"locations": [-16, 7]
-		}
-	],
-	"engineSlots": [
-		{
-		"location": [-64, 14.5],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-65.5, -15.5],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-5, 41],
-		"length": 64,
-		"width": 20,
-		"angle": 128,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-68.5, -9.5],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-68.5, 9.5],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-58.5, 20],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-55, -5],
-		"length": 30,
-		"width": 10,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-5, -41],
-		"length": 64,
-		"width": 20,
-		"angle": -128,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-68.5, -25.5],
-		"length": 64,
-		"width": 20,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		},
-		{
-		"location": [-58, 29],
-		"length": 64,
-		"width": 20,
-		"angle": 180,
-		"contrailSize": 64,
-		"style": "OMEGA"
-		}
-	],
-	"bounds": [
-		0, 48,
-		69, 29,
-		75, 20,
-		66, 13,
-		70, 3,
-		41, 1,
-		67, -2,
-		69, -28,
-		-1, -50,
-		-9, -36,
-		-21, -47,
-		-32, -46,
-		-65, -33,
-		-74, -9,
-		-56, -6,
-		-56, 7,
-		-74, 10,
-		-65, 32,
-		-30, 48,
-		-21, 46,
-		-6, 35
-	]
+  "hullName": "Aeon",
+  "hullId": "pmm_shrike_omega",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/omega/pmm_shrike_omega.png",
+  "style": "OMEGA",
+  "height": 190,
+  "width": 118,
+  "center": [56, 93],
+  "collisionRadius": 140,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 121.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "fluxbreakers",
+    "shard_spawner"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 80,
+      "locations": [8, 33]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [25, -3],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -70,
+      "locations": [-2, -31]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 25,
+      "locations": [37, 19]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [54, -19]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-22, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71.5, -18],
+      "length": 30,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-14, 38.5],
+      "length": 64,
+      "width": 20,
+      "angle": 128,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-75, -12.5],
+      "length": 30,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-61, 20],
+      "length": 44,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-64, -8],
+      "length": 30,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-10, -48],
+      "length": 64,
+      "width": 20,
+      "angle": -128,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-73, -29],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-66, 27.5],
+      "length": 64,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    1, 54.5,
+    94, 23.5,
+    73, 17.5,
+    71.5, 2.5,
+    59.5, -2,
+    60, -25,
+    83.5, -25,
+    45, -49,
+    0.5, -61,
+    -6, -47,
+    -19.5, -60,
+    -90.5, -32,
+    -70.5, -21,
+    -83, -20,
+    -82.5, -12,
+    -62, -4.5,
+    -69.5, 4.5,
+    -59, 16.5,
+    -74.5, 22.5,
+    -73, 33,
+    -41, 46.5,
+    -16, 36.5
+  ]
 }

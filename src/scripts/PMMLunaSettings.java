@@ -30,4 +30,12 @@ public class PMMLunaSettings {
         }
         return omega;
     }
+    public static Boolean MasterRecover(){
+        Boolean mastrec = true;
+        if (Global.getSettings().getModManager().isModEnabled("lunalib"))
+        {
+            mastrec = LunaSettings.getBoolean("PirateMiniMegaMod","pmm_masterrecover");
+        }
+        return mastrec;
+    }
 }

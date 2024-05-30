@@ -1,0 +1,12 @@
+{
+    "graphics":{
+        "characters":{
+            "pmm_killigan":"graphics/portraits/characters/pmm_killigan_ultra.png",
+            "pmm_elara":"graphics/portraits/characters/pmm_elara_valda.png",
+            "pmm_oba":"graphics/portraits/characters/pmm_oba_lunn.png",
+        },
+    },
+    "ruleCommandPackages": [
+        "scripts.campaign.pmmrules"
+      ]
+}

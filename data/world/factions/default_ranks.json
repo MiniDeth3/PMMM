@@ -1,0 +1,10 @@
+{
+	"ranks":{
+		"pmm_defect":{name:"Defect"},
+	},
+	
+	"posts":{
+		"pmm_defect":{name:"Defect"},
+		"pmm_boss":{name:"Boss"},
+	},
+}
