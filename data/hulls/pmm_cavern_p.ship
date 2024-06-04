@@ -13,8 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "coherer",
-	"pmm_compmods",
-	"unstable_injector"
+    "pmm_compmods",
+    "unstable_injector"
   ],
   "builtInWings": [
     "pmm_mini_blasterdrone_wing",
@@ -158,33 +158,6 @@
       "arc": 161,
       "angle": 0,
       "locations": [4, -0]
-    },
-    {
-      "id": "WS0003",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 20,
-      "angle": 0,
-      "locations": [41, -0]
-    },
-    {
-      "id": "WS0004",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 20,
-      "angle": -23,
-      "locations": [38, -10]
-    },
-    {
-      "id": "WS0005",
-      "size": "MEDIUM",
-      "type": "BUILT_IN",
-      "mount": "HIDDEN",
-      "arc": 20,
-      "angle": 18.5,
-      "locations": [38, 11]
     }
   ],
   "engineSlots": [

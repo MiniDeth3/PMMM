@@ -14,6 +14,7 @@ public class PMMCrossmodScript {
     public static String PIRATE_GAUNTLET = "pmm_gauntlet_p";
     public static String PIRATE_SUPERCHAMP = "pmm_super_champion_p";
     public static String PIRATE_CAVERN = "pmm_cavern_p";
+    public static String PIRATE_BRAWLER_TT = "pmm_cavern_p";
 
     //Tags
     public static String SHIP_TAG_PIRATE_BP = "pirate_bp";
