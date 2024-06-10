@@ -9,6 +9,8 @@ import com.fs.starfarer.api.combat.ShipHullSpecAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import data.listeners.PirateFleetInflationListener;
 import org.apache.log4j.Logger;
+import org.dark.shaders.util.ShaderLib;
+import org.dark.shaders.util.TextureData;
 import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
 import scripts.PMMShipTagsScript;
@@ -19,6 +21,7 @@ public class PMMModPlugin extends BaseModPlugin {
     public String AEON = "pmm_shrike_omega";
     public String SATUS = "pmm_satus_shard";
     public String PERCEPT = "pmm_tempest_omega";
+    public static boolean HAS_GRAPHICSLIB = false;
     public Logger log = Logger.getLogger(this.getClass());
     public void setListenersIfNeeded() {
         ListenerManagerAPI l = Global.getSector().getListenerManager();
@@ -31,7 +34,16 @@ public class PMMModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws Exception {
+        boolean hasGraphicsLib = Global.getSettings ().getModManager ().isModEnabled ( "shaderLib" );
+        if ( hasGraphicsLib ) {
+            HAS_GRAPHICSLIB = true;
+            ShaderLib.init();
+            // LightData.readLightDataCSV((String) "data/config/example_lights_data.csv");
+            TextureData.readTextureDataCSV((String) "data/config/pmm_texture_data.csv");
+            log.info("PMM shaders active");
+        }
         log.info("Welcome to PMMM! Im MiniDeth3 and im in your logs now...");
+
     }
 
     /**
@@ -58,6 +70,7 @@ public class PMMModPlugin extends BaseModPlugin {
             PMMCrossmodScript.initScrapyardCrossmod();
             log.info("\"Where spacers sees scrap metal, a salvager sees a fleet\"");
         }
+
         setListenersIfNeeded();
         ListenerManagerAPI l = Global.getSector().getListenerManager();
             if (!l.hasListenerOfClass(PirateFleetInflationListener .class)) {

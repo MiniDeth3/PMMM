@@ -14,5 +14,6 @@
     <orderEntry type="library" exported="" name="MagicLib" level="project" />
     <orderEntry type="library" exported="" name="starfarer.api" level="project" />
     <orderEntry type="library" name="starsector-core" level="project" />
+    <orderEntry type="library" name="Graphics" level="project" />
   </component>
 </module>

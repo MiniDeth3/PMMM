@@ -2,7 +2,7 @@
   "hullName": "Nebula Mk.II",
   "hullId": "pmm_nebula2",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/pmm_nebula2.png",
+  "spriteName": "graphics/ships/nebula2/pmm_nebula2.png",
   "style": "MIDLINE",
   "height": 200,
   "width": 120,

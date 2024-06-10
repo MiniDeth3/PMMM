@@ -1,0 +1,6 @@
+Press Numpad 1 to add a point light.
+Press Numpad 2 to add a line light.
+Press Numpad 3 to add a cone light.
+Press Numpad 4 to add a directional light.
+Press Numpad 5 to add a distortion.
+Press Numpad 6 to clear all.
