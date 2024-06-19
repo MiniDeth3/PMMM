@@ -82,7 +82,7 @@ public class PMMModPlugin extends BaseModPlugin {
         public void updateLunaSettings() {
             //Omega toggle settings
             Boolean omega = PMMLunaSettings.OmegaToggle();
-            Boolean mastrec = PMMLunaSettings.OmegaToggle();
+            Boolean mastrec = PMMLunaSettings.MasterRecover();
 
             FactionAPI omegafac = Global.getSector().getFaction(Factions.OMEGA);
                 if (omega){

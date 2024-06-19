@@ -7,7 +7,7 @@
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"systemId":"pmm_degammofeed",
-	"spriteName":"graphics/ships/pmm_enforcer_p.png",
+	"spriteName":"graphics/ships/enforcer/pmm_enforcer_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
