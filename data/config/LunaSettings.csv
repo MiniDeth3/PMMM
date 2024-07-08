@@ -18,8 +18,13 @@ The defaultValue decides which one is selected by default, the secondaryValue cr
 Can be retrieved as a String.",,,Examples
 ,,,,,,,,
 ,,,,,,,,
-pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaMod.,,,,,PMM
-pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow,Color,#FFC864,,Select the color that ballistic weapons will glow on ships with s-modded pirate modifications.,,,PMM
-pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow,Color,#9B78FF,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,PMM
-pmm_omegatoggle,PMM Omega Hull Toggle,Boolean,true,,"Enables or Disables the spawning or splitting of the Satus, Aeon, and Triquetra in Omega fleets.",,,PMM
-pmm_masterrecover,PMM Master Recovery Toggle,Boolean,false,,Enables or Disables the ability to recover the Master.,,,PMM
+pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaMod.,,,,,Pirate Modifications
+pmm_piratemodsglowtoggle,Pirate Modifications Smod Glow Toggle,Boolean,true,,Toggles weapon glow on pirate ships with smodded pirate modifications.,,,Pirate Modifications
+pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow Color,Color,#FFC864,,Select the color that ballistic weapons will glow on ships with s-modded pirate modifications.,,,Pirate Modifications
+pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow Color,Color,#9B78FF,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,Pirate Modifications
+,,,,,,,,
+pmm_secretheader,Pirate MiniMegaMod,Header,These are settings for the PMMM Misc content.,,,,,Misc/Secrets
+pmm_omegatoggle,PMM Omega Hull Toggle,Boolean,true,,"Enables or Disables the spawning or splitting of the Satus, Aeon, and Triquetra in Omega fleets.",,,Misc/Secrets
+pmm_masterrecover,PMM Master Recovery Toggle,Boolean,false,,Enables or Disables the ability to recover the Master.,,,Misc/Secrets
+,,,,,,,,
+,,,,,,,,

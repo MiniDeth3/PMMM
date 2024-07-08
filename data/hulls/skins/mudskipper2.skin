@@ -17,7 +17,7 @@
 	"removeEngineSlots":[], 			# indices, as engine slots have no id in the .ship file
 	#"removeBuiltInMods":["civgrade"], 	# hullmod ids
 	"removeBuiltInWeapons":[], 			# weapon slot ids
-	"builtInMods":["ill_advised", "comp_storage","pmm_compmods",],
+	"builtInMods":["ill_advised","hbi","comp_storage","pmm_compmods",],
 	"builtInWeapons":{
     },
     "weaponSlotChanges":{

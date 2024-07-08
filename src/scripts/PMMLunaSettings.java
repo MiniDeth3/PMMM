@@ -6,21 +6,29 @@ import lunalib.lunaSettings.LunaSettings;
 import java.awt.*;
 
 public class PMMLunaSettings {
-    public static Color PirateGlowColorBallistic(){
-        Color pirateglowcolor = new Color(255,255,255,255);
+    public static Boolean PirateGlowToggle(){
+        Boolean glow = true;
         if (Global.getSettings().getModManager().isModEnabled("lunalib"))
         {
-            pirateglowcolor = LunaSettings.getColor("PirateMiniMegaMod","pmm_piratemodsglowballistic");
+            glow = LunaSettings.getBoolean("PirateMiniMegaMod","pmm_piratemodsglowtoggle");
         }
-        return pirateglowcolor;
+        return glow;
+    }
+    public static Color PirateGlowColorBallistic(){
+        Color pirateglowcolorballistic = new Color(255,255,255,255);
+        if (Global.getSettings().getModManager().isModEnabled("lunalib"))
+        {
+            pirateglowcolorballistic = LunaSettings.getColor("PirateMiniMegaMod","pmm_piratemodsglowballistic");
+        }
+        return pirateglowcolorballistic;
     }
     public static Color PirateGlowColorEnergy(){
-        Color pirateglowcolor = new Color(255,255,255,255);
+        Color pirateglowcolorenergy = new Color(255,255,255,255);
         if (Global.getSettings().getModManager().isModEnabled("lunalib"))
         {
-            pirateglowcolor = LunaSettings.getColor("PirateMiniMegaMod","pmm_piratemodsglowenergy");
+            pirateglowcolorenergy = LunaSettings.getColor("PirateMiniMegaMod","pmm_piratemodsglowenergy");
         }
-        return pirateglowcolor;
+        return pirateglowcolorenergy;
     }
     public static Boolean OmegaToggle(){
         Boolean omega = true;

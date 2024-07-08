@@ -9,7 +9,7 @@
 	"systemId":"lidararray",
 	"baseValueMult":1.5,
 	"ordnancePoints":90,
-	"spriteName":"graphics/ships/pmm_sunder_p.png",
+	"spriteName":"graphics/ships/sunder/pmm_sunder_p.png",
 	"removeWeaponSlots":[], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids

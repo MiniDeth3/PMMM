@@ -12,7 +12,7 @@
 	"fleetPoints":17,
 	"ordnancePoints":150,
 	"baseValueMult":1.50,
-	"spriteName":"graphics/ships/pmm_eagle_p.png",
+	"spriteName":"graphics/ships/eagle/pmm_eagle_p.png",
     "removeWeaponSlots":["WS 003","WS 004"], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids

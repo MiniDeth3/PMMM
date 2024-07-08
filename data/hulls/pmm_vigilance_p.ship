@@ -2,7 +2,7 @@
 	"hullName": "Vigilance (P)",
 	"hullId": "pmm_vigilance_p",
 	"hullSize": "FRIGATE",
-	"spriteName": "graphics/ships/pmm_vigilance_p.png",
+	"spriteName": "graphics/ships/vigilance/pmm_vigilance_p.png",
 	"style": "MIDLINE",
 	"height": 101,
 	"width": 63,

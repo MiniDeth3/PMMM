@@ -4,18 +4,18 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/omega/pmm_tempest_omega.png",
   "style": "OMEGA",
-  "height": 92,
-  "width": 64,
-  "center": [32, 46],
+  "height": 106,
+  "width": 79,
+  "center": [35.5, 60],
   "collisionRadius": 70,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 70,
   "viewOffset": 0,
   "builtInMods": [
-        "automated",
-        "fluxbreakers",
-        "shard_spawner",
-		"do_not_back_off",
+    "automated",
+    "fluxbreakers",
+    "shard_spawner",
+    "do_not_back_off"
   ],
   "weaponSlots": [
     {
@@ -25,7 +25,7 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-8, 9]
+      "locations": [-7, 8.5]
     },
     {
       "id": "WS0002",
@@ -34,7 +34,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [33, -1]
+      "locations": [38, -1.5]
     },
     {
       "id": "WS0003",
@@ -43,12 +43,12 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [25, -14]
+      "locations": [25, -14.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-32.5, -9],
+      "location": [-31.5, -9.5],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -56,7 +56,7 @@
       "style": "OMEGA"
     },
     {
-      "location": [-30, 5],
+      "location": [-33.5, 8],
       "length": 40,
       "width": 15,
       "angle": 180,
@@ -64,7 +64,7 @@
       "style": "OMEGA"
     },
     {
-      "location": [-30, -3],
+      "location": [-28, 1],
       "length": 64,
       "width": 10,
       "angle": 180,
@@ -73,12 +73,14 @@
     }
   ],
   "bounds": [
-    -6.5, -30.5,
-    41.5, -11.5,
-    39.5, 13.5,
-    -3.5, 30.5,
-    -39.5, 15.5,
-    -41.5, -12.5,
-    -29, -28
+    -19.5, -37,
+    29, -20,
+    29, -10.5,
+    40.5, -10,
+    41, 7.5,
+    -13, 32,
+    -39, 14.5,
+    -30.5, -2.5,
+    -49, -13
   ]
 }

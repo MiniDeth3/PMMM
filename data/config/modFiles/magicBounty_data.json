@@ -21,7 +21,6 @@
         "job_difficultyDescription": "none",
         "job_pick_option": "Accept the job", # Default: "Accept the job". The text option that, when selected, accepts the bounty job.
         "job_memKey":"$pmmkilligan",	# Defaults to "$bountyId", memKeys always start with "$". The specified memkey will be set to false when the job is accepted, then true if it is completed.
-        "job_conclusion_script": "pmm_bounty_killigan_completed",
 
         "target_first_name":"Killigan",
         "target_last_name":"Ultra",
@@ -117,7 +116,6 @@
         "job_difficultyDescription": "none",
         "job_pick_option": "Accept the job", # Default: "Accept the job". The text option that, when selected, accepts the bounty job.
         "job_memKey":"$pmmelara",	# Defaults to "$bountyId", memKeys always start with "$". The specified memkey will be set to false when the job is accepted, then true if it is completed.
-        "job_conclusion_script": "pmm_bounty_killigan_completed",
 
         "target_first_name":"Elara",
         "target_last_name":"Valda",
@@ -214,7 +212,6 @@
         "job_difficultyDescription": "none",
         "job_pick_option": "Accept the job", # Default: "Accept the job". The text option that, when selected, accepts the bounty job.
         "job_memKey":"$pmmoba",	# Defaults to "$bountyId", memKeys always start with "$". The specified memkey will be set to false when the job is accepted, then true if it is completed.
-        "job_conclusion_script": "pmm_bounty_killigan_completed",
 
         "target_first_name":"Oba",
         "target_last_name":"Lunn",

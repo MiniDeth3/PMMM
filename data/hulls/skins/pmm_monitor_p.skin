@@ -7,7 +7,7 @@
 	"tags":["pirate_bp"],
 	"tech":"Pirate",
 	"baseValueMult":1.3,
-	"spriteName":"graphics/ships/pmm_monitor_p.png",
+	"spriteName":"graphics/ships/monitor/pmm_monitor_p.png",
 	"removeWeaponSlots":["WS 004", WS 003], 		# ids
 	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
 	"removeBuiltInMods":[], 		# hullmod ids
