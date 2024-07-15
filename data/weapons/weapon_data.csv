@@ -8,4 +8,4 @@ Improvised Flaklayer,pmm_miniminelayer_flak,0,,200000,600,,250,,10,30,12,30,,,HI
 Target Assist Beam,pmm_derelict_fonsi_target_assist_beam,2,,1500,1800,100,,,10,15,9,,,,KINETIC,,75,0.1,0.1,,,,,,,2400,,,,,,,,"he0, no_sell, no_drop, no_drop_salvage",,,,Suppression,,,,, Weaken the ships against owner attack, Weaken the ships against owner attack,,,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #decos,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,pmm_gauntlet_frontmed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,,,,,,,,,,,,
+,pmm_gauntlet_frontmed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_sell, no_drop, no_drop_salvage",,,,,,,,,,,,,
