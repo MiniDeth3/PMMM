@@ -96,7 +96,10 @@ pmm_cavern_p,ship,,,material,graphics/ships/sa/pmm_cavern_p_material.png
 pmm_cavern_p,ship,,1,normal,graphics/ships/sa/pmm_cavern_p_normal.png
 pmm_cavern_p,ship,,,surface,graphics/ships/sa/pmm_cavern_p_surface.png
 ,,,,,
-pmm_gauntlet_p,ship,,,material,graphics/ships/sa/pmm_cavern_p_material.png
-pmm_gauntlet_p,ship,,1,normal,graphics/ships/sa/pmm_cavern_p_normal.png
-pmm_gauntlet_p,ship,,,surface,graphics/ships/sa/pmm_cavern_p_surface.png
+pmm_gauntlet_p,ship,,,material,graphics/ships/vri/pmm_gauntlet_p_material.png
+pmm_gauntlet_p,ship,,1,normal,graphics/ships/vri/pmm_gauntlet_p_normal.png
+pmm_gauntlet_p,ship,,,surface,graphics/ships/vri/pmm_gauntlet_p_surface.png
+pmm_gauntlet_p_deco,turret,,,material,graphics/shaders/vri/pmm_gauntlet_p_deco_material.png
+pmm_gauntlet_p_deco,turret,,1,normal,graphics/shaders/vri/pmm_gauntlet_p_deco_normal.png
+pmm_gauntlet_p_deco,turret,,,surface,graphics/shaders/vri/pmm_gauntlet_p_deco_surface.png
 ,,,,,
