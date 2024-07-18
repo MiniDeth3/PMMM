@@ -68,8 +68,8 @@ public class OmegaWarp extends BaseShipSystemScript {
 		jitterLevel = (float) Math.sqrt(jitterLevel);
 		effectLevel *= effectLevel;
 		
-		ship.setJitter(this, JITTER_UNDER_COLOR, jitterLevel, 15, 50f, 100f + jitterRangeBonus);
-		ship.setJitterUnder(this, JITTER_COLOR, jitterLevel, 15, 50f, 100f + jitterRangeBonus);
+		ship.setJitter(this, JITTER_UNDER_COLOR, jitterLevel, 16, 50f, 110f + jitterRangeBonus);
+		ship.setJitterUnder(this, JITTER_COLOR, jitterLevel, 16, 50f, 110f + jitterRangeBonus);
 
 		float shipTimeMult = 1f + (MAX_TIME_MULT - 1f) * effectLevel;
 		stats.getTimeMult().modifyMult(id, shipTimeMult);
