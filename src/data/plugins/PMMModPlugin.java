@@ -13,7 +13,7 @@ import scripts.PMMLunaSettings;
 import scripts.PMMSettingsScript;
 
 public class PMMModPlugin extends BaseModPlugin {
-    public static boolean HAS_GRAPHICSLIB = false;
+    public static boolean hasGraphicsLib = false;
     public Logger log = Logger.getLogger(this.getClass());
     public void setListenersIfNeeded() {
         ListenerManagerAPI l = Global.getSector().getListenerManager();
@@ -26,16 +26,16 @@ public class PMMModPlugin extends BaseModPlugin {
 
     @Override
     public void onApplicationLoad() throws Exception {
-        boolean hasGraphicsLib = Global.getSettings ().getModManager ().isModEnabled ( "shaderLib" );
-        if ( hasGraphicsLib ) {
-            HAS_GRAPHICSLIB = true;
+        hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
+        if (hasGraphicsLib) {
             ShaderLib.init();
-            // LightData.readLightDataCSV((String) "data/config/example_lights_data.csv");
-            TextureData.readTextureDataCSV((String) "data/config/pmm_texture_data.csv");
-            log.info("PMM shaders active");
+            if (ShaderLib.areShadersAllowed() && ShaderLib.areBuffersAllowed()) {
+                // LightData.readLightDataCSV("data/config/example_lights_data.csv");
+                TextureData.readTextureDataCSV("data/config/pmm_texture_data.csv");
+                log.info("PMM shaders active");
+            }
         }
         log.info("Welcome to PMMM! Im MiniDeth3 and im in your logs now...");
-
     }
 
     /**
