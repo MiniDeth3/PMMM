@@ -3,7 +3,7 @@
 	"name":"PMMM", # Displayed to the player
 	"author":"MiniDeth",
     "utility":"false",
-	"version":"1.7.5",
+	"version":"1.7.6",
 	"description":"A mod meant to add variance and a bit of cursed mechanics to pirates.",
     "gameVersion": "0.97a-RC11",
 	"replace":[
