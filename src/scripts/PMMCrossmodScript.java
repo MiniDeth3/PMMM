@@ -9,12 +9,15 @@ public class PMMCrossmodScript {
     public static boolean IsVRIEnabled = false;
     public static boolean IsScrapyardEnabled = false;
     public static boolean IsIndiesEnabled = false;
+    public static boolean IsSWPEnabled = false;
 
     //Ships
     public static String PIRATE_GAUNTLET = "pmm_gauntlet_p";
     public static String PIRATE_SUPERCHAMP = "pmm_super_champion_p";
     public static String PIRATE_CAVERN = "pmm_cavern_p";
     public static String PIRATE_BRAWLER_TT = "pmm_cavern_p";
+
+    public static String PIRATE_STRIKER = "pmm_striker_p";
 
     //Tags
     public static String SHIP_TAG_PIRATE_BP = "pirate_bp";
@@ -38,6 +41,13 @@ public class PMMCrossmodScript {
         Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_PIRATE);
         Global.getSettings().getHullSpec(PIRATE_CAVERN).addTag(SHIP_TAG_RARE_BP);
         Global.getSector().getFaction(Factions.PIRATES).addKnownShip(PIRATE_CAVERN, false);
+
+    }
+    public static void initSWPCrossmod(){
+        IsSWPEnabled = true;
+        Global.getSettings().getHullSpec(PIRATE_STRIKER).addTag(SHIP_TAG_PIRATE);
+        Global.getSettings().getHullSpec(PIRATE_STRIKER).addTag(SHIP_TAG_PIRATE_BP);
+        Global.getSector().getFaction(Factions.PIRATES).addKnownShip(PIRATE_STRIKER, false);
 
     }
 }

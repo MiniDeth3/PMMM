@@ -1,0 +1,186 @@
+{
+  "hullName": "Striker (P)",
+  "hullId": "pmm_striker_p",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/swp/pmm_striker_p.png",
+  "style": "LOW_TECH",
+  "height": 173,
+  "width": 96,
+  "center": [48, 83],
+  "collisionRadius": 101,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missile_autoloader",
+    "ballistic_rangefinder",
+    "pmm_compmods"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [55, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [55, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [34, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [34, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [41, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 60,
+      "locations": [-7, 19]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -60,
+      "locations": [-7, -19]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [-38, 30]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -90,
+      "locations": [-38, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, 25],
+      "length": 80,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-83, -25],
+      "length": 80,
+      "width": 24,
+      "angle": -180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, 7.5],
+      "length": 48,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-76, -7.5],
+      "length": 48,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54.5, 43.5],
+      "length": 32,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54.5, -43.5],
+      "length": 32,
+      "width": 8,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [11.5, -31],
+      "length": 32,
+      "width": 8,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [11.5, 31],
+      "length": 32,
+      "width": 8,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    66, -16,
+    37, -25.5,
+    26.5, -39,
+    7, -30,
+    -45.5, -45.5,
+    -81.5, -35.5,
+    -81.5, -16,
+    -68, 0,
+    -81.5, 16,
+    -81.5, 35.5,
+    -45.5, 45.5,
+    7, 30,
+    26.5, 39,
+    37, 25.5,
+    66, 16,
+    85.5, -0
+  ]
+}

@@ -1,7 +1,7 @@
 {
 	"baseHullId":"harbinger",
 	"skinHullId":"pmm_harbinger_p",
-	"hullName":"Herbinger (P)",
+	"hullName":"Harbinger (P)",
 	"descriptionId":"harbinger",
 	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
 	"tags":["pirate_bp","pirates",],

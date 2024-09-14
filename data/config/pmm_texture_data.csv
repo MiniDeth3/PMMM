@@ -36,9 +36,9 @@ pmm_eagle_p,ship,,,material,graphics/ships/eagle/pmm_eagle_p_material.png
 pmm_eagle_p,ship,,1,normal,graphics/ships/eagle/pmm_eagle_p_normal.png
 pmm_eagle_p,ship,,,surface,graphics/ships/eagle/pmm_eagle_p_surface.png
 ,,,,,
-pmm_barbinger_p,ship,,,material,graphics/ships/phase/pmm_harbinger_p_material.png
-pmm_barbinger_p,ship,,1,normal,graphics/ships/phase/pmm_harbinger_p_normal.png
-pmm_barbinger_p,ship,,,surface,graphics/ships/phase/pmm_harbinger_p_surface.png
+pmm_harbinger_p,ship,,,material,graphics/ships/phase/pmm_harbinger_p_material.png
+pmm_harbinger_p,ship,,1,normal,graphics/ships/phase/pmm_harbinger_p_normal.png
+pmm_harbinger_p,ship,,,surface,graphics/ships/phase/pmm_harbinger_p_surface.png
 ,,,,,
 pmm_scarab_p,ship,,,material,graphics/ships/scarab/pmm_scarab_p_material.png
 pmm_scarab_p,ship,,1,normal,graphics/ships/scarab/pmm_scarab_p_normal.png

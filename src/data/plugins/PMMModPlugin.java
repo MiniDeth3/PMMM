@@ -62,6 +62,10 @@ public class PMMModPlugin extends BaseModPlugin {
             PMMCrossmodScript.initScrapyardCrossmod();
             log.info("\"Where spacers sees scrap metal, a salvager sees a fleet\"");
         }
+        if (Global.getSettings().getModManager().isModEnabled("swp")){
+            PMMCrossmodScript.initSWPCrossmod();
+            log.info("SWP is just the best pack out there");
+        }
 
         setListenersIfNeeded();
         ListenerManagerAPI l = Global.getSector().getListenerManager();

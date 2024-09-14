@@ -13,3 +13,4 @@ Minkowski Space Shift,pmm_minkowskispace,300,,,,,,,,,1,,2,2.5,TRUE,,TRUE,TRUE,TR
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #crossmod,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Lancer Lunge,pmm_raiderdrivesafe_crossmod,1,,,,,,,,,2,9,1,25,,,,,,FALSE,FALSE,FALSE,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Burst Jets,pmm_punisherjets_crossmod,,,,,,,,2,0.15,0.4,1.2,0.4,0,,,,,,,,,,,,,graphics/icons/hullsys/burn_drive.png

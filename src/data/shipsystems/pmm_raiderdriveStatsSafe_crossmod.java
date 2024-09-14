@@ -33,7 +33,7 @@ import java.util.Map;
 // import java.awt.Color;
 // import com.fs.starfarer.api.combat.ShipCommand;
 
-public class acs_raiderdriveStatsSafe_crossmod extends BaseShipSystemScript {
+public class pmm_raiderdriveStatsSafe_crossmod extends BaseShipSystemScript {
     //start damper
     private static Map mag = new HashMap();
 	static {

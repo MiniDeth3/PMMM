@@ -1,0 +1,28 @@
+{
+	#original from SWP authored by DR
+    "id":"pmm_punisherjets_crossmod",
+    "type":"ENGINE_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.ai.pmm_PunisherJetsAI_crossmod",
+
+    "statsScript":"data.shipsystems.pmm_PunisherJetsStats_crossmod",
+
+    "engineGlowContrailColor":[70,50,30,255],
+    "engineGlowLengthMult":1.5,
+    "engineGlowWidthMult":1.5,
+    "engineGlowGlowMult":1.5,
+
+    "flameoutOnImpactChance":0.2,
+
+    "clampTurnRateAfter":false,
+    "clampMaxSpeedAfter":false,
+    "alwaysAccelerate":true,
+
+    "outOfUsesSound":"engine_disabled",
+
+    "aiHints":{
+        "activeSpeedIncrease":0,
+        "burstMovementPotential":350,
+        "averageSpeedIncrease":35,
+    }
+}
