@@ -3,7 +3,7 @@
 	"skinHullId":"pmm_hammerhead_p",
 	"hullName":"Hammerhead (P)",
 	"descriptionPrefix":"This Hammerhead's propulsion system has been given impractical yet showy 'improvements' by some enthusiastic pirate crew; the patchwork of engine components, somehow persuaded to work toward ungainly common purpose, conform to zero safety standards.",
-	"tags":["pirate","rare_bp"],
+	"tags":["pirates","rare_bp"],
 	"tech":"Pirate",
 	"spriteName":"graphics/ships/hammerhead/pmm_hammerhead_p.png",
 	"suppliesToRecover":14,
