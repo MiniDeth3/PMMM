@@ -4,34 +4,13 @@ import java.awt.Color;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
-//import com.fs.starfarer.api.combat.CombatEntityAPI;
-// import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
-
-// import org.lazywizard.lazylib.MathUtils;
-// import org.lazywizard.lazylib.VectorUtils;
-// import org.lazywizard.lazylib.combat.CombatUtils;
-// import org.lazywizard.lazylib.combat.AIUtils;
-
-// import com.fs.starfarer.api.Global;
-// import com.fs.starfarer.api.combat.BaseHullMod;
-// import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import java.util.HashMap;
 import java.util.Map;
-
-
-// import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-
-
-// import com.fs.starfarer.api.combat.CombatEngineAPI;
-
-
-// import java.awt.Color;
-// import com.fs.starfarer.api.combat.ShipCommand;
 
 public class pmm_raiderdriveStatsSafe_crossmod extends BaseShipSystemScript {
     //start damper
