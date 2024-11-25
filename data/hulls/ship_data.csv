@@ -35,7 +35,7 @@ Striker (P),pmm_striker_p,Light Destroyer,Pirate,maneuveringjets,8,4000,600,3500
 ,pmm_satus_shard,Satus Shard,Unknown,temporalshell,14,2500,600,5000,5000,500,60,,190,250,200,120,360,250,OMNI,,150,0,0.5,,,0,0,15,60,1,50,12,100000,20,5,,,7,7,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","omega, no_autofit, restricted",,0.5,2,2,,229
 ,pmm_tempest_omega,Percept Shard,Unknown,pmm_minkowskispace,14,2300,500,5000,5000,500,60,,200,250,200,120,360,230,OMNI,,150,0,0.5,,,0,0,15,60,1,50,12,100000,20,5,,,7,7,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","omega, no_autofit, restricted",,0.5,2,2,,229
 Master,pmm_derelict_master,Droneship,Explorarium,pmm_synthdash,14,5500,800,3000,3750,1000,100,,100,80,50,40,50,500,NONE,,0,0.4,0.8,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"SHIP_WITH_MODULES, UNBOARDABLE, HIDE_IN_CODEX",derelict,,0.5,2,3,,317
-Defense Module,pmm_derelict_master_cover,Defense Module,,,0,2000,100,10000,3750,700,40,,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,0,0,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",no_autofit,,1,2,3,,317
+Defense Module,pmm_derelict_master_cover,Defense Module,,,0,2000,100,10000,3750,700,40,,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,0,0,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_autofit, module_unselectable, module_refit_bright, always_detaches",,1,2,3,,317
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #bosses,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fonsi,pmm_derelict_fonsi,Droneship,,,24,8000,600,5000,3750,700,40,1,100,80,50,40,50,500,FRONT,,360,0.4,0.6,,,0,0,80,60,2,30,10,50000,5,15,420,0.25,25,25,,,,,,,HIDE_IN_CODEX,restricted,,1,2,3,,318

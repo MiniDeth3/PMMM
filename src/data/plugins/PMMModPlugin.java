@@ -80,6 +80,7 @@ public class PMMModPlugin extends BaseModPlugin {
             Boolean omega = PMMLunaSettings.OmegaToggle();
             Boolean mastrec = PMMLunaSettings.MasterRecover();
             Boolean glow = PMMLunaSettings.PirateGlowToggle();
+            Boolean vct_afflictor = PMMLunaSettings.VanillaChangeToggle_Afflictor();
 
                 PMMSettingsScript.initOmega();
                 if (omega)
@@ -94,5 +95,9 @@ public class PMMModPlugin extends BaseModPlugin {
                 PMMSettingsScript.initGlow();
                 if (!glow)
                     log.info("PMM Glow disabled");
+
+                PMMSettingsScript.initVTC_afflictor();
+                if (!vct_afflictor)
+                    log.info("PMM afflictor changes disabled");
         }
         }

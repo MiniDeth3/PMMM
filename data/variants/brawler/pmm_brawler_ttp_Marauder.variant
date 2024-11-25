@@ -4,9 +4,7 @@
     "fluxVents": 9,
     "goalVariant": true,
     "hullId": "pmm_brawler_ttp",
-    "hullMods": [
-        "eccm",
-    ],
+    "hullMods": [],
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
@@ -16,16 +14,22 @@
             "autofire": false,
             "mode": "ALTERNATING",
             "weapons": {
-                "WS 002": "typhoon",
-                "WS 001": "typhoon",
+                "WS 004": "sabot",
+                "WS 003": "sabot",
             }
         },
         {
             "autofire": false,
-            "mode": "ALTERNATING",
+            "mode": "LINKED",
             "weapons": {
-                "WS 003": "swarmer",
-                "WS 004": "swarmer",
+                "WS 001": "heavyblaster",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "ionpulser",
             }
         },
     ],

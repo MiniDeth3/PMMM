@@ -1,6 +1,6 @@
 {
     "displayName": "Advanced",
-    "fluxCapacitors": 5,
+    "fluxCapacitors": 7,
     "fluxVents": 10,
     "goalVariant": true,
     "hullId": "pmm_lasher_p",

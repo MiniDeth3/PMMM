@@ -1,7 +1,7 @@
 {
     "displayName": "Raider",
-    "fluxCapacitors": 12,
-    "fluxVents": 8,
+    "fluxCapacitors": 8,
+    "fluxVents": 7,
     "goalVariant": true,
     "hullId": "mule_d_pirates",
     "hullMods": [
@@ -10,20 +10,13 @@
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
-    "variantId": "mule_d_pirates_Standard",
+    "variantId": "mule_d_pirates_Raider",
     "weaponGroups": [
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 003": "annihilatorpod",
-            }
-        },
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 002": "annihilatorpod",
+                "WS 002": "heavyneedler",
                 "WS 001": "shredder",
             }
         },
@@ -32,6 +25,13 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 005": "mininglaser",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "annihilatorpod",
             }
         },
     ],

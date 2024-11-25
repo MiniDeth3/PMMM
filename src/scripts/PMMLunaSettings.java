@@ -30,6 +30,16 @@ public class PMMLunaSettings {
         }
         return pirateglowcolorenergy;
     }
+    public static Boolean VanillaChangeToggle_Afflictor(){
+        Boolean vct_afflictor = true;
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            if (LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_afflictor").contains("PMM"))
+                vct_afflictor = true;
+                else
+                    vct_afflictor = false;
+        }
+        return vct_afflictor;
+    }
     public static Boolean OmegaToggle(){
         Boolean omega = true;
         if (Global.getSettings().getModManager().isModEnabled("lunalib"))

@@ -22,6 +22,27 @@ pmm_header,Pirate MiniMegaMod,Header,These are settings for the Pirate MiniMegaM
 pmm_piratemodsglowtoggle,Pirate Modifications Smod Glow Toggle,Boolean,true,,Toggles weapon glow on pirate ships with smodded pirate modifications.,,,Pirate Modifications
 pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow Color,Color,#FFC864,,Select the color that ballistic weapons will glow on ships with s-modded pirate modifications.,,,Pirate Modifications
 pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow Color,Color,#9B78FF,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,Pirate Modifications
+pmm_vanillatogglesheader,Pirate MiniMegaMod,Header,These are toggles for PMM's vanilla changes.,,,,,Pirate Modifications
+pmm_vanillatogglestext,,Text,"NOT DYNAMIC. Toggles swap known ships and variants for spawning in markets and fleets. Already spawned PMM edited vanilla ships will remain in fleets until sold, scuttled, destroyed, or despawned",,,,,Pirate Modifications
+pmm_vanillatoggle_afflictor,Afflictor (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_cerberus,Cerberus (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_gremlin,Gremlin (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_hound,Hound (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_kite,Kite (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_mudskipper,Mudskipper Mk2,Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_shade,Shade (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_wolf,Wolf (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_vanguard,Vanguard (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_buffalo,Buffalo (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_enforcer,Enforcer (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_manticore,Manticore (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_mule,Mule (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_shrike,Shrike (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_venture,Venture (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_eradicator,Eradicator (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_colossus2,Colossus Mk2 (Pather),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_colossus3,Colossus Mk3 (Pirate),Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
+pmm_vanillatoggle_atlas,Atlas Mk2,Radio,PMM,"PMM, Vanilla",,,,Pirate Modifications
 ,,,,,,,,
 pmm_secretheader,Pirate MiniMegaMod,Header,These are settings for the PMMM Misc content.,,,,,Misc/Secrets
 pmm_omegatoggle,PMM Omega Hull Toggle,Boolean,true,,"Enables or Disables the spawning or splitting of the Satus, Aeon, and Triquetra in Omega fleets.",,,Misc/Secrets

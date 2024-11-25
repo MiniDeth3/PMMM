@@ -1,6 +1,6 @@
 {
     "displayName": "Raider",
-    "fluxCapacitors": 10,
+    "fluxCapacitors": 9,
     "fluxVents": 9,
     "goalVariant": true,
     "hullId": "pmm_scarab_p",
@@ -44,13 +44,7 @@
             "mode": "LINKED",
             "weapons": {
                 "WS 008": "lightdualmg",
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 009": "pdlaser",
+                "WS 009": "lightdualmg",
             }
         },
     ],

@@ -1,20 +1,51 @@
 {
     "displayName": "Strike",
     "fluxCapacitors": 0,
-    "fluxVents": 0,
+    "fluxVents": 3,
     "goalVariant": true,
     "hullId": "vanguard_pirates",
     "hullMods": [
         "armoredweapons",
         "fluxbreakers",
         "heavyarmor",
-        "insulatedengine",
     ],
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
     "variantId": "vanguard_pirates_Strike",
     "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 006": "lightneedler",
+                "WS 005": "lightneedler",
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "breach",
+                "WS 000": "breach",
+                "WS 001": "irautolance",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "lightag",
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "vulcan",
+                "WS 003": "vulcan",
+            }
+        },
         {
             "autofire": true,
             "mode": "ALTERNATING",

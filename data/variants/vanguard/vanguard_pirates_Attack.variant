@@ -1,53 +1,50 @@
 {
     "displayName": "Attack",
     "fluxCapacitors": 0,
-    "fluxVents": 17,
-    "goalVariant": true,
-    "hullId": "shrike_pirates",
+    "fluxVents": 2,
+    "goalVariant": false,
+    "hullId": "vanguard_pirates",
     "hullMods": [
-        "fluxcoil",
-        "unstable_injector",
+        "armoredweapons",
+        "fluxbreakers",
+        "heavyarmor",
+        "insulatedengine",
     ],
     "permaMods": [],
     "sMods": [],
     "suppressedMods": [],
-    "variantId": "shrike_pirates_Attack",
+    "variantId": "vanguard_pirates_Attack",
     "weaponGroups": [
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 003": "heavyblaster",
+                "WS 006": "lightdualac",
+                "WS 005": "lightdualac",
             }
         },
         {
             "autofire": false,
-            "mode": "LINKED",
+            "mode": "ALTERNATING",
             "weapons": {
-                "WS 005": "sabotpod",
+                "WS 002": "harpoon",
+                "WS 000": "harpoon",
+                "WS 001": "miningblaster",
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 002": "irpulse",
-                "WS 000": "irpulse",
+                "WS 007": "lightag",
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "pmm_tpc",
-            }
-        },
-        {
-            "autofire": true,
-            "mode": "LINKED",
-            "weapons": {
-                "WS 006": "pdlaser",
-                "WS 007": "pdlaser",
+                "WS 004": "vulcan",
+                "WS 003": "vulcan",
             }
         },
     ],

@@ -35,10 +35,10 @@ public class compmods extends BaseHullMod {
 				while (weaponiter.hasNext()) {
 					WeaponAPI weapon = (WeaponAPI) weaponiter.next();
 					if (weapon.getType().equals(WeaponAPI.WeaponType.BALLISTIC)) {
-						weapon.setGlowAmount(0.8f, BALLISTIC_GLOW);
+						weapon.setGlowAmount(0.5f, BALLISTIC_GLOW);
 					}
 					if (weapon.getType().equals(WeaponAPI.WeaponType.ENERGY)) {
-						weapon.setGlowAmount(0.8f, ENERGY_GLOW);
+						weapon.setGlowAmount(0.5f, ENERGY_GLOW);
 					}
 				}
 			} else {
@@ -46,10 +46,10 @@ public class compmods extends BaseHullMod {
 				while (weaponiter.hasNext()) {
 				WeaponAPI weapon = (WeaponAPI) weaponiter.next();
 					if (weapon.getType().equals(WeaponAPI.WeaponType.BALLISTIC)) {
-						weapon.setGlowAmount(0.4f, BALLISTIC_GLOW);
+						weapon.setGlowAmount(0.3f, BALLISTIC_GLOW);
 					}
 					if (weapon.getType().equals(WeaponAPI.WeaponType.ENERGY)) {
-						weapon.setGlowAmount(0.4f, ENERGY_GLOW);
+						weapon.setGlowAmount(0.3f, ENERGY_GLOW);
 					}
 				}
 			}

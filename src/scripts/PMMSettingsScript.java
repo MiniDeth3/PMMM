@@ -6,6 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import data.hullmods.compmods;
 
+
 public class PMMSettingsScript {
 
     //Settings
@@ -25,7 +26,7 @@ public class PMMSettingsScript {
 
 
     public static void initMasterRec(){
-        boolean masrec = PMMLunaSettings.MasterRecover();
+        Boolean masrec = PMMLunaSettings.MasterRecover();
         if(masrec){
             IsMastRec = true;
             Global.getSettings().getHullSpec(MASTER).addTag(AUTOREC);
@@ -124,4 +125,15 @@ public class PMMSettingsScript {
             omegafac.removeKnownShip(PERCEPT);
         }
     }
+    public static void  initVTC_afflictor(){
+        Boolean vct_afflictor = PMMLunaSettings.VanillaChangeToggle_Afflictor();
+        if (vct_afflictor) {
+            vct_afflictor = true;
+
+        } else {
+            vct_afflictor = false;
+        }
+
+    }
 }
+

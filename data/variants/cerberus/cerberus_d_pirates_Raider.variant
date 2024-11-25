@@ -1,13 +1,11 @@
 {
     "displayName": "Raider",
-    "fluxCapacitors": 3,
-    "fluxVents": 5,
+    "fluxCapacitors": 10,
+    "fluxVents": 6,
     "goalVariant": true,
     "hullId": "cerberus_d_pirates",
     "hullMods": [
         "blast_doors",
-        "fluxcoil",
-        "fluxdistributor",
     ],
     "permaMods": [],
     "sMods": [],
