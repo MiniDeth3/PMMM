@@ -13,91 +13,89 @@ import scripts.PMMLunaSettings;
 import scripts.PMMSettingsScript;
 
 public class PMMModPlugin extends BaseModPlugin {
-    public static boolean hasGraphicsLib = false;
-    public Logger log = Logger.getLogger(this.getClass());
-    public void setListenersIfNeeded() {
-        ListenerManagerAPI l = Global.getSector().getListenerManager();
 
-        if (!l.hasListenerOfClass(PirateFleetInflationListener.class)) {
-            l.addListener(new PirateFleetInflationListener(), true);
-            log.info("Adding Pirate Listener");
-        }
-    }
+    private static final Logger log = Global.getLogger(PMMModPlugin.class);
+    private static boolean hasGraphicsLib = false;
 
     @Override
     public void onApplicationLoad() throws Exception {
         hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
+
         if (hasGraphicsLib) {
             ShaderLib.init();
+
             if (ShaderLib.areShadersAllowed() && ShaderLib.areBuffersAllowed()) {
-                // LightData.readLightDataCSV("data/config/example_lights_data.csv");
                 TextureData.readTextureDataCSV("data/config/pmm_texture_data.csv");
                 log.info("PMM shaders active");
             }
         }
-        log.info("Welcome to PMMM! Im MiniDeth3 and im in your logs now...");
+        log.info("Welcome to PMMM! I'm MiniDeth3, and I'm in your logs now...");
     }
 
-    /**
-     * Adds Pirate Mods to all pirate ships.
-     */
     @Override
-    public void onGameLoad(boolean WasEnabledBefore){
+    public void onGameLoad(boolean wasEnabledBefore) {
+        addPirateMods();
+        initializeCrossmods();
+        setListenersIfNeeded();
+        updateLunaSettings();
+    }
+
+    private void setListenersIfNeeded() {
+        ListenerManagerAPI listenerManager = Global.getSector().getListenerManager();
+
+        if (!listenerManager.hasListenerOfClass(PirateFleetInflationListener.class)) {
+            listenerManager.addListener(new PirateFleetInflationListener(), true);
+            log.info("Adding Pirate Listener");
+        }
+    }
+
+    private void addPirateMods() {
         for (ShipHullSpecAPI hullSpec : Global.getSettings().getAllShipHullSpecs()) {
             if (hullSpec.getManufacturer().contains("Pirate") && !hullSpec.isBuiltInMod("pmm_compmods")) {
                 hullSpec.addBuiltInMod("pmm_compmods");
                 log.info("Added Pirate Modifications to " + hullSpec.getHullNameWithDashClass());
             }
         }
+    }
 
-        if (Global.getSettings().getModManager().isModEnabled("TouchOfVanilla_vri")){
+    private void initializeCrossmods() {
+        if (Global.getSettings().getModManager().isModEnabled("TouchOfVanilla_vri")) {
             PMMCrossmodScript.initVRICrossmod();
             log.info("So you're a teal enjoyer!");
         }
-        if (Global.getSettings().getModManager().isModEnabled("aerialcombatsuit")){
+
+        if (Global.getSettings().getModManager().isModEnabled("aerialcombatsuit")) {
             PMMCrossmodScript.initIndiesCrossmod();
             log.info("Cool backwards ships!");
         }
-        if (Global.getSettings().getModManager().isModEnabled("Scrapyard")){
+
+        if (Global.getSettings().getModManager().isModEnabled("Scrapyard")) {
             PMMCrossmodScript.initScrapyardCrossmod();
-            log.info("\"Where spacers sees scrap metal, a salvager sees a fleet\"");
+            log.info("\"Where spacers see scrap metal, a salvager sees a fleet\"");
         }
-        if (Global.getSettings().getModManager().isModEnabled("swp")){
+
+        if (Global.getSettings().getModManager().isModEnabled("swp")) {
             PMMCrossmodScript.initSWPCrossmod();
             log.info("SWP is just the best pack out there");
         }
+    }
 
-        setListenersIfNeeded();
-        ListenerManagerAPI l = Global.getSector().getListenerManager();
-            if (!l.hasListenerOfClass(PirateFleetInflationListener .class)) {
-                l.addListener(new PirateFleetInflationListener());
-            }
-            updateLunaSettings();
-        }
+    private void updateLunaSettings() {
+        boolean omegaToggle = PMMLunaSettings.OmegaToggle();
+        boolean masterRecover = PMMLunaSettings.MasterRecover();
+        boolean pirateGlowToggle = PMMLunaSettings.PirateGlowToggle();
+        boolean afflictorChangeToggle = PMMLunaSettings.VanillaChangeToggle_Afflictor();
 
-        public void updateLunaSettings() {
-            //PMM toggle settings
-            Boolean omega = PMMLunaSettings.OmegaToggle();
-            Boolean mastrec = PMMLunaSettings.MasterRecover();
-            Boolean glow = PMMLunaSettings.PirateGlowToggle();
-            Boolean vct_afflictor = PMMLunaSettings.VanillaChangeToggle_Afflictor();
+        PMMSettingsScript.initOmega();
+        log.info(omegaToggle ? "Enabled PMM omega" : "Disabled PMM omega");
 
-                PMMSettingsScript.initOmega();
-                if (omega)
-                    log.info("Enabled PMM omega");
-                else
-                    log.info("Disabled PMM omega");
+        PMMSettingsScript.initMasterRec();
+        if (masterRecover) log.info("PMM Master can be recovered");
 
-                PMMSettingsScript.initMasterRec();
-                if (mastrec)
-                    log.info("PMM Master can be recovered");
+        PMMSettingsScript.initGlow();
+        if (!pirateGlowToggle) log.info("PMM Glow disabled");
 
-                PMMSettingsScript.initGlow();
-                if (!glow)
-                    log.info("PMM Glow disabled");
-
-                PMMSettingsScript.initVTC_afflictor();
-                if (!vct_afflictor)
-                    log.info("PMM afflictor changes disabled");
-        }
-        }
+        PMMSettingsScript.initVTC_afflictor();
+        if (!afflictorChangeToggle) log.info("PMM afflictor changes disabled");
+    }
+}
