@@ -6,7 +6,6 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import data.hullmods.compmods;
 
-
 public class PMMSettingsScript {
 
     //Settings
@@ -24,7 +23,6 @@ public class PMMSettingsScript {
     //Tags
     public static String AUTOREC = "auto_rec";
 
-
     public static void initMasterRec(){
         Boolean masrec = PMMLunaSettings.MasterRecover();
         if(masrec){
@@ -34,8 +32,8 @@ public class PMMSettingsScript {
             IsMastRec = false;
             Global.getSettings().getHullSpec(MASTER).getTags().remove(AUTOREC);
         }
-
     }
+
     public static void initGlow(){
         Boolean glow = PMMLunaSettings.PirateGlowToggle();
 
@@ -49,6 +47,7 @@ public class PMMSettingsScript {
             compmods.GLOW = false;
         }
     }
+
     public static void initOmega(){
         Boolean omega = PMMLunaSettings.OmegaToggle();
         FactionAPI omegafac = Global.getSector().getFaction(Factions.OMEGA);
@@ -125,15 +124,13 @@ public class PMMSettingsScript {
             omegafac.removeKnownShip(PERCEPT);
         }
     }
-    public static void  initVTC_afflictor(){
+
+    public static void initVTC_afflictor(){
         Boolean vct_afflictor = PMMLunaSettings.VanillaChangeToggle_Afflictor();
         if (vct_afflictor) {
             vct_afflictor = true;
-
         } else {
             vct_afflictor = false;
         }
-
     }
 }
-
