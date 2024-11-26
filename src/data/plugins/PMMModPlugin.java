@@ -12,13 +12,21 @@ import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
 import scripts.PMMSettingsScript;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public class PMMModPlugin extends BaseModPlugin {
 
     private static final Logger log = Global.getLogger(PMMModPlugin.class);
     private static boolean hasGraphicsLib = false;
 
+    // Configuration to define which ship to swap
+    private static final String SHIP_ID = "onslaught"; // This could be read from settings or other sources
+
     @Override
     public void onApplicationLoad() throws Exception {
+        // Handle shaders if the graphics library is enabled
         hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
 
         if (hasGraphicsLib) {
@@ -29,7 +37,12 @@ public class PMMModPlugin extends BaseModPlugin {
                 log.info("PMM shaders active");
             }
         }
+
+        // Log the plugin initialization
         log.info("Welcome to PMMM! I'm MiniDeth3, and I'm in your logs now...");
+
+        // Handle ship swapping before game starts (this works during mod loading)
+        handleShipSwapping();
     }
 
     @Override
@@ -97,5 +110,11 @@ public class PMMModPlugin extends BaseModPlugin {
 
         PMMSettingsScript.initVTC_afflictor();
         if (!afflictorChangeToggle) log.info("PMM afflictor changes disabled");
+    }
+
+    private void handleShipSwapping() {
+        // Get the toggle value for modded ships from the settings
+        boolean vtcAfflictor = PMMSettingsScript.initVTC_afflictor(); // Update based on your settings script
+        boolean vtcBuffalo = PMMSettingsScript.initVTC_buffalo(); // Update based on your settings script
     }
 }
