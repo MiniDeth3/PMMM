@@ -38,6 +38,78 @@ public class PMMLunaSettings {
         return true; // Default value if the mod isn't enabled
     }
 
+    public static Boolean VanillaChangeToggle_Buffalo() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_buffalo");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Cerberus() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_cerberus");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Enforcer() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_enforcer");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Eradicator() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_eradicator");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Gremlin() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_gremlin");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Hound() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_hound");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Kite() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_kite");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Mudskipper() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_mudskipper");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
+    public static Boolean VanillaChangeToggle_Mule() {
+        if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
+            String toggleValue = LunaSettings.getString("PirateMiniMegaMod", "pmm_vanillatoggle_mule");
+            return toggleValue != null && toggleValue.contains("PMM"); // Check if the string contains "PMM"
+        }
+        return true; // Default value if the mod isn't enabled
+    }
+
     public static Boolean OmegaToggle() {
         Boolean omega = true;
         if (Global.getSettings().getModManager().isModEnabled("lunalib")) {
