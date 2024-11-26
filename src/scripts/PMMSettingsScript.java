@@ -125,12 +125,22 @@ public class PMMSettingsScript {
         }
     }
 
-    public static void initVTC_afflictor(){
+    public static boolean initVTC_afflictor(){
         Boolean vct_afflictor = PMMLunaSettings.VanillaChangeToggle_Afflictor();
         if (vct_afflictor) {
             vct_afflictor = true;
         } else {
             vct_afflictor = false;
         }
+        return true;
+    }
+    public static boolean initVTC_buffalo(){
+        Boolean vct_buffalo = PMMLunaSettings.VanillaChangeToggle_Buffalo();
+        if (vct_buffalo) {
+            vct_buffalo = true;
+        } else {
+            vct_buffalo = false;
+        }
+        return true;
     }
 }
