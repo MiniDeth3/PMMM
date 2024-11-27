@@ -7,14 +7,18 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class HeavyMissileIntegration extends BaseHullMod {
 
-	public static final float COST_REDUCTION  = 10;
-	
+	public static final float COST_REDUCTION = 10;
+
+	@Override
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.LARGE_MISSILE_MOD).modifyFlat(id, -COST_REDUCTION);
 	}
-	
+
+	@Override
 	public String getDescriptionParam(int index, HullSize hullSize) {
-		if (index == 0) return "" + (int) COST_REDUCTION + "";
+		if (index == 0) {
+			return String.valueOf((int) COST_REDUCTION);
+		}
 		return null;
 	}
 
@@ -22,13 +26,4 @@ public class HeavyMissileIntegration extends BaseHullMod {
 	public boolean affectsOPCosts() {
 		return true;
 	}
-
 }
-
-
-
-
-
-
-
-
