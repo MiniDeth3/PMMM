@@ -3,7 +3,7 @@ package data.shipsystems;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 
-public class DegradedAmmoFeedStats extends BaseShipSystemScript {
+public class PMM_DegradedAmmoFeedStats extends BaseShipSystemScript {
 
 	public static final float ROF_BONUS = 0.75f;
 	public static final float FLUX_REDUCTION = 25f;

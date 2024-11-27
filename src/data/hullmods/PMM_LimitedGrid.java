@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 
-public class limitedgrid extends BaseHullMod {
+public class PMM_LimitedGrid extends BaseHullMod {
     private final IntervalUtil flameInterval = new IntervalUtil(2f, 2f);
     private final IntervalUtil deathInterval = new IntervalUtil(2.5f, 2.5f);
 

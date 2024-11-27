@@ -14,7 +14,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class fluxcore extends BaseHullMod {
+public class PMM_FluxCore extends BaseHullMod {
 
     // Constants for arc damage and EMP
     public static final float ARC_DAM = 200f;

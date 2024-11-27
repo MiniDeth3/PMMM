@@ -10,7 +10,7 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 
 import java.awt.*;
 
-public class MinkowskiSpaceStats extends BaseShipSystemScript {
+public class PMM_MinkowskiSpaceStats extends BaseShipSystemScript {
 
 	public static final Color JITTER_COLOR = new Color(100,100,255,150);
 	public static final Color JITTER_UNDER_COLOR = new Color(100,100,255,150);

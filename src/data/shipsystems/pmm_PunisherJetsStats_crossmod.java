@@ -9,7 +9,7 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 import org.lwjgl.util.vector.Vector2f;
 
-public class pmm_PunisherJetsStats_crossmod extends BaseShipSystemScript {
+public class PMM_PunisherJetsStats_Crossmod extends BaseShipSystemScript {
 
     // Original script from SWP (authored by DR) for crossmod use.
     private static final Vector2f ZERO = new Vector2f();

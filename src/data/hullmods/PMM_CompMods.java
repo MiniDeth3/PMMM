@@ -7,7 +7,7 @@ import scripts.PMMLunaSettings;
 
 import java.awt.*;
 
-public class compmods extends BaseHullMod {
+public class PMM_CompMods extends BaseHullMod {
 
 	public static final float PENALTY_MULT = 0.9f;
 	public static final float BONUS_MULT = 1.1f;

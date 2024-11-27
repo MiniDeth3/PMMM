@@ -3,7 +3,7 @@
 	"type":"EMP",
 	"aiType":"EMP",
 
-	"statsScript":"data.shipsystems.emp_omega",
+	"statsScript":"data.shipsystems.PMM_EMP_Omega",
 	
 	"range":600,
 	"empDamage":0,

@@ -5,7 +5,7 @@
     "aiType":"CUSTOM",
     "aiScript":"data.shipsystems.ai.pmm_PunisherJetsAI_crossmod",
 
-    "statsScript":"data.shipsystems.pmm_PunisherJetsStats_crossmod",
+    "statsScript":"data.shipsystems.PMM_PunisherJetsStats_Crossmod",
 
     "engineGlowContrailColor":[70,50,30,255],
     "engineGlowLengthMult":1.5,

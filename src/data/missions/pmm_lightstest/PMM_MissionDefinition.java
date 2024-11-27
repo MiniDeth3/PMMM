@@ -21,7 +21,7 @@ import org.dark.shaders.light.StandardLight;
 import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
 
-public class MissionDefinition implements MissionDefinitionPlugin {
+public class PMM_MissionDefinition implements MissionDefinitionPlugin {
 
     private static final Vector2f ZERO = new Vector2f();
 

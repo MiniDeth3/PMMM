@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
-public class HeavyMissileIntegration extends BaseHullMod {
+public class PMM_HeavyMissileIntegration extends BaseHullMod {
 
 	public static final float COST_REDUCTION = 10;
 

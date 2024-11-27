@@ -7,7 +7,7 @@ import org.lazywizard.lazylib.combat.entities.SimpleEntity;
 import org.lwjgl.util.vector.Vector2f;
 import java.awt.*;
 
-public class EnhancedExplosion extends BaseHullMod {
+public class PMM_EnhancedExplosion extends BaseHullMod {
 	public static final float ARC_DAM = 200f;
 	public static final float ARC_EMP = 50f;
 

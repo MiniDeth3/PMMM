@@ -3,31 +3,22 @@ package data.shipsystems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
-import com.fs.starfarer.api.impl.combat.EntropyAmplifierStats;
 import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.loading.DamagingExplosionSpec;
 import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
 import com.fs.starfarer.api.util.Misc;
 
-import java.awt.*;
 import java.util.List;
-    import com.fs.starfarer.api.Global;
+
 import com.fs.starfarer.api.combat.BaseEveryFrameCombatPlugin;
 import com.fs.starfarer.api.combat.EveryFrameCombatPlugin;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
-import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.combat.ShipSystemAPI.SystemState;
-import com.fs.starfarer.api.combat.ShipwideAIFlags.AIFlags;
-import com.fs.starfarer.api.input.InputEventAPI;
-import com.fs.starfarer.api.plugins.ShipSystemStatsScript;
-import com.fs.starfarer.api.plugins.ShipSystemStatsScript.State;
-import com.fs.starfarer.api.util.Misc;
-import java.awt.Color;
-import java.util.List;
 
-    public class EntropicCollapse extends BaseShipSystemScript {
+import java.awt.Color;
+
+public class PMM_EntropicCollapse extends BaseShipSystemScript {
         public static Object KEY_SHIP = new Object();
         public static Object KEY_TARGET = new Object();
         public static float DAM_MULT = 1.5F;
@@ -36,7 +27,7 @@ import java.util.List;
         public static Color JITTER_COLOR = new Color(255, 50, 50, 75);
         public static Color JITTER_UNDER_COLOR = new Color(255, 100, 100, 155);
         public static Boolean sploded = false;
-        public EntropicCollapse() {
+        public PMM_EntropicCollapse() {
         }
 
         public void apply(MutableShipStatsAPI stats, final String id, ShipSystemStatsScript.State state, float effectLevel) {

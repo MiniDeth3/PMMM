@@ -10,10 +10,9 @@ import org.lwjgl.util.vector.Vector2f;
 import java.awt.*;
 import java.util.EnumSet;
 
-import static com.fs.starfarer.api.impl.combat.RealityDisruptorChargeGlow.RIFT_COLOR;
 import static com.fs.starfarer.api.impl.combat.DamperFieldOmegaStats.KEY_SHIP;
 
-public class OmegaEMPEmitter extends BaseShipSystemScript {
+public class PMM_OmegaEMPEmitterOld extends BaseShipSystemScript {
     Color UNDERCOLOR = RiftCascadeEffect.EXPLOSION_UNDERCOLOR;
     IntervalUtil projtimer = new IntervalUtil(0,2);
     Vector2f shipvel = null;

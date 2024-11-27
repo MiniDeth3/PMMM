@@ -19,7 +19,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 import static com.fs.starfarer.api.impl.combat.DamperFieldOmegaStats.KEY_SHIP;
 
-public class emp_omega extends BaseShipSystemScript {
+public class PMM_EMP_Omega extends BaseShipSystemScript {
 	public static float ARC_DAM = 250f;
 	public static float ARC_EMP = 600f;
 	public static float ARC_DAM_SELF = 0f;

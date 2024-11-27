@@ -4,7 +4,7 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.listeners.ListenerManagerAPI;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
-import data.listeners.PirateFleetInflationListener;
+import data.listeners.PMM_PirateFleetInflationListener;
 import org.apache.log4j.Logger;
 import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
@@ -12,20 +12,13 @@ import scripts.PMMCrossmodScript;
 import scripts.PMMLunaSettings;
 import scripts.PMMSettingsScript;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 public class PMMModPlugin extends BaseModPlugin {
 
     private static final Logger log = Global.getLogger(PMMModPlugin.class);
     private static boolean hasGraphicsLib = false;
 
-    // Configuration to define which ship to swap
-    private static final String SHIP_ID = "onslaught"; // This could be read from settings or other sources
-
     @Override
-    public void onApplicationLoad() throws Exception {
+    public void onApplicationLoad() {
         // Handle shaders if the graphics library is enabled
         hasGraphicsLib = Global.getSettings().getModManager().isModEnabled("shaderLib");
 
@@ -40,9 +33,6 @@ public class PMMModPlugin extends BaseModPlugin {
 
         // Log the plugin initialization
         log.info("Welcome to PMMM! I'm MiniDeth3, and I'm in your logs now...");
-
-        // Handle ship swapping before game starts (this works during mod loading)
-        handleShipSwapping();
     }
 
     @Override
@@ -51,13 +41,15 @@ public class PMMModPlugin extends BaseModPlugin {
         initializeCrossmods();
         setListenersIfNeeded();
         updateLunaSettings();
+        // Handle ship swapping
+        handleShipSwapping();
     }
 
     private void setListenersIfNeeded() {
         ListenerManagerAPI listenerManager = Global.getSector().getListenerManager();
 
-        if (!listenerManager.hasListenerOfClass(PirateFleetInflationListener.class)) {
-            listenerManager.addListener(new PirateFleetInflationListener(), true);
+        if (!listenerManager.hasListenerOfClass(PMM_PirateFleetInflationListener.class)) {
+            listenerManager.addListener(new PMM_PirateFleetInflationListener(), true);
             log.info("Adding Pirate Listener");
         }
     }

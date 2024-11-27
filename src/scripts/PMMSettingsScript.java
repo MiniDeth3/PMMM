@@ -4,7 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;
-import data.hullmods.compmods;
+import data.hullmods.PMM_CompMods;
 
 public class PMMSettingsScript {
 
@@ -37,14 +37,14 @@ public class PMMSettingsScript {
     public static void initGlow(){
         Boolean glow = PMMLunaSettings.PirateGlowToggle();
 
-        compmods.BALLISTIC_GLOW = PMMLunaSettings.PirateGlowColorBallistic();
-        compmods.ENERGY_GLOW = PMMLunaSettings.PirateGlowColorEnergy();
+        PMM_CompMods.BALLISTIC_GLOW = PMMLunaSettings.PirateGlowColorBallistic();
+        PMM_CompMods.ENERGY_GLOW = PMMLunaSettings.PirateGlowColorEnergy();
         if(glow){
             GLOW = true;
-            compmods.GLOW = true;
+            PMM_CompMods.GLOW = true;
         } else {
             GLOW = false;
-            compmods.GLOW = false;
+            PMM_CompMods.GLOW = false;
         }
     }
 

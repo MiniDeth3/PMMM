@@ -12,7 +12,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import java.util.HashMap;
 import java.util.Map;
 
-public class pmm_raiderdriveStatsSafe_crossmod extends BaseShipSystemScript {
+public class PMM_RaiderDriveStatsSafe_Crossmod extends BaseShipSystemScript {
     //start damper
     private static Map mag = new HashMap();
 	static {

@@ -5,7 +5,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
-public class nodamExplosion extends BaseHullMod {
+public class PMM_NoDamExplosion extends BaseHullMod {
 
 	public static final float RADIUS_MULT = 2f;
 	public static final float DAMAGE_MULT = 0.01f;

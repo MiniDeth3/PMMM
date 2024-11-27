@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.impl.combat.MineStrikeStatsAIInfoProvider;
+import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 
 import com.fs.starfarer.api.Global;
@@ -23,14 +24,14 @@ import com.fs.starfarer.api.input.InputEventAPI;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
 
-public class MineStrikeFrigateStats extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider {
+public class PMM_PhaseFlakStats extends BaseShipSystemScript implements MineStrikeStatsAIInfoProvider {
 	
 	protected static float MINE_RANGE = 1000f;
 	
-	public static final float MIN_SPAWN_DIST = 60f;
-	public static final float MIN_SPAWN_DIST_FRIGATE = 70f;
+	public static final float MIN_SPAWN_DIST = 80f;
+	public static final float MIN_SPAWN_DIST_FRIGATE = 110f;
 	
-	public static final float LIVE_TIME = 2f;
+	public static final float LIVE_TIME = 1f;
 	
 	public static final Color JITTER_COLOR = new Color(255,155,255,75);
 	public static final Color JITTER_UNDER_COLOR = new Color(255,155,255,155);
@@ -126,7 +127,7 @@ public class MineStrikeFrigateStats extends BaseShipSystemScript implements Mine
 		
 		//Vector2f currLoc = mineLoc;
 		MissileAPI mine = (MissileAPI) engine.spawnProjectile(source, null, 
-															  "pmm_miniminelayer",
+															  "pmm_flaklayer",
 															  currLoc, 
 															  (float) Math.random() * 360f, null);
 		if (source != null) {
@@ -147,8 +148,8 @@ public class MineStrikeFrigateStats extends BaseShipSystemScript implements Mine
 		float liveTime = LIVE_TIME;
 		//liveTime = 0.01f;
 		mine.setFlightTime(mine.getMaxFlightTime() - liveTime);
-		
-		Global.getSoundPlayer().playSound("mine_teleport", 1f, 1f, mine.getLocation(), mine.getVelocity());
+
+		Global.getSoundPlayer().playSound("mine_teleport", MathUtils.getRandomNumberInRange(0.8f, 1.2f), 0.4f, mine.getLocation(), mine.getVelocity());
 	}
 	
 	protected EveryFrameCombatPlugin createMissileJitterPlugin(final MissileAPI mine, final float fadeInTime) {

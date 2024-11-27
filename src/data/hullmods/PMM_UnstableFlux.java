@@ -15,7 +15,7 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class unstableflux extends BaseHullMod {
+public class PMM_UnstableFlux extends BaseHullMod {
     public static float ARC_DAM_SELF = 200f;
     public static float ARC_EMP_SELF = 0f;
     public static float HARD_DISS = 100f;

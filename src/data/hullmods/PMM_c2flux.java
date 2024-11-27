@@ -4,7 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
-public class c2flux extends BaseHullMod {
+public class PMM_c2flux extends BaseHullMod {
 
 	@Override
 	public void advanceInCombat(ShipAPI ship, float amount) {
