@@ -2,7 +2,6 @@ package data.hullmods;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.CombatEntityAPI;
 import com.fs.starfarer.api.combat.DamageType;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.loading.WeaponSlotAPI;
@@ -40,7 +39,7 @@ public class PMM_UnstableFlux extends BaseHullMod {
             if (selfzapInterval.intervalElapsed()) {
                 selfzapInterval.setInterval(0.3f, 0.6f);
 
-                List<WeaponSlotAPI> vents = new ArrayList<WeaponSlotAPI>();
+                List<WeaponSlotAPI> vents = new ArrayList<>();
                 for (WeaponSlotAPI weaponSlotAPI : ship.getHullSpec().getAllWeaponSlotsCopy()) {
                     if (weaponSlotAPI.isSystemSlot()) {
                         vents.add(weaponSlotAPI);
@@ -51,8 +50,7 @@ public class PMM_UnstableFlux extends BaseHullMod {
                     Vector2f sourcePoint = vents.get(MathUtils.getRandomNumberInRange(0, vents.size() - 1)).computePosition(ship);
 
                     //And finally, fire at a random valid target
-                    CombatEntityAPI selftarget = ship;
-                    Global.getCombatEngine().spawnEmpArcPierceShields(ship, sourcePoint, ship, selftarget,
+                    Global.getCombatEngine().spawnEmpArcPierceShields(ship, sourcePoint, ship, ship,
                             DamageType.ENERGY, //Damage type
                             MathUtils.getRandomNumberInRange(0.8f, 1.2f) * ARC_DAM_SELF, //Damage
                             MathUtils.getRandomNumberInRange(0.8f, 1.2f) * ARC_EMP_SELF, //Emp
