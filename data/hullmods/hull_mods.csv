@@ -1,6 +1,6 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 Compromised Shield,pmm_noshield,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.PMM_NoShield,"This ship's shields have been disabled, leaving it vulnerable to all forms of direct attacks. It is typically the result of damage sustained to the shield emitters or modifications to other critical ship systems. Or perhaps both, in this case.",Disables Shields,,graphics/hullmods/pmm_noshield.png
-Pirate Modifications,pmm_compmods,,,,"no_drop, no_sell",,,,,,0,0,0,0,data.hullmods.PMM_CompMods,"This hull has undergone significant modifications, it's pirate crew prioritizing showy weapon systems and high-speed engines over frivolous things like ""reliability"", ""Hull Integrity"", and ""Flux Capacity"".
+Pirate Modifications,pmm_compmods,,,,"no_drop, no_sell",,,,,,8,12,16,25,data.hullmods.PMM_CompMods,"This hull has undergone significant modifications, it's pirate crew prioritizing showy weapon systems and high-speed engines over frivolous things like ""reliability"", ""Hull Integrity"", and ""Flux Capacity"".
 
 
 Increased chance of malfunctions. Hull and Armor reduced by %s, Flux Capacity reduced by %s, Flux Dissipation increased by %s.",Lowers Stats,"Leaning further into these eccentric hull changes grants bonuses at the furthered expense of reliability.
@@ -22,4 +22,4 @@ Limited Energy Grid,pmm_limitedgrid,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,d
 Cargo Convert,pmm_masscargoconvert,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.PMM_MassCargoConvert,Way to reduce cargo on .skin ships,Reduces Cargo,,
 Triflect™ Powered Armor,pmm_reflectplate,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.ReflectivePlate,An experimental power armor plate made to counter beam weaponry.,Reflects Lasers,,graphics/hullmods/advanced_optics.png
 ,,,,,,,,,,,,,,,,,,,
-flux,c2flux,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.c2flux,Sets flux at 70 percent.,70% flux,,
+flux,c2flux,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.PMM_C2Flux,Sets flux at 70 percent.,70% flux,,
