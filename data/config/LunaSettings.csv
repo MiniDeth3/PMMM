@@ -24,7 +24,7 @@ pmm_piratemodsglowballistic,Pirate Modifications Smod Ballistic Glow Color,Color
 pmm_piratemodsglowenergy,Pirate Modifications Smod Energy Glow Color,Color,#9B78FF,,Select the color that energy weapons will glow on ships with s-modded pirate modifications.,,,Pirate Modifications
 ,,,,,,,,
 pmm_vanillatogglesheader,Pirate MiniMegaMod,Header,These are toggles for PMM's vanilla changes.,,,,,Pirate Vanilla Modifications
-pmm_vanillatogglestext,,Text,"NOT DYNAMIC. Toggles swap known ships and variants for spawning in markets and fleets. Already spawned PMM edited vanilla ships will remain in fleets until sold, scuttled, destroyed, or despawned",,,,,Pirate Vanilla Modifications
+pmm_vanillatogglestext,,Text,CAUTION!! CAN CAUSE ISSUES WITH EXISTING SAVES. REQUIRES GAME RESTART,,,,,Pirate Vanilla Modifications
 pmm_vanillatoggle_afflictor,Afflictor (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Vanilla Modifications
 pmm_vanillatoggle_cerberus,Cerberus (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Vanilla Modifications
 pmm_vanillatoggle_gremlin,Gremlin (P),Radio,PMM,"PMM, Vanilla",,,,Pirate Vanilla Modifications
