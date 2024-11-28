@@ -23,13 +23,13 @@ public class PMM_EnhancedExplosion extends BaseHullMod {
 		// Trigger the EMP arc only once when the ship dies
 		if (ship.getHitpoints() <= 0f && !hasZapped) {
 			// Randomize the EMP arc range between 1000 and 2000 units
-			float arcRange = MathUtils.getRandomNumberInRange(1000f, 2000f);
+			float arcRange = MathUtils.getRandomNumberInRange(1000f, 1500f);
 
 			// Spawn the EMP arcs from the ship's location
 			Vector2f sourcePoint = ship.getLocation();
 
 			// Fire 15 arcs at the same time in a random direction within the range
-			for (int i = 0; i < 20; i++) {
+			for (int i = 0; i < 50; i++) {
 				// Get a random point within the arc range to simulate multiple directions
 				Vector2f randomPoint = MathUtils.getRandomPointInCircle(sourcePoint, arcRange);
 
