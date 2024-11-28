@@ -1,0 +1,43 @@
+{
+	"baseHullId":"gremlin",
+	"skinHullId":"pmm_ve_gremlin_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/phase/pmm_gremlin_p.png",
+	"hullName":"Gremlin (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":20,
+	"baseValue":,
+	"baseValueMult":1.2,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"gremlin",
+    "descriptionPrefix":"These modifications, conceived within the very shipyards of Kanta's Den, boasts an improvised mine strike system, akin to those found on cutting-edge military vessels and her own cherished station minelayer. Audacious moddifications like these to an already limited hull design result in a sizable decrease in operational efficiency",
+	"systemId":"pmm_mine_strike_frigate",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":[], # ids; breaks variant compatibility with base hull
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":[],
+	"builtInMods":["ill_advised"],
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+		},
+		"WS 000":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+		},
+	},
+}

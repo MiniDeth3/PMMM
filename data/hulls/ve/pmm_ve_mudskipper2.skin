@@ -1,0 +1,45 @@
+{
+	"baseHullId":"mudskipper",
+	"skinHullId":"pmm_ve_mudskipper2",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/pmm_mudskipper2.png",
+	"hullName":"Mudskipper Mk.II",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"hullDesignation":"Frigate",
+	"fleetPoints":4,
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":20,
+	"baseValue":,
+	"baseValueMult":2,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"mudskipper",  # optional
+	"descriptionPrefix":"A series of ill-advised modifications have been made to militarize this normally-harmless hull. Whether it's more dangerous to its crew or its enemies remains a point of contention at dockside bars, but these modification are often favored by pirates seeking to create the impression of overwhelming firepower.",
+	"systemId":"",
+	"removeWeaponSlots":["WS 003"], 	# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":["degraded_engines"], 		# hullmod ids
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[CIVILIAN],
+	"addHints":[],
+	"builtInMods":["ill_advised","hbi","comp_storage"],
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+    "weaponSlotChanges":{
+		"WS 002":{
+			#"angle": 0,
+            #"arc": 210,
+            "mount": "HARDPOINT",
+            "size": "LARGE",
+            "type": "COMPOSITE"
+		}
+	},
+    "engineSlotChanges":{
+    }
+}

@@ -1,0 +1,41 @@
+{
+	"baseHullId":"afflictor",
+	"skinHullId":"pmm_ve_afflictor_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/phase/pmm_afflictor_p.png",
+	"hullName":"Afflictor (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":, # breaks variant compatibility with base hull
+	"baseValue":,
+	"baseValueMult":1,
+	"suppliesToRecover":6,
+	"suppliesPerMonth":6,
+	"descriptionId":"afflictor",
+	"descriptionPrefix":"After the Second AI War, many corrupted blueprints became available, sourced by salvagers willing to risk the star systems abandoned by Tri-Tachyon. Many of these were sold to disreputable elements such as black marketeers and pirates, who promptly put them back into service producing low quality but combat-capable ships.",
+	"systemId":"",
+	"removeWeaponSlots":["WS 001", "WS 004"], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":[], # ids; breaks variant compatibility with base hull
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":[],
+	"builtInMods":[], # ids; breaks variant compatibility with base hull
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+		"WS 003":{
+			"size": "MEDIUM",
+            "type": "MISSILE",
+		},
+	},
+    "engineSlotChanges":{
+    }
+}

@@ -1,0 +1,40 @@
+{
+	"baseHullId":"buffalo",
+	"skinHullId":"pmm_ve_buffalo_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/pmm_buffalo_p.png",
+	"hullName":"Buffalo (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":, # breaks variant compatibility with base hull
+	"baseValue":,
+	"baseValueMult":1.5,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"buffalo",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"systemId":"",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":["degraded_engines"], 		# hullmod ids
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":[],
+	"builtInMods":["shielded_holds","ill_advised", "comp_storage","phasefield"],
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "BALLISTIC"
+		}
+	},
+    "engineSlotChanges":{
+    }
+}

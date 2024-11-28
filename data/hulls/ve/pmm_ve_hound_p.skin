@@ -1,0 +1,37 @@
+{
+	"baseHullId":"hound",
+	"skinHullId":"pmm_ve_hound_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/pmm_hound_p.png",
+	"hullName":"Hound (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":-1,
+	"ordnancePoints":, # breaks variant compatibility with base hull
+	"baseValue":,
+	"baseValueMult":1.5,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"hound",
+	"descriptionPrefix":"Through a sweeping refit, this hound has seen its cargo bay and loading machinery retrofitted into a makeshift hanger bay sporting a downsized counterfeit forge vat. The cramped size of the hanger and limited power grid necessitates a downsized LPC chip, limiting deployment capacity.",
+	"systemId":"",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":["degraded_engines"], 		# hullmod ids
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":["COMBAT"],
+	"builtInMods":["converted_bay","pmm_masscargoconvert"],
+	"builtInWings":["pmm_mini_hook_wing",]
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+	},
+    "engineSlotChanges":{
+    }
+}
