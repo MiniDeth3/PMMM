@@ -65,7 +65,7 @@ public class ReflectivePlate extends BaseHullMod {
 
         void processBeams(Collection<BeamAPI> beams) {
             currentGeneration = (currentGeneration + 1) % GENERATION_COUNT;
-            BoundsAPI.SegmentAPI segment = null;
+            BoundsAPI.SegmentAPI segment;
             for (BeamAPI beam : beams) {
                 segment = reflect(beam);
                 if(segment != null) {
