@@ -1,0 +1,43 @@
+{
+	"baseHullId":"kite",
+	"skinHullId":"pmm_ve_kite_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/pmm_kite_p.png",
+	"hullName":"Kite (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":20,
+	"baseValue":,
+	"baseValueMult":.75,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"This shuttle has been heavily moddified by pirates to include expanded missile racks paired with an advanced autoloader, enabling an impressive missile onslaught despite its compact size. These upgrades came at the cost of the shield generator, leaving the ship unprotected, and a power diversion from the aux propulsion subsystem.",
+	"systemId":"fastmissileracks",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":[], # ids; breaks variant compatibility with base hull
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[CIVILIAN],
+	"addHints":[],
+	"builtInMods":["civgrade","pmm_noshield","missleracks","ill_advised"],
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+		"WS 003":{
+            "angle": 0,
+            "arc": 6,
+            "mount": "HARDPOINT",
+            "type": "MISSILE",
+		}
+	},
+    "engineSlotChanges":{
+    }
+}
