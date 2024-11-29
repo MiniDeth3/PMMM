@@ -4,7 +4,7 @@
 
 	# Everything below is optional
 	"tags":["pirate_bp"],
-	"spriteName":"graphics/ships/pmm_hound_p.png",
+	"spriteName":"graphics/ships/hound/pmm_hound_p.png",
 	"hullName":"Hound (P)",
 	"tech":"Pirate", # alternate for "manufacturer"
 	"fleetPoints":, # causes "fpMod" to be ignored
