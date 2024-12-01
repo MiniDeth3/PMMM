@@ -1,0 +1,60 @@
+{
+	"baseHullId":"mule",
+	"skinHullId":"pmm_ve_mule_p",
+
+	# Everything below is optional
+	"tags":["pirate_bp"],
+	"spriteName":"graphics/ships/pmm_mule_p.png",
+	"hullName":"Mule (P)",
+	"tech":"Pirate", # alternate for "manufacturer"
+	"fleetPoints":, # causes "fpMod" to be ignored
+	"fpMod":, # added to base hull's fleet points
+	"restoreToBaseHull":false, # default false
+	"fighterBays":,
+	"ordnancePoints":60,
+	"baseValue":,
+	"baseValueMult":1.2,
+	"suppliesToRecover":,
+	"suppliesPerMonth":,
+	"descriptionId":"mule",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"systemId":"",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWings":[], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons":[], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints":[],
+	"addHints":[],
+	"builtInMods":["shielded_holds"],
+	"builtInWings":[], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons":{
+	},
+	"weaponSlotChanges":{
+		"WS 001":{
+            "type": "BALLISTIC",
+			"size": "MEDIUM",
+		},
+		"WS 002":{
+            "type": "BALLISTIC",
+			"size": "MEDIUM",
+		},
+		"WS 003":{
+            "type": "UNIVERSAL"
+		},
+		"WS 006":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+			"arc": 5,
+			"angle": -150,
+		},
+		"WS 004":{
+            "type": "SYSTEM",
+			"mount": "HIDDEN",
+			"arc": 5,
+			"angle": 150,
+		},
+	},
+    "engineSlotChanges":{
+    }
+}
