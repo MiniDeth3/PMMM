@@ -1,0 +1,34 @@
+{
+	"baseHullId": "enforcer",
+	"skinHullId": "pmm_ve_enforcer_p",
+
+	# Everything below is optional
+	"tags": ["pirate_bp"],
+	"spriteName": "graphics/ships/enforcer/pmm_enforcer_p.png",
+	"hullName": "Enforcer (P)",
+	"tech": "Pirate", # alternate for "manufacturer"
+	"fleetPoints": , # causes "fpMod" to be ignored
+	"fpMod": , # added to base hull's fleet points
+	"restoreToBaseHull": false, # default false
+	"fighterBays": ,
+	"ordnancePoints": ,
+	"baseValue": ,
+	"baseValueMult": ,
+	"suppliesToRecover": ,
+	"suppliesPerMonth": ,
+	"descriptionId": "enforcer",
+	"descriptionPrefix": "This ship has been heavily modified - and poorly maintained - by its pirate crew.",
+	"systemId": "pmm_degammofeed",
+	"removeWeaponSlots": [], 		# ids
+	"removeEngineSlots": [], # indices, as engine slots have no id in the .ship file; first indice is 0
+	"removeBuiltInMods": [], 		# hullmod ids
+	"removeBuiltInWings": [], # wing ids; breaks variant compatibility with base hull
+	"removeBuiltInWeapons": [], # weapon slot ids; breaks variant compatibility with base hull
+	"removeHints": [],
+	"addHints": [],
+	"builtInMods": ["turretgyros"],
+	"builtInWings": [], # wing ids; breaks variant compatibility with base hull
+	"builtInWeapons": {},
+	"weaponSlotChanges": {},
+    "engineSlotChanges": {}
+}

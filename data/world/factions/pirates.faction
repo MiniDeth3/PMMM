@@ -4,17 +4,12 @@
 			"pirate_bp":3,
 		},
 		"hulls":{
-			"falcon_p":0.5, 			# it's pretty good, so make it more rare
 			"pmm_eagle_p":0.3, 		# it's pretty good, so make it more rare
 			"pmm_champion2":0.25, 			# Alittledeadly
 			"pmm_champion_p":0.3,
-			"wolf_d_pirates":0.8,
-			"mudskipper2":1.3,
-			"colossus3":0.9,
 			"pmm_scarab_p":0.15,
 			"pmm_sunder_p":0.5,
 			"pmm_harbinger_p":0.3,
-			"venture":0.5, 				# High DP fleets tend to spam it
 			"pmm_super_champion_p":0.3,# it's pretty good, so make it more rare
 			"pmm_cavern_p":0.3,		#rare due to lore
 			"pmm_gauntlet_p":0.5,
