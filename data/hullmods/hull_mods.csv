@@ -14,7 +14,7 @@ Weaponized Flux Core,pmm_fluxcore,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hu
 ,,,,,,,,,,,,,,,,,,,
 Heavy Missile Integration,pmm_HMI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.PMM_HeavyMissileIntegration,Reduces the ordnance point cost of large missile weapons by %s.,Reduces ordnance point cost of large missile weapons.,,graphics/hullmods/pmm_missile_integration.png
 Heavy Universal Integration,pmm_HUI,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.PMM_HeavyUniversalIntegration,Reduces the ordnance point cost of large weapons by %s.,Reduces ordnance point cost of large weapons.,,graphics/hullmods/pmm_universal_integration.png
-Duel Flux Grid,pmm_unstableflux,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.PMM_UnstableFlux,This ship boasts a confusing duel flux grid allowing independent operation of offensive and defensive systems. The unrefined nature of this flux handling method is prone to backfires and meltdowns.,,,
+Ablative Shields,pmm_ablativeshield,,,,"no_drop, no_sell",,,,TRUE,,0,0,0,0,data.hullmods.PMM_AblativeShield,"This ship features an experimental flux grid that enables independent operation of offensive and defensive systems. However, the unrefined flux handling method is prone to backfires and meltdowns.",,,
 ,,,,,,,,,,,,,,,,,,,
 No Damage Explosion,pmm_nodam_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.PMM_NoDamExplosion,Negates explosion damage.,,,
 Enhanced Explosion,pmm_enhanced_explosion,,,,"no_drop, no_sell",,,,TRUE,TRUE,0,0,0,0,data.hullmods.PMM_EnhancedExplosion,Doubles explosion radius and damage.,,,

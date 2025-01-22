@@ -18,8 +18,7 @@
 	"shield_always_on",
 	"always_detaches",
 	"pmm_nodam_explosion",
-	"pmm_unstableflux",
-	
+	"pmm_ablativeshield",
   ],
   "weaponSlots": [
     {
