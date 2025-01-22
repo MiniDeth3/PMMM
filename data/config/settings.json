@@ -6,7 +6,4 @@
             "pmm_oba":"graphics/portraits/characters/pmm_oba_lunn.png",
         },
     },
-    "ruleCommandPackages": [
-        "scripts.campaign.pmmrules"
-      ]
 }

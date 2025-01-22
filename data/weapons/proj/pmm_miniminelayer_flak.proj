@@ -11,7 +11,6 @@
 	#"armingTime":1,
 	"collisionClass":"MISSILE_NO_FF",
 	"onFireEffect":"data.weapons.PhaseMineFlakScript",
-	"onHitEffect":"data.hullmods.ReducedSelfDmg",
 	"flameoutTime":0.1, # total time from flameout to full fadeout
 	"fadeTime":0.1, # fadeout duration
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered

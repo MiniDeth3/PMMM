@@ -1,4 +1,4 @@
-package scripts;
+package data.plugins;
 
 import com.fs.starfarer.api.Global;
 import lunalib.lunaSettings.LunaSettings;

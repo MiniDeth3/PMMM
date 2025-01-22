@@ -50,8 +50,8 @@ public class PMM_OmegaWarp extends BaseShipSystemScript {
 				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 1f, 0.15f, ship.getLocation(), ship.getVelocity());
 				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 2f, 0.3f, ship.getLocation(), ship.getVelocity());
 			} else {
-				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 5f, 0.8f, ship.getLocation(), ship.getVelocity());
-				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 6f, 1f, ship.getLocation(), ship.getVelocity());
+				Global.getSoundPlayer().playSound("mote_attractor_targeted_empty_space", 6f, 0.9f, ship.getLocation(), ship.getVelocity());
+				Global.getSoundPlayer().playSound("mote_attractor_system_activated", 7f, 1f, ship.getLocation(), ship.getVelocity());
 			}
 
 			jitterLevel = 5f;

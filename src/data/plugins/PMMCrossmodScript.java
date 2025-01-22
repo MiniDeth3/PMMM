@@ -1,4 +1,4 @@
-package scripts;
+package data.plugins;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.impl.campaign.ids.Factions;

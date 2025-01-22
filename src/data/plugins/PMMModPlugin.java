@@ -8,9 +8,9 @@ import data.listeners.PMM_PirateFleetInflationListener;
 import org.apache.log4j.Logger;
 import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
-import scripts.PMMCrossmodScript;
-import scripts.PMMLunaSettings;
-import scripts.PMMSettingsScript;
+import data.plugins.PMMCrossmodScript;
+import data.plugins.PMMLunaSettings;
+import data.plugins.PMMSettingsScript;
 
 public class PMMModPlugin extends BaseModPlugin {
 
@@ -56,7 +56,7 @@ public class PMMModPlugin extends BaseModPlugin {
 
     private void addPirateMods() {
         for (ShipHullSpecAPI hullSpec : Global.getSettings().getAllShipHullSpecs()) {
-            if (hullSpec.getManufacturer().contains("Pirate") && !hullSpec.isBuiltInMod("pmm_compmods")) {
+            if (hullSpec.getManufacturer().contains("Pirate")){// && !hullSpec.isBuiltInMod("pmm_compmods")) {
                 hullSpec.addBuiltInMod("pmm_compmods");
                 log.info("Added Pirate Modifications to " + hullSpec.getHullNameWithDashClass());
             }

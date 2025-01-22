@@ -3,7 +3,7 @@ package data.hullmods;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import scripts.PMMLunaSettings;
+import data.plugins.PMMLunaSettings;
 
 import java.awt.*;
 
