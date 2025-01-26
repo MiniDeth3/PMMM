@@ -5,3 +5,8 @@ pmm_mini_blasterdrone_wing,pmm_blasterdrone_bomber,"drone, low, auto_fighter, no
 pmm_blasterdrone_wing,pmm_blasterdrone_bomber,"support2, fighter2, drone, low, pirates, auto_fighter",0,,5,5,BOX,4000,500,600,4,BOMBER,Drone,10,6000,,,,,,,,,,,,,17
 pmm_derelict_fonsi_target_drone,pmm_derelict_fonsi_target_drone," no_drop, no_sell, low",0,,1,0,V,0,200,600,1,INTERCEPTOR,Interceptor,5,2000,,,,,,,,,,,,,6
 pmm_swank_wing,pmm_swank_fighter,"no_sell, fighter,drone, pirates, fighter5, auto_fighter,",3,,6,12,V,4000,500,,4,FIGHTER,Fighter Drone,12,6000,,,,,,,,,,,,,23
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+pmm_legacy_shock_wing,pmm_legacy_Shock,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,10,BOX,100000,600,100,4,INTERCEPTOR,Transience,20,20000,,,,,,,,,,,,,26
+pmm_legacy_shieldbreaker_wing,pmm_legacy_Shieldbreaker,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,10,BOX,100000,600,0,2,FIGHTER,Transience,20,20000,,,,,,,,,,,,,27
+pmm_legacy_attack_wing,pmm_legacy_Attack,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,10,BOX,100000,600,300,2,FIGHTER,Transience,20,20000,,,,,,,,,,,,,28
+pmm_legacy_missile_wing,pmm_legacy_Missile,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,10,BOX,100000,600,600,2,BOMBER,Transience,20,20000,,,,,,,,,,,,,29

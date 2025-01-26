@@ -5,8 +5,8 @@
   "spriteName": "graphics/ships/omega/pmm_shrike_omega.png",
   "style": "OMEGA",
   "height": 190,
-  "width": 118,
-  "center": [56, 93],
+  "width": 124,
+  "center": [57.5, 93],
   "collisionRadius": 140,
   "shieldCenter": [0, 0],
   "shieldRadius": 121.5,
@@ -24,7 +24,7 @@
       "mount": "TURRET",
       "arc": 190,
       "angle": 80,
-      "locations": [8, 33]
+      "locations": [8, 34.5]
     },
     {
       "id": "WS 001",
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 210,
       "angle": 0,
-      "locations": [25, -3],
+      "locations": [25, -1.5],
       "renderOrderMod": 10
     },
     {
@@ -43,7 +43,7 @@
       "mount": "TURRET",
       "arc": 210,
       "angle": -70,
-      "locations": [-2, -31]
+      "locations": [-2, -29.5]
     },
     {
       "id": "WS 003",
@@ -52,7 +52,7 @@
       "mount": "TURRET",
       "arc": 220,
       "angle": 25,
-      "locations": [37, 19]
+      "locations": [37, 20.5]
     },
     {
       "id": "WS 005",
@@ -61,7 +61,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [54, -19]
+      "locations": [54, -17.5]
     },
     {
       "id": "WS0001",
@@ -70,7 +70,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [68, 12]
+      "locations": [68, 13.5]
     },
     {
       "id": "WS0002",
@@ -79,12 +79,12 @@
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
-      "locations": [-22, 4]
+      "locations": [-22, 5.5]
     }
   ],
   "engineSlots": [
     {
-      "location": [-71.5, -18],
+      "location": [-70.5, -17],
       "length": 30,
       "width": 7,
       "angle": 180,
@@ -92,15 +92,7 @@
       "style": "OMEGA"
     },
     {
-      "location": [-14, 38.5],
-      "length": 64,
-      "width": 20,
-      "angle": 128,
-      "contrailSize": 64,
-      "style": "OMEGA"
-    },
-    {
-      "location": [-75, -12.5],
+      "location": [-72.5, -11],
       "length": 30,
       "width": 7,
       "angle": 180,
@@ -108,7 +100,7 @@
       "style": "OMEGA"
     },
     {
-      "location": [-61, 20],
+      "location": [-59, 21.5],
       "length": 44,
       "width": 12,
       "angle": 180,
@@ -116,7 +108,7 @@
       "style": "OMEGA"
     },
     {
-      "location": [-64, -8],
+      "location": [-59.5, -7],
       "length": 30,
       "width": 7,
       "angle": 180,
@@ -124,23 +116,15 @@
       "style": "OMEGA"
     },
     {
-      "location": [-10, -48],
-      "length": 64,
-      "width": 20,
-      "angle": -128,
-      "contrailSize": 64,
-      "style": "OMEGA"
-    },
-    {
-      "location": [-73, -29],
-      "length": 64,
-      "width": 20,
+      "location": [-72.5, -27],
+      "length": 60,
+      "width": 17,
       "angle": 180,
       "contrailSize": 64,
       "style": "OMEGA"
     },
     {
-      "location": [-66, 27.5],
+      "location": [-63, 28.5],
       "length": 64,
       "width": 20,
       "angle": 180,
@@ -149,29 +133,29 @@
     }
   ],
   "bounds": [
-    1, 54.5,
-    53.5, 50,
-    62.5, 33,
-    94, 23.5,
-    73, 17.5,
-    71.5, 2.5,
-    59.5, -2,
-    60, -25,
-    83.5, -25,
-    45, -49,
-    0.5, -61,
-    -6, -47,
-    -19.5, -60,
-    -90.5, -32,
-    -70.5, -21,
-    -83, -20,
-    -82.5, -12,
-    -62, -4.5,
-    -69.5, 4.5,
-    -59, 16.5,
-    -74.5, 22.5,
-    -73, 33,
-    -41, 46.5,
-    -16, 36.5
+    -1.5, 56.5,
+    55.5, 51.5,
+    62.5, 34.5,
+    94, 25,
+    72, 17.5,
+    72, 4.5,
+    60, -0.5,
+    60, -23.5,
+    73, -26,
+    38, -53,
+    -6, -65,
+    -6, -45.5,
+    -19.5, -58.5,
+    -84, -31.5,
+    -70.5, -19.5,
+    -83, -18.5,
+    -82.5, -10.5,
+    -56, -2,
+    -67, 6,
+    -59, 18,
+    -73, 23.5,
+    -73, 34.5,
+    -35.5, 49,
+    -16, 38
   ]
 }

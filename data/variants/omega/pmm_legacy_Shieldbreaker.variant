@@ -1,0 +1,18 @@
+{
+    "displayName": "Shieldbreaker",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "pmm_legacy",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "pmm_legacy_Shieldbreaker",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 000": "minipulser"}
+        },
+    ]
+}

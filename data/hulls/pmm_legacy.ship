@@ -1,0 +1,65 @@
+{
+  "hullName": "Legacy",
+  "hullId": "pmm_legacy",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/omega/pmm_legacy.png",
+  "style": "OMEGA",
+  "height": 70,
+  "width": 40,
+  "center": [20, 35],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 36.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "insulatedengine",
+    "fluxbreakers",
+    "turretgyros"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 11],
+      "length": 37,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-21, -4],
+      "length": 25,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-8, 15.5],
+      "length": 22,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    33, 2,
+    21, 9.5,
+    25.5, 15,
+    -7.5, 18.5,
+    -33, 5.5,
+    -8, -21.5
+  ]
+}
