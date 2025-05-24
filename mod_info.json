@@ -5,22 +5,11 @@
     "utility":"false",
 	"version":"1.7.6",
 	"description":"A mod meant to add variance and a bit of cursed mechanics to pirates.",
-    "gameVersion": "0.97a-RC11",
+    "gameVersion": "0.98a-RC5",
 	"replace":[
 		#Ships
-		"data/hulls/skins/wolf_d_pirates.skin", 
-        "data/hulls/colossus2.ship", 
-        "data/hulls/colossus3.ship", 
 
         #Variants
-        "data/variants/colossus3_Pirate.variant",
-        "data/variants/colossus2_Pather.variant",
-		"data/variants/afflictor_d_pirates_Strike.variant",
-		"data/variants/wolf/wolf_d_pirates_Attack.variant",
-		"data/variants/shade_d_pirates_Assault.variant",
-        "data/variants/falcon/falcon_p_Strike.variant",
-		"data/variants/vanguard/vanguard_pirate_Strike.variant",
-		"data/variants/mule/mule_d_pirates_Smuggler.variant",
 		
 	],
   	"jars":["jars/PMMM.jar"],
@@ -28,18 +17,15 @@
 	  	"dependencies": [
         {
             "id": "lw_lazylib",
-            "name": "LazyLib",
-            #"version": "2.7b"
+            "name": "LazyLib"
         },
         {
             "id": "MagicLib",
-            "name": "MagicLib",
-            #"version": "0.34"
+            "name": "MagicLib"
         },
         {
             "id": "shaderLib",
-            "name": "GraphicsLib",
-            #"version": "1.5.1"
+            "name": "GraphicsLib"
         }
     ],
 }

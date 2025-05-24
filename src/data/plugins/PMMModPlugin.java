@@ -8,9 +8,6 @@ import data.listeners.PMM_PirateFleetInflationListener;
 import org.apache.log4j.Logger;
 import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
-import data.plugins.PMMCrossmodScript;
-import data.plugins.PMMLunaSettings;
-import data.plugins.PMMSettingsScript;
 
 public class PMMModPlugin extends BaseModPlugin {
 
@@ -41,8 +38,6 @@ public class PMMModPlugin extends BaseModPlugin {
         initializeCrossmods();
         setListenersIfNeeded();
         updateLunaSettings();
-        // Handle ship swapping
-        handleShipSwapping();
     }
 
     private void setListenersIfNeeded() {
@@ -56,7 +51,7 @@ public class PMMModPlugin extends BaseModPlugin {
 
     private void addPirateMods() {
         for (ShipHullSpecAPI hullSpec : Global.getSettings().getAllShipHullSpecs()) {
-            if (hullSpec.getManufacturer().contains("Pirate")){// && !hullSpec.isBuiltInMod("pmm_compmods")) {
+            if (hullSpec.getManufacturer().contains("Pirat")){// && !hullSpec.isBuiltInMod("pmm_compmods")) {
                 hullSpec.addBuiltInMod("pmm_compmods");
                 log.info("Added Pirate Modifications to " + hullSpec.getHullNameWithDashClass());
             }
@@ -89,7 +84,6 @@ public class PMMModPlugin extends BaseModPlugin {
         boolean omegaToggle = PMMLunaSettings.OmegaToggle();
         boolean masterRecover = PMMLunaSettings.MasterRecover();
         boolean pirateGlowToggle = PMMLunaSettings.PirateGlowToggle();
-        boolean afflictorChangeToggle = PMMLunaSettings.VanillaChangeToggle_Afflictor();
 
         PMMSettingsScript.initOmega();
         log.info(omegaToggle ? "Enabled PMM omega" : "Disabled PMM omega");
@@ -99,14 +93,5 @@ public class PMMModPlugin extends BaseModPlugin {
 
         PMMSettingsScript.initGlow();
         if (!pirateGlowToggle) log.info("PMM Glow disabled");
-
-        PMMSettingsScript.initVTC_afflictor();
-        if (!afflictorChangeToggle) log.info("PMM afflictor changes disabled");
-    }
-
-    private void handleShipSwapping() {
-        // Get the toggle value for modded ships from the settings
-        boolean vtcAfflictor = PMMSettingsScript.initVTC_afflictor(); // Update based on your settings script
-        boolean vtcBuffalo = PMMSettingsScript.initVTC_buffalo(); // Update based on your settings script
     }
 }
